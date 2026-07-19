@@ -1,8 +1,8 @@
 site_name: K Global Operations Manual
 site_description: >-
-  The K Global Knowledge Center — the operations manual for the K Global
-  virtual airline. Company, network, fleet, business units, flight operations,
-  events and comms.
+  The K Global Knowledge Center — the operations manual for K Global, a
+  fictional virtual airline for flight-simulation use on VATSIM. Not real-world
+  aviation or advisory information.
 site_author: K Global
 # Custom domain (see docs/CNAME). Keep in sync with the Pages custom domain.
 site_url: https://ops.kglobalair.com/
@@ -16,6 +16,7 @@ exclude_docs: |
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   logo: assets/logo.svg
   favicon: assets/favicon.svg
@@ -52,6 +53,9 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/disclaimer.js
 
 markdown_extensions:
   - abbr

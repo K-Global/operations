@@ -1,0 +1,19 @@
+{#-
+  K Global Operations Manual — clarity guards so this fictional flight-sim
+  manual is never mistaken for real-world aviation guidance:
+    - a persistent disclaimer banner on every page (announcement bar)
+    - noindex so search engines don't surface it as real advisory information
+  A one-time click-through acknowledgement is added by javascripts/disclaimer.js.
+-#}
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <meta name="robots" content="noindex, nofollow">
+{% endblock %}
+
+{% block announce %}
+  <div class="kg-disclaimer-banner">
+    Fictional virtual airline &middot; flight-simulation use on VATSIM &middot;
+    <strong>not real-world aviation guidance</strong>
+  </div>
+{% endblock %}
