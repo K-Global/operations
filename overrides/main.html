@@ -1,0 +1,12 @@
+{#-
+  Site-wide announcement bar flagging the manual as internal.
+  NOTE: this is a visual reminder only — it does not restrict access.
+  Access control depends on repo/Pages visibility (see README + HANDOFF).
+-#}
+{% extends "base.html" %}
+
+{% block announce %}
+  <div class="kg-internal-banner">
+    Internal &mdash; K Global Operations Manual &middot; not for public distribution
+  </div>
+{% endblock %}

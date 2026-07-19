@@ -1,0 +1,124 @@
+/* ==========================================================================
+   K Global Operations Manual — brand system
+   --------------------------------------------------------------------------
+   Shares the K Global brand tokens with the public site so the two read as
+   one airline. Single source of truth for colour: change the tokens below.
+   ========================================================================== */
+
+:root {
+  --kg-navy:        #0B2E4F;
+  --kg-navy-deep:   #071F36;
+  --kg-ocean:       #1E5B8F;
+  --kg-ocean-light: #3E7EB5;
+  --kg-gold:        #D4A24C;
+  --kg-gold-deep:   #B8863A;
+  --kg-cloud:       #F4F7FA;
+  --kg-ink:         #0E1B28;
+  --kg-alert:       #B23A3A;
+}
+
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        var(--kg-navy);
+  --md-primary-fg-color--light: var(--kg-ocean);
+  --md-primary-fg-color--dark:  var(--kg-navy-deep);
+  --md-accent-fg-color:         var(--kg-gold-deep);
+  --md-typeset-a-color:         var(--kg-ocean);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:        var(--kg-navy-deep);
+  --md-primary-fg-color--light: var(--kg-ocean);
+  --md-primary-fg-color--dark:  #050F1C;
+  --md-accent-fg-color:         var(--kg-gold);
+  --md-typeset-a-color:         var(--kg-ocean-light);
+  --md-hue: 215;
+}
+
+/* ==========================================================================
+   Internal banner — makes the "not for public distribution" status obvious
+   on every page. This is a visual reminder, NOT an access control.
+   ========================================================================== */
+.kg-internal-banner {
+  background: var(--kg-alert);
+  color: #fff;
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.3rem 1rem;
+}
+.kg-internal-banner a { color: #fff; text-decoration: underline; }
+
+/* ==========================================================================
+   Landing grid cards
+   ========================================================================== */
+.md-typeset .grid.cards > ul > li {
+  border-radius: 8px;
+  transition: transform 120ms ease, box-shadow 120ms ease;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(11,46,79,0.12);
+  border-color: var(--kg-gold);
+}
+.md-typeset .grid.cards > ul > li > hr {
+  border-color: var(--kg-gold);
+  opacity: 0.5;
+}
+
+/* ==========================================================================
+   Section eyebrow + document status badges
+   ========================================================================== */
+.kg-eyebrow {
+  display: inline-block;
+  font-size: 0.72rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--kg-gold-deep);
+  font-weight: 700;
+}
+[data-md-color-scheme="slate"] .kg-eyebrow { color: var(--kg-gold); }
+
+.kg-status {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.12rem 0.5rem;
+  border-radius: 999px;
+  vertical-align: middle;
+}
+.kg-status--draft    { background: #E7C86A; color: #3a2d05; }
+.kg-status--review   { background: #7FA8D0; color: #062033; }
+.kg-status--approved { background: #5FA36A; color: #04220a; }
+.kg-status--stub     { background: #C9CDD2; color: #23282d; }
+
+/* Placeholder frame for pages awaiting content */
+.kg-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  border: 2px dashed var(--kg-ocean-light);
+  border-radius: 8px;
+  color: var(--kg-ocean);
+  background:
+    repeating-linear-gradient(
+      45deg,
+      rgba(30,91,143,0.04),
+      rgba(30,91,143,0.04) 12px,
+      rgba(30,91,143,0.08) 12px,
+      rgba(30,91,143,0.08) 24px
+    );
+  font-size: 0.9rem;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+[data-md-color-scheme="slate"] .kg-placeholder {
+  color: var(--kg-ocean-light);
+  border-color: var(--kg-ocean);
+}
