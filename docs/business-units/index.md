@@ -15,8 +15,8 @@ the internal Knowledge source (`Business-Units/README.md` and per-unit files).
 
 ## The nine units
 
-Premier · Intercontinental · Regular · City · Express · Regional ·
-Charter/Vacation · Executive · Cargo.
+K Premier · K Intercontinental · K Connect · K Express · K Regional ·
+K Charter · K Holidays · K Academy · K Cargo.
 
 ## Intended contents
 

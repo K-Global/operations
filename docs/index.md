@@ -8,15 +8,15 @@ hide:
 
 # K Global Operations Manual
 
-The internal reference for how K Global runs — company, network, fleet,
-business units, flight operations, events and comms. If the [public
-website](https://k-global.github.io/website/) is the shop window, this is the
-back office: the single, authoritative place staff and pilots come to find how
-things actually work.
+The reference for how K Global runs — company, network, fleet, business units,
+flight operations, events and comms. If the [public
+website](https://kglobalair.com/) is the shop window, this is the back office:
+the single, authoritative place staff and pilots come to find how things
+actually work.
 
 !!! info "Operational reference"
     This is the operations reference for K Global staff and pilots — the
-    working detail behind the [public website](https://k-global.github.io/website/).
+    working detail behind the [public website](https://kglobalair.com/).
     It is published openly, so **sensitive material is deliberately kept out**:
     no credentials, API keys, or private IDs. See
     [access & visibility](#access-visibility) below.

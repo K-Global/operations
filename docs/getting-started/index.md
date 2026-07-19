@@ -18,7 +18,7 @@ the internal Knowledge source.
 - [ ] Prerequisites — VATSIM account, simulator, VAMSYS pilot profile
 - [ ] Joining process and pilot ID assignment
 - [ ] Tools & access — VAMSYS, comms channels, this manual
-- [ ] Your first flight — booking, dispatch, filing, flying as **KAY ("Kayak")**
+- [ ] Your first flight — booking, dispatch, filing and flying the line
 - [ ] Ranks / progression overview
 - [ ] Where to get help
 

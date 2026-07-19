@@ -17,13 +17,13 @@ the internal Knowledge source (`Company/company-profile.md`,
 ## Intended contents
 
 - [ ] Company profile — mission, concept, operating principles
-- [ ] Brand & callsign — **KAY / "Kayak"**, single-callsign policy
+- [ ] Brand & callsign — telephony and callsign scheme
 - [ ] Identity & livery — core livery and per-unit/per-hub variations
-- [ ] Registration scheme — `D-AK…` German fleet identity
+- [ ] Registration scheme — fleet registration allocation
 - [ ] Organisational structure / roles
-- [ ] The Lufthansa-Group model K Global is shaped on
+- [ ] Master brand and the nine business units — the model K Global is built on
 
 !!! note "For editors"
     This is the operational counterpart to the marketing
-    [About page](https://k-global.github.io/website/about/). Fuller detail
+    [About page](https://kglobalair.com/about/). Fuller detail
     belongs here; the website carries only the brand-facing summary.

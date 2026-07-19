@@ -20,12 +20,25 @@ only** — no real operational content yet.
 
 ## Still to do
 
-### Enable Pages
+### Enable Pages + custom domain (required — nothing is live until this)
 
-In **`K-Global/operations` → Settings → Pages**, set **Source: GitHub Actions**
-(and configure access restriction if using Enterprise private Pages). Then the
-included workflow publishes to `https://k-global.github.io/operations/` on merge
-to `main`.
+> ⚠️ The first deploy after the initial merge **failed** because Pages wasn't
+> enabled yet. Do this and it'll go green.
+
+In **`K-Global/operations` → Settings → Pages**:
+
+1. **Source: GitHub Actions**
+2. **Custom domain:** `ops.kglobalair.com` → Save (this repo ships `docs/CNAME`
+   with that domain, and `site_url` is set to match).
+3. Tick **Enforce HTTPS** once the certificate is issued.
+
+**DNS to add** (subdomain — simpler than the apex site):
+
+| Type | Name | Value |
+|---|---|---|
+| CNAME | `ops` | `k-global.github.io` |
+
+Then re-run the latest **Actions → Deploy** workflow if it had already failed.
 
 ## What's built
 
