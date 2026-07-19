@@ -16,7 +16,7 @@ the internal Knowledge source.
 ## Intended contents
 
 - [ ] Dispatch workflow via VAMSYS
-- [ ] Booking, filing and callsign use (**KAY / "Kayak"**)
+- [ ] Booking, filing and callsign use
 - [ ] Standard operating procedures
 - [ ] PIREP / logging rules
 - [ ] Diversions, delays and irregular ops

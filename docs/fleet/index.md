@@ -19,7 +19,7 @@ the internal Knowledge source (`Fleet/fleet-strategy.md`,
 - [ ] Fleet strategy — category structure and sizing approach
 - [ ] As-built fleet — type-by-type counts (~421 tails)
 - [ ] VAMSYS fleet mapping / IDs
-- [ ] Registration scheme — `D-AK…` allocation
+- [ ] Registration scheme — fleet registration allocation
 - [ ] Assignment of types to business units and hubs
 - [ ] Open fleet decisions (e.g. Concorde)
 

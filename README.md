@@ -1,14 +1,17 @@
 # K Global — Operations Manual
 
-The internal **Operations Manual / Knowledge Center** for K Global, a fictional
-VATSIM virtual airline. Built with [MkDocs](https://www.mkdocs.org/) and
+The **Operations Manual / Knowledge Center** for K Global, a fictional VATSIM
+virtual airline. Built with [MkDocs](https://www.mkdocs.org/) and
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), deployed to
-GitHub Pages via GitHub Actions on push to `main`.
+GitHub Pages via GitHub Actions on push to `main`, at **ops.kglobalair.com**.
+
+Branded to the K Global Brand Guidelines v1.0 (Marine Teal accent on a
+monochrome core; Inter Tight / Inter / B612 Mono), shared with the
+[public website](https://kglobalair.com).
 
 > **Public knowledge center.** This manual is served on **public GitHub Pages**.
-> It carries operational detail that's off-tone for the
-> [marketing website](https://github.com/K-Global/website) — but because it's
-> world-readable, sensitive material is **deliberately kept out**.
+> It carries operational detail that's off-tone for the marketing website — but
+> because it's world-readable, sensitive material is **deliberately kept out**.
 
 ## Visibility & the golden rule
 
