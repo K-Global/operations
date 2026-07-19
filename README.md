@@ -5,23 +5,23 @@ VATSIM virtual airline. Built with [MkDocs](https://www.mkdocs.org/) and
 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/), deployed to
 GitHub Pages via GitHub Actions on push to `main`.
 
-> **⚠️ Internal document.** This manual contains operational detail
-> deliberately kept off the [public website](https://github.com/K-Global/website).
-> See **Visibility** below — GitHub Pages is public by default.
+> **Public knowledge center.** This manual is served on **public GitHub Pages**.
+> It carries operational detail that's off-tone for the
+> [marketing website](https://github.com/K-Global/website) — but because it's
+> world-readable, sensitive material is **deliberately kept out**.
 
-## Visibility (read this before publishing real content)
+## Visibility & the golden rule
 
-Standard GitHub Pages is **publicly reachable**, even when served from a private
-repository. If this manual is meant to be genuinely private, one of the
-following is required *before* real operational content lands:
+This manual is **public**. The split from the marketing website is *scope*, not
+*secrecy*: operational reference lives here, brand-facing summaries live there.
+Genuine secrets belong in **neither** — keep them in access-controlled systems.
 
-- **GitHub Enterprise Cloud** with private Pages (access-controlled), **or**
-- host the built site behind your own auth (not GitHub Pages), **or**
-- accept that the content is effectively public and keep truly sensitive
-  material (credentials, API keys, IDs) out of it entirely.
+**Never write into these pages:** credentials, API keys, OAuth client IDs,
+private endpoints, tokens, or any identifier that would let someone reach a
+live system. When in doubt, leave it out.
 
-Until that's decided, the scaffold ships with **placeholders only** — no real
-credentials, IDs, or sensitive mechanics. See `HANDOFF.md`.
+(If the manual ever needs to be genuinely private, that requires GitHub
+Enterprise Cloud private Pages or self-hosting behind auth — see `HANDOFF.md`.)
 
 ## Local preview
 
@@ -51,7 +51,6 @@ operations/
 │   ├── reference/                 # Glossary & appendices
 │   ├── stylesheets/extra.css      # Brand tokens (shared with public site)
 │   └── assets/                    # Logo, favicon
-├── overrides/main.html            # Site-wide "internal" banner
 ├── mkdocs.yml
 ├── requirements.txt
 └── HANDOFF.md

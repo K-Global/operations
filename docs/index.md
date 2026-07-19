@@ -14,10 +14,11 @@ website](https://k-global.github.io/website/) is the shop window, this is the
 back office: the single, authoritative place staff and pilots come to find how
 things actually work.
 
-!!! danger "Internal document"
-    This manual is for K Global staff and pilots. It contains operational
-    detail (dispatch, numbering, IDs, procedures) that is **not** published on
-    the public website. Do not redistribute. See the note on
+!!! info "Operational reference"
+    This is the operations reference for K Global staff and pilots — the
+    working detail behind the [public website](https://k-global.github.io/website/).
+    It is published openly, so **sensitive material is deliberately kept out**:
+    no credentials, API keys, or private IDs. See
     [access & visibility](#access-visibility) below.
 
 ## Find your section
@@ -110,8 +111,9 @@ can be filled in without reorganising.
 
 ## Access & visibility
 
-How restricted this manual actually is depends on the repository and GitHub
-Pages configuration — see the repo `README.md` and `HANDOFF.md`. GitHub Pages
-served from a project path is **publicly reachable by default**; genuinely
-private hosting requires GitHub Enterprise Cloud or an alternative. Treat the
-contents as internal regardless of where they're currently served.
+This manual is served on public GitHub Pages, so treat everything here as
+world-readable. That's a deliberate choice: K Global keeps a single open
+knowledge center and simply **keeps sensitive material out of it** —
+credentials, API keys, OAuth client IDs, private endpoints and the like belong
+in access-controlled systems, never in these pages. When in doubt, leave it
+out. See the repo `README.md` and `HANDOFF.md` for the editorial guardrails.

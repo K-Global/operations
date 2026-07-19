@@ -25,5 +25,6 @@ the internal Knowledge source (`Fleet/fleet-strategy.md`,
 
 !!! warning "For editors"
     Do **not** use the stale `KGlobal_Fleet_Catalog.xlsx` (June-era, 144
-    tails) as a source. Fleet IDs, per-type tables and sizing formulas are
-    internal — they stay here and never go to the public site.
+    tails) as a source. Per-type tables and sizing belong here. This manual is
+    public, so leave out system identifiers and keys (e.g. VAMSYS IDs) that
+    carry no reader value and shouldn't be exposed.

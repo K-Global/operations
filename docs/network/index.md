@@ -23,6 +23,7 @@ the internal Knowledge source (`Network/README.md`, `Network/regions.md`).
 - [ ] Scheduling / wave structure
 
 !!! note "For editors"
-    The hub roster and headline stats are public; the numbering **bands**, the
-    per-hub estate detail, and scheduling internals are **internal only** and
-    belong here rather than on the public site.
+    The marketing website carries the hub roster and headline stats; the
+    numbering **bands**, per-hub estate detail and scheduling belong here in
+    the operations manual. Both sites are public — the split is scope, not
+    secrecy.

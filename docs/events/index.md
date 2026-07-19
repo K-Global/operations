@@ -22,6 +22,6 @@ the internal Knowledge source (`Events/README.md`).
 - [ ] Tracker / automation mechanics
 
 !!! note "For editors"
-    The public site carries only the aspirational framing ("always-on events
-    and challenges"). Scoring mechanics, `time_award_scale` and tracker
-    internals are internal and belong here.
+    The marketing website carries the aspirational framing; scoring mechanics,
+    `time_award_scale` and tracker workflow belong here. Keep API keys and
+    tokens out — this site is public.

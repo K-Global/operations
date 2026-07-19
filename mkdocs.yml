@@ -16,7 +16,6 @@ exclude_docs: |
 
 theme:
   name: material
-  custom_dir: overrides
   language: en
   logo: assets/logo.svg
   favicon: assets/favicon.svg
@@ -103,5 +102,5 @@ extra:
   generator: false
 
 copyright: >-
-  K Global Operations Manual — internal reference for the K Global virtual
-  airline (a fictional VATSIM VA). Not for public distribution.
+  K Global Operations Manual — operational reference for the K Global virtual
+  airline, a fictional VATSIM VA. Sensitive material is kept off this site.

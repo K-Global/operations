@@ -24,6 +24,6 @@ the internal Knowledge source (`Company/company-profile.md`,
 - [ ] The Lufthansa-Group model K Global is shaped on
 
 !!! note "For editors"
-    This is the internal counterpart to the public
-    [About page](https://k-global.github.io/website/about/). Full detail
-    belongs here; the public site carries only the marketing-safe subset.
+    This is the operational counterpart to the marketing
+    [About page](https://k-global.github.io/website/about/). Fuller detail
+    belongs here; the website carries only the brand-facing summary.

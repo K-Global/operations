@@ -22,8 +22,7 @@ the internal Knowledge source.
 - [ ] Diversions, delays and irregular ops
 - [ ] VATSIM etiquette and comms expectations
 
-!!! warning "For editors"
-    VAMSYS API details, credentials, OAuth client IDs and endpoints are
-    **internal-only** and must never reach the public site. Keep integration
-    specifics in access-controlled locations, not in prose here unless this
-    manual's hosting is confirmed private.
+!!! danger "For editors — this manual is public"
+    Credentials, API keys, OAuth client IDs and private endpoints must **never**
+    be written here — this site is world-readable. Describe procedure and
+    workflow; keep the actual secrets in access-controlled systems.

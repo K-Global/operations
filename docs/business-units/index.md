@@ -27,6 +27,5 @@ Charter/Vacation · Executive · Cargo.
 - [ ] Product / cabin standards
 
 !!! note "For editors"
-    The comparison table is on the public site. The flight-number band
-    mechanics are internal and belong here. Consider one child page per unit
-    under this section as detail grows.
+    The marketing website carries the comparison table; the flight-number band
+    mechanics belong here. Consider one child page per unit as detail grows.

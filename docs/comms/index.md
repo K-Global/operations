@@ -22,5 +22,5 @@ the internal Knowledge source (`Ops-Comms/README.md`).
 - [ ] Escalation paths
 
 !!! note "For editors"
-    NOTAM/alert lifecycle mechanics are internal ops detail — omitted from the
-    public site by design. This is their home.
+    NOTAM/alert lifecycle detail is operational — off-tone for the marketing
+    website, at home here in the operations manual.
