@@ -251,3 +251,84 @@
 .kg-status--review   { background: var(--kg-accent-tint); color: var(--kg-accent-ink); }
 .kg-status--approved { background: #CDE7CE; color: #123a16; }
 .kg-status--stub     { background: var(--kg-line); color: var(--kg-slate); }
+
+/* ==========================================================================
+   Fictional-airline clarity guards
+   (disclaimer banner + one-time acknowledgement overlay)
+   ========================================================================== */
+
+/* Persistent banner in Material's announcement bar */
+.kg-disclaimer-banner {
+  text-align: center;
+  font-family: "B612 Mono", ui-monospace, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.15rem 1rem;
+  line-height: 1.5;
+}
+.kg-disclaimer-banner strong { color: var(--kg-accent-lift); }
+
+/* One-time acknowledgement overlay */
+.kg-noscroll { overflow: hidden; }
+#kg-disclaimer {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgba(16, 19, 22, 0.94);
+  backdrop-filter: blur(4px);
+}
+.kg-disclaimer__card {
+  max-width: 31rem;
+  background: var(--kg-paper);
+  color: var(--kg-ink);
+  border-radius: 14px;
+  padding: 2rem 1.9rem;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.45);
+  border-top: 4px solid var(--kg-accent);
+}
+[data-md-color-scheme="slate"] .kg-disclaimer__card {
+  background: #1b2429;
+  color: #fff;
+}
+.kg-disclaimer__eyebrow {
+  font-family: "B612 Mono", ui-monospace, monospace;
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--kg-accent);
+  font-weight: 700;
+}
+.kg-disclaimer__card h2 {
+  font-family: "Inter Tight", Inter, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  margin: 0.6rem 0 0.8rem;
+  font-size: 1.5rem;
+}
+.kg-disclaimer__card p {
+  font-size: 0.95rem;
+  line-height: 1.62;
+  color: var(--kg-slate);
+  margin: 0;
+}
+[data-md-color-scheme="slate"] .kg-disclaimer__card p { color: #C0C4C7; }
+.kg-disclaimer__btn {
+  margin-top: 1.3rem;
+  background: var(--kg-accent);
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  padding: 0.7rem 1.35rem;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background-color 120ms ease;
+}
+.kg-disclaimer__btn:hover,
+.kg-disclaimer__btn:focus { background: var(--kg-accent-ink); }
