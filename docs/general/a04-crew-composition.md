@@ -31,7 +31,7 @@ K Global is a **VATSIM virtual airline**: in the overwhelming majority of cases 
 
 How K Global treats it:
 
-- The **single connected pilot is the Commander** for the sector and carries full command authority and responsibility (see [`A01 — Organisation and Responsibilities.md`](a01-organisation-and-responsibilities.md), Command authority). There is no split of legal responsibility because there is only one person on the network.
+- The **single connected pilot is the Commander** for the sector and carries full command authority and responsibility (see [[A01 — Organisation and Responsibilities](a01-organisation-and-responsibilities.md)](a01-organisation-and-responsibilities.md), Command authority). There is no split of legal responsibility because there is only one person on the network.
 - The pilot **flies both roles** — PF and PM — sequentially, working the SOP flows and checklists for both seats as far as workload and automation allow. Realism is the aim: run the two-crew flows, make the calls, use the automation the way a crew of two would, rather than treating the aeroplane as a single-seat machine. 🟩
 - Where a procedure in this manual or in OM E is written for "the crew" or references PF/PM duties, the **solo pilot performs both parts**. Nothing in the two-crew wording removes a requirement; it simply describes how the task is split when two pilots are present.
 - The pilot must also meet the **online network's own minimum-presence rules** — VATSIM expects the connected pilot to be at the controls and contactable, and long unattended absences from the flight deck are not permitted beyond the in-flight-rest provision below. 🟥
@@ -49,7 +49,7 @@ Role allocation is decided at briefing. When two live pilots are present, either
 
 ## 4. Command and deputy
 
-The Commander holds ultimate responsibility for the safety, security and conduct of the flight throughout the period of command. Where a second pilot is carried, the **operating co-pilot is the Commander's nominated deputy**. The pilot who acts as Commander signs (files) the flight regardless of personal rank or seniority. Full command-authority policy is held in [`A01 — Organisation and Responsibilities.md`](a01-organisation-and-responsibilities.md); this chapter covers only who sits where.
+The Commander holds ultimate responsibility for the safety, security and conduct of the flight throughout the period of command. Where a second pilot is carried, the **operating co-pilot is the Commander's nominated deputy**. The pilot who acts as Commander signs (files) the flight regardless of personal rank or seniority. Full command-authority policy is held in [[A01 — Organisation and Responsibilities](a01-organisation-and-responsibilities.md)](a01-organisation-and-responsibilities.md); this chapter covers only who sits where.
 
 ## 5. Augmented crew and in-flight rest (long-range / ULR)
 
@@ -60,7 +60,7 @@ Long and ultra-long-range sectors in a major full-service network group are flow
   - remain at the controls for at least the **first portion of the sector** (guideline: the first ~30 minutes after gear-up) before going off-duty;
   - resume duty and be back on the flight deck in good time before descent (guideline: at the latest **within ~60 minutes of destination**);
   - respect the online network's presence and position-reporting requirements throughout — an off-duty period does **not** authorise abandoning the connection in a way the network forbids. 🟥
-- **Logging.** Time spent off-duty is not logged as pilot-at-controls time even though the sector's total block time is recorded — see §7 and [`A06 — Crew Health, Fatigue and Flight-Time Limitations.md`](a06-crew-health-fatigue-and-flight-time-limitations.md).
+- **Logging.** Time spent off-duty is not logged as pilot-at-controls time even though the sector's total block time is recorded — see §7 and [[A06 — Crew Health, Fatigue and Flight-Time Limitations](a06-crew-health-fatigue-and-flight-time-limitations.md)](a06-crew-health-fatigue-and-flight-time-limitations.md).
 - **Rest facilities.** The physical crew-rest provision (bunk vs seat) is a per-type fact carried in the airframe packs; it is modelled, not simulated, and imposes no additional dispatch requirement here. 🟩
 
 Augmentation and in-flight rest interact with the flight-time / off-duty scheme in [`A06`](a06-crew-health-fatigue-and-flight-time-limitations.md) and with ETOPS/EDTO planning in [the relevant OM section](../flight-ops/etops-edto.md).
@@ -74,21 +74,21 @@ Where two members choose to crew a single aeroplane together (shared cockpit), t
   - take-off permitted in visibility **600 m RVR or greater**;
   - landing from an approach flown to **Category I** precision or non-precision minima (no co-pilot autoland to CAT II/III minima);
   - crosswind for take-off and landing limited to **two-thirds** of the promulgated type crosswind for the prevailing conditions;
-  - at "restricted" aerodromes (Category B/C — see [`A05 — Qualification Requirements.md`](a05-qualification-requirements.md)), the Commander's own recency and area experience are weighed before delegating the sector.
+  - at "restricted" aerodromes (Category B/C — see [[A05 — Qualification Requirements](a05-qualification-requirements.md)](a05-qualification-requirements.md)), the Commander's own recency and area experience are weighed before delegating the sector.
 
   These limits are carried forward for realism and were **ratified 2026-07-25** alongside the rank/categorisation scheme in [`A05`](a05-qualification-requirements.md).
 
 ## 7. Personal flying log book
 
-🟩 K Global maintains an automatic record of every filed sector on the operations platform. That record — block time, sectors, types, routes — **constitutes each pilot's personal flying log book**; there is no separate paper log. The platform is VAMSYS, which records the flight as reported by the pilot's client. Because these hours drive recency, currency and the rank/categorisation scheme, the accuracy of filed sectors matters (see [`A05 — Qualification Requirements.md`](a05-qualification-requirements.md) and [`A06 — Crew Health, Fatigue and Flight-Time Limitations.md`](a06-crew-health-fatigue-and-flight-time-limitations.md)). On a sector flown with an in-flight-rest period, the log reflects time at the controls, not the off-duty portion (§5).
+🟩 K Global maintains an automatic record of every filed sector on the operations platform. That record — block time, sectors, types, routes — **constitutes each pilot's personal flying log book**; there is no separate paper log. The platform is VAMSYS, which records the flight as reported by the pilot's client. Because these hours drive recency, currency and the rank/categorisation scheme, the accuracy of filed sectors matters (see [[A05 — Qualification Requirements](a05-qualification-requirements.md)](a05-qualification-requirements.md) and [[A06 — Crew Health, Fatigue and Flight-Time Limitations](a06-crew-health-fatigue-and-flight-time-limitations.md)](a06-crew-health-fatigue-and-flight-time-limitations.md)). On a sector flown with an in-flight-rest period, the log reflects time at the controls, not the off-duty portion (§5).
 
 ---
 
 ## Cross-references
 
-- [`A01 — Organisation and Responsibilities.md`](a01-organisation-and-responsibilities.md) — command authority and deputy
-- [`A05 — Qualification Requirements.md`](a05-qualification-requirements.md) — rank/categorisation, co-pilot limits, aerodrome categories
-- [`A06 — Crew Health, Fatigue and Flight-Time Limitations.md`](a06-crew-health-fatigue-and-flight-time-limitations.md) — flight-hours / off-duty scheme
+- [[A01 — Organisation and Responsibilities](a01-organisation-and-responsibilities.md)](a01-organisation-and-responsibilities.md) — command authority and deputy
+- [[A05 — Qualification Requirements](a05-qualification-requirements.md)](a05-qualification-requirements.md) — rank/categorisation, co-pilot limits, aerodrome categories
+- [[A06 — Crew Health, Fatigue and Flight-Time Limitations](a06-crew-health-fatigue-and-flight-time-limitations.md)](a06-crew-health-fatigue-and-flight-time-limitations.md) — flight-hours / off-duty scheme
 - [the relevant OM section](../fleet/capability-matrix.md) — per-type certification basis
 - Flight Management and Operational Flows — PF/PM phase flows
 - [the relevant OM section](../flight-ops/etops-edto.md) — long-range diversion planning

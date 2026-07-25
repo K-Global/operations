@@ -38,9 +38,9 @@ Every K Global flight is conducted in accordance with the **ICAO rules of the ai
 
 K Global holds and operates within the airspace approvals its network requires. This chapter states the **policy** that these approvals are held and complied with; the **method** — the equipment, height-keeping/navigation performance, flight-plan coding, entry/exit and contingency procedures — lives in the OM E documents cross-linked below.
 
-- 🟥 **RVSM.** K Global's RVSM-approved fleet complies with the **Reduced Vertical Separation Minimum** regime (1,000 ft vertical separation FL290–FL410) — required dual independent altimetry, altitude-hold and alerting, height-keeping performance and the monitoring programme, correct flight-plan equipment coding, and the contingency set. *Method:* OM E `RVSM Operations.md`.
-- 🟥 **PBN / RNP.** Flights are planned and flown to the **Performance-Based Navigation** specifications required by the route and terminal procedures (RNAV/RNP en-route, RNP APCH incl. LPV, and RNP AR where authorised), within K Global's navigation approvals. *Method:* OM E `PBN and RNP Operations.md`.
-- 🟥 **Datalink / oceanic.** Where the airspace mandates it, flights comply with the **datalink** requirements (CPDLC / ADS-C, FANS, PBCS) and oceanic procedures. *Method:* OM E `Datalink and Oceanic Procedures.md`.
+- 🟥 **RVSM.** K Global's RVSM-approved fleet complies with the **Reduced Vertical Separation Minimum** regime (1,000 ft vertical separation FL290–FL410) — required dual independent altimetry, altitude-hold and alerting, height-keeping performance and the monitoring programme, correct flight-plan equipment coding, and the contingency set. *Method:* OM E RVSM Operations.
+- 🟥 **PBN / RNP.** Flights are planned and flown to the **Performance-Based Navigation** specifications required by the route and terminal procedures (RNAV/RNP en-route, RNP APCH incl. LPV, and RNP AR where authorised), within K Global's navigation approvals. *Method:* OM E PBN and RNP Operations.
+- 🟥 **Datalink / oceanic.** Where the airspace mandates it, flights comply with the **datalink** requirements (CPDLC / ADS-C, FANS, PBCS) and oceanic procedures. *Method:* OM E Datalink and Oceanic Procedures.
 - 🟩 **Approvals are a company matter.** The holding of these approvals, the approved fleet, and the required equipment status are company/operational-control matters (OM A02 / OM A09); the crew's duty is to fly within them and to flight-plan the correct capability codes so crew and ATC hold the same expectation.
 
 ---
@@ -61,7 +61,7 @@ K Global holds and operates within the airspace approvals its network requires. 
 
 ## 7. Oceanic and lateral-offset discipline (pointer)
 
-- 🟩 **SLOP and oceanic discipline.** In oceanic and remote airspace, strategic lateral-offset (**SLOP**) and the oceanic contingency/weather-deviation procedures are applied as the airspace requires. This is a policy pointer only — the operating detail (offsets, contingency turns, weather-deviation procedure, datalink position reporting) is in **OM E `Datalink and Oceanic Procedures.md`**, applied per region in the OM C North Atlantic / Arctic / oceanic airspace briefs.
+- 🟩 **SLOP and oceanic discipline.** In oceanic and remote airspace, strategic lateral-offset (**SLOP**) and the oceanic contingency/weather-deviation procedures are applied as the airspace requires. This is a policy pointer only — the operating detail (offsets, contingency turns, weather-deviation procedure, datalink position reporting) is in **OM E Datalink and Oceanic Procedures**, applied per region in the OM C North Atlantic / Arctic / oceanic airspace briefs.
 
 ---
 

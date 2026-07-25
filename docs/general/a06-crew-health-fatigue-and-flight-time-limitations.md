@@ -45,7 +45,7 @@ K Global applies a **rolling flight-hours guideline** over a moving window to di
 
 ### 4.2 In-flight off-duty (rest) on long sectors
 
-🟩 On a **long-haul sector** (working threshold: planned length **over 5 hours**), the connected pilot may take an **off-duty rest period** in the cruise, modelling the real handover to a relief pilot on an augmented crew. The discipline (also stated in [`A04 — Crew Composition.md`](a04-crew-composition.md) §5):
+🟩 On a **long-haul sector** (working threshold: planned length **over 5 hours**), the connected pilot may take an **off-duty rest period** in the cruise, modelling the real handover to a relief pilot on an augmented crew. The discipline (also stated in [[A04 — Crew Composition](a04-crew-composition.md)](a04-crew-composition.md) §5):
 
 - remain at the controls for the early part of the sector (guideline: the first ~30 minutes after gear-up) before going off-duty;
 - resume duty and be back on the flight deck in good time before descent (guideline: by ~60 minutes before destination);
@@ -69,8 +69,8 @@ These are cited as the discipline K Global gestures at; **none of their limits a
 
 ## Cross-references
 
-- [`A04 — Crew Composition.md`](a04-crew-composition.md) — augmented crew / in-flight rest
-- [`A05 — Qualification Requirements.md`](a05-qualification-requirements.md) — fitness-to-fly as the medical substitute; recency
+- [[A04 — Crew Composition](a04-crew-composition.md)](a04-crew-composition.md) — augmented crew / in-flight rest
+- [[A05 — Qualification Requirements](a05-qualification-requirements.md)](a05-qualification-requirements.md) — fitness-to-fly as the medical substitute; recency
 - Long-range sector planning: [the relevant OM section](../flight-ops/etops-edto.md) and [the relevant OM section](../flight-ops/polar.md)
 
 ## Sources & References

@@ -25,7 +25,7 @@ K Global pilots hold **no real airman's licence**, and the manual does not prete
 - **K Global type checkout.** The airline's own competence standard for a type is what authorises a pilot to fly it on the line (see §2–§3). This is administered internally and — for the mainline fleet — is intended to be delivered and recorded through the training syllabi in **OM D** (🟧 not yet built).
 - **The real-world reference frame.** Where this chapter maps types to ratings or defines special-ops qualifications, it does so against the **ICAO Annex 1 / EASA Part-FCL** structure for realism. This is a modelling reference, not a claim that pilots hold Part-FCL licences. 🟩
 
-Where real regulation would require a medical certificate, K Global substitutes the fitness-to-fly self-declaration in [`A06 — Crew Health, Fatigue and Flight-Time Limitations.md`](a06-crew-health-fatigue-and-flight-time-limitations.md).
+Where real regulation would require a medical certificate, K Global substitutes the fitness-to-fly self-declaration in [[A06 — Crew Health, Fatigue and Flight-Time Limitations](a06-crew-health-fatigue-and-flight-time-limitations.md)](a06-crew-health-fatigue-and-flight-time-limitations.md).
 
 ## 2. Type ratings — the K Global fleet
 
@@ -79,7 +79,7 @@ Aerodromes are classified by the additional competence they demand. 🟩
 - **Category B — restricted.** A field that does not meet all Category A criteria, or that demands extra consideration — non-standard approach aids or patterns, unusual local weather, unusual performance limitations, or significant obstacles/layout/lighting factors. 🟧 Before operating to a Category B field the Commander **self-briefs on the specific field** and its considerations.
 - **Category C — restricted, additional.** 🟥 A field demanding consideration beyond Category B. Before operating to a Category C field the Commander should have prior familiarity — as an observer, or through guidance from the training organisation — before flying it as Commander.
 
-The list of which fields are Category B/C for K Global is maintained with the route-information material; challenging-field designations feed the co-pilot handling limits in [`A04 — Crew Composition.md`](a04-crew-composition.md) §6. 🟧
+The list of which fields are Category B/C for K Global is maintained with the route-information material; challenging-field designations feed the co-pilot handling limits in [[A04 — Crew Composition](a04-crew-composition.md)](a04-crew-composition.md) §6. 🟧
 
 ### 4.2 Emergency (diversion) aerodromes
 
@@ -112,8 +112,8 @@ Two disciplines to keep straight (per the Fleet Capability Matrix read-me): a **
 
 ## Cross-references
 
-- [`A04 — Crew Composition.md`](a04-crew-composition.md) — co-pilot handling limits, challenging-field interaction
-- [`A06 — Crew Health, Fatigue and Flight-Time Limitations.md`](a06-crew-health-fatigue-and-flight-time-limitations.md) — fitness-to-fly (medical substitute)
+- [[A04 — Crew Composition](a04-crew-composition.md)](a04-crew-composition.md) — co-pilot handling limits, challenging-field interaction
+- [[A06 — Crew Health, Fatigue and Flight-Time Limitations](a06-crew-health-fatigue-and-flight-time-limitations.md)](a06-crew-health-fatigue-and-flight-time-limitations.md) — fitness-to-fly (medical substitute)
 - [the relevant OM section](../fleet/capability-matrix.md) — per-type capability & operator authorisations
 -  — area/FIR/aerodrome briefs; Category B/C list
 - OM E special-ops procedures — LVO, PBN/RNP, ETOPS/EDTO, Steep Approach (linked in §6)

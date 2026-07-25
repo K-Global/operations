@@ -59,7 +59,7 @@ The investigation exists to **understand and prevent, not to attribute fault** (
 
 ## Cross-references
 
-- **OM A03 — Safety Management System (SMS) and Quality** (the SMS this scheme feeds; risk register and just-culture policy). See `A03 — Safety Management System (SMS) and Quality.md`.
+- **OM A03 — Safety Management System (SMS) and Quality** (the SMS this scheme feeds; risk register and just-culture policy). See [A03 — Safety Management System (SMS) and Quality](a03-safety-management-system-sms-and-quality.md).
 - **OM A09 / A10 / A11** — dispatch/MEL, dangerous-goods, and security events are reportable occurrences.
 - **OM D Training** — safety actions delivered as training.
 - the content governance §1 — de-identification / anonymity governance applied to occurrence data.

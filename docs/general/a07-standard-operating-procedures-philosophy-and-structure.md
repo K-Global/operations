@@ -4,7 +4,7 @@ How the OM B/C/E procedural detail fits together under one SOP philosophy.
 
 **Version** v1.0 · **Updated** 2026-07-25 · **Status** Verified
 
-> Read-me: this chapter owns K Global's **SOP philosophy** and the **structure of the manual** — how policy, type, place and method relate, and the principles every procedural document applies. It sets the philosophy; the airborne flows and the FMS method are applied in OM E `Flight Management and Operational Flows.md`, and the challenge-and-response detail lives in the OM B airframe packs. Flag legend: 🟥 restriction/hazard/hard requirement · 🟧 caution/unverified · 🟩 normal.
+> Read-me: this chapter owns K Global's **SOP philosophy** and the **structure of the manual** — how policy, type, place and method relate, and the principles every procedural document applies. It sets the philosophy; the airborne flows and the FMS method are applied in OM E Flight Management and Operational Flows, and the challenge-and-response detail lives in the OM B airframe packs. Flag legend: 🟥 restriction/hazard/hard requirement · 🟧 caution/unverified · 🟩 normal.
 
 ---
 
@@ -60,7 +60,7 @@ The K Global OM is layered so that each fact lives in exactly one place and is a
 
 ## 4. Where the philosophy is applied
 
-- 🟩 **The airborne flows and FMS method** — the phase-by-phase operational flows, the FMS/MCDU management method, and the cross-check discipline that put this philosophy into practice — live in **OM E `Flight Management and Operational Flows.md`**. That document defines the *generic* flow; this chapter owns the *philosophy* it applies.
+- 🟩 **The airborne flows and FMS method** — the phase-by-phase operational flows, the FMS/MCDU management method, and the cross-check discipline that put this philosophy into practice — live in **OM E Flight Management and Operational Flows**. That document defines the *generic* flow; this chapter owns the *philosophy* it applies.
 - 🟩 **The challenge-and-response detail** — the actual checklist items, the panel-scan sequence and every type-specific behaviour — lives in the **OM B airframe pack** (Checklist / QRH / Sim-Model). Checklists confirm that the flow has been completed correctly; they are not a substitute for the flow.
 - 🟩 **The place layer** — aerodrome and airspace context for stabilised-approach/go-around, terrain and airspace threats — is applied per field and per region in the **OM C** briefs.
 

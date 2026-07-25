@@ -1,16 +1,16 @@
 # A08 — Fuel and Payload Policy · OM A
 
-Company fuel and payload policy — owned here; applied operationally in OM E `Fuel Policy.md`.
+Company fuel and payload policy — owned here; applied operationally in OM E Fuel Policy.
 
 **Version** v1.0 · **Updated** 2026-07-25 · **Status** Verified
 
-> Read-me: **OM A owns the fuel and payload policy.** This chapter states the company fuel scheme, the approved operator values, the planning/alternate-minima principle, the mass & balance / loadsheet policy, and the low-fuel declaration policy. **OM E `Fuel Policy.md` operationalises it** — the two must stay consistent; where a number appears in both, it is stated once here as policy and applied there as method. No live figures are stored — the actual taxi/trip/contingency/alternate/reserve figures come from the OFP at dispatch. Flag legend: 🟥 restriction/hazard/hard requirement · 🟧 caution/unverified · 🟩 normal.
+> Read-me: **OM A owns the fuel and payload policy.** This chapter states the company fuel scheme, the approved operator values, the planning/alternate-minima principle, the mass & balance / loadsheet policy, and the low-fuel declaration policy. **OM E Fuel Policy operationalises it** — the two must stay consistent; where a number appears in both, it is stated once here as policy and applied there as method. No live figures are stored — the actual taxi/trip/contingency/alternate/reserve figures come from the OFP at dispatch. Flag legend: 🟥 restriction/hazard/hard requirement · 🟧 caution/unverified · 🟩 normal.
 
 ---
 
 ## 1. Policy statement
 
-Every K Global flight carries fuel sufficient for the intended flight with a safe margin for contingency, diversion and holding, and is loaded within all weight and balance limits. The **commander** is responsible for ensuring that sufficient fuel is carried and that the aircraft is correctly loaded; the **operational-control / dispatch** function (OM A02) builds and releases the plan. This chapter sets the policy; **OM E `Fuel Policy.md`** applies it as the operating method, and the OFP produced by SimBrief carries the day's figures.
+Every K Global flight carries fuel sufficient for the intended flight with a safe margin for contingency, diversion and holding, and is loaded within all weight and balance limits. The **commander** is responsible for ensuring that sufficient fuel is carried and that the aircraft is correctly loaded; the **operational-control / dispatch** function (OM A02) builds and releases the plan. This chapter sets the policy; **OM E Fuel Policy** applies it as the operating method, and the OFP produced by SimBrief carries the day's figures.
 
 - 🟩 **Plan the OFP fuel unless there is a reason not to.** The OFP fuel figure is loaded unless the commander identifies sound operational or economic reasons to add discretionary fuel (§2). Extra fuel is not free — every additional tonne carried burns fuel to carry it — so it is a judgement, not a default.
 
@@ -18,7 +18,7 @@ Every K Global flight carries fuel sufficient for the intended flight with a saf
 
 ## 2. The company fuel scheme
 
-The minimum required block fuel is the **sum** of the components below. This is the K Global scheme; OM E `Fuel Policy.md` §3 defines each component in operating detail.
+The minimum required block fuel is the **sum** of the components below. This is the K Global scheme; OM E Fuel Policy §3 defines each component in operating detail.
 
 | Component | What it covers | K Global rule |
 |---|---|---|
@@ -39,7 +39,7 @@ The minimum required block fuel is the **sum** of the components below. This is 
 
 ## 3. Planning and alternate-minima principle
 
-The fuel scheme is only valid against a sound alternate and planning-minima assessment. The policy principle is below; the operating method (thresholds, add-on tables, isolated-aerodrome case) is in **OM E `Fuel Policy.md` §4**.
+The fuel scheme is only valid against a sound alternate and planning-minima assessment. The policy principle is below; the operating method (thresholds, add-on tables, isolated-aerodrome case) is in **OM E Fuel Policy §4**.
 
 - 🟥 **Alternates — 0, 1 or 2.** **At least one** destination alternate is the normal requirement. It may be omitted only in the defined good-weather / multiple-runway case, or when the destination is an **isolated aerodrome**. **Two** alternates are required when the destination forecast is marginal, below minima, or uncertain over the applicable time window. A take-off alternate is required when departure weather is below landing minima or a return is otherwise not possible. An **en-route alternate (ERA)** enables the reduced (3%) contingency option (§2).
 - 🟥 **Planning minima are more conservative than approach minima.** An aerodrome may be *planned* as an alternate only if its **forecast** over the use window is at or above minima that add a margin to its own approach minima — a hedge against forecast error. Where minimum values established by an overflown State are higher than the company standard, the **higher** value applies.
@@ -58,7 +58,7 @@ The fuel scheme is only valid against a sound alternate and planning-minima asse
 
 ## 5. Tankering and low-fuel declaration policy
 
-- 🟩 **Tankering.** Carrying extra fuel from a cheaper station to avoid buying at an expensive one is authorised as a **commercial** judgement, bounded by safety. K Global's **guideline trigger is a ≥10% fuel-price differential** between departure and destination, weight/CG permitting. [K Global OpsSpec 2026-07-25] Tankered fuel may **never** breach MTOW/MLW/MZFW, the CG envelope, or runway/climb-performance and structural limits, and never substitutes for any required minimum fuel. Tankering is not advised when a contaminated/icy runway is anticipated. The per-leg decision is made against the actual price differential and the weight/CG state (OM E `Fuel Policy.md` §6).
+- 🟩 **Tankering.** Carrying extra fuel from a cheaper station to avoid buying at an expensive one is authorised as a **commercial** judgement, bounded by safety. K Global's **guideline trigger is a ≥10% fuel-price differential** between departure and destination, weight/CG permitting. [K Global OpsSpec 2026-07-25] Tankered fuel may **never** breach MTOW/MLW/MZFW, the CG envelope, or runway/climb-performance and structural limits, and never substitutes for any required minimum fuel. Tankering is not advised when a contaminated/icy runway is anticipated. The per-leg decision is made against the actual price differential and the weight/CG state (OM E Fuel Policy §6).
 - 🟥 **In-flight fuel management and low-fuel terminology.** Actual fuel is monitored against the OFP plan at each checkpoint; the aircraft must stay above the **minimum diversion fuel** (fuel to reach the nearest suitable alternate + final reserve) until a landing is assured.
   - 🟧 **"MINIMUM FUEL"** is an **advisory** — the flight is committed to a specific aerodrome and any further delay may result in landing below final reserve. It does not confer priority; it warns ATC.
   - 🟥 **"MAYDAY FUEL"** is an **emergency**, declared when the predicted usable fuel on landing at the nearest suitable aerodrome is **less than final reserve**. Protect final reserve — if the prediction crosses below it, declare **MAYDAY FUEL without delay**; do not manage down into the reserve.
@@ -67,7 +67,7 @@ The fuel scheme is only valid against a sound alternate and planning-minima asse
 
 ## 6. Consistency with OM E
 
-This chapter and **OM E `Fuel Policy.md`** are deliberately aligned. The **approved operator values are identical in both**: contingency **5% / 3%-with-ERA**, final reserve **30 minutes**, discretionary fuel at **PIC discretion within MTOW/MLW/MZFW/CG**, tankering **≥10%** price-differential guideline. OM A states them as **policy**; OM E states them as **method** and adds the operating detail (component definitions, alternate thresholds, ERA circle geometry, isolated-aerodrome PNR, redispatch technique, in-flight management). If either document changes an operator value, the other is updated in the same edit so the two never diverge.
+This chapter and **OM E Fuel Policy** are deliberately aligned. The **approved operator values are identical in both**: contingency **5% / 3%-with-ERA**, final reserve **30 minutes**, discretionary fuel at **PIC discretion within MTOW/MLW/MZFW/CG**, tankering **≥10%** price-differential guideline. OM A states them as **policy**; OM E states them as **method** and adds the operating detail (component definitions, alternate thresholds, ERA circle geometry, isolated-aerodrome PNR, redispatch technique, in-flight management). If either document changes an operator value, the other is updated in the same edit so the two never diverge.
 
 ---
 

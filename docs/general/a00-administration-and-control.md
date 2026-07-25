@@ -112,7 +112,7 @@ Manual-wide definitions, abbreviations, and the reference index are held in **A1
 
 ## Cross-references
 
-- [`A01 — Organisation and Responsibilities.md`](a01-organisation-and-responsibilities.md) — management structure, post-holders, and command authority.
+- [[A01 — Organisation and Responsibilities](a01-organisation-and-responsibilities.md)](a01-organisation-and-responsibilities.md) — management structure, post-holders, and command authority.
 - **A14 — Definitions, Abbreviations and References** — manual-wide register.
 
 ## Sources & References

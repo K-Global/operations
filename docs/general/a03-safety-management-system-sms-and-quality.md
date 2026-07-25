@@ -63,7 +63,7 @@ The quality/compliance-monitoring function checks that the operation actually co
 
 ## Cross-references
 
-- OM A12 — Occurrence Reporting and Investigation (the reporting scheme feeding this SMS). See `A12 — Occurrence Reporting and Investigation.md`.
+- OM A12 — Occurrence Reporting and Investigation (the reporting scheme feeding this SMS). See [A12 — Occurrence Reporting and Investigation](a12-occurrence-reporting-and-investigation.md).
 - OM A09 — Minimum Equipment Policy; OM A11 — Security; OM A10 — Dangerous Goods and Special Loads (domain risk areas).
 - OM D Training — safety and procedural training delivery.
 - the content governance — OM governance and content-currency process.

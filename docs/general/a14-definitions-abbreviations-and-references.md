@@ -34,9 +34,9 @@
 - **Critical phases of flight** 🟩 — The portions of a flight demanding the crew's full attention and freedom from non-essential distraction: the take-off roll, the take-off flight path, the final approach, and the landing including the landing roll — plus any other phase the commander judges warrants the same discipline (e.g. an abnormal procedure).
 - **Separate runways** 🟩 — Two runways at the same aerodrome that, even if they cross or overlap, each carry their own approach procedure keyed to a different navigation aid, arranged so that blocking one does not prevent the planned operation continuing on the other.
 - **Equivalent position** 🟩 — An independently derived fix — established by a DME distance, a suitably placed NDB or VOR, a surveillance/precision-radar fix, or another suitable means — located roughly three to five miles from the runway threshold, used to confirm aircraft position on approach without relying solely on the primary approach aid.
-- **Stabilised approach** 🟥 — An approach flown, from a defined gate (commonly 1,000 ft AAL in IMC / 500 ft AAL in VMC) to landing, on the correct lateral and vertical flight path and target speed, in landing configuration, with an appropriate rate of descent and power setting. Any parameter outside tolerance below the gate requires an immediate go-around — one of the few 🟥 hard SOP gates in the manual. See `A07 — Standard Operating Procedures — Philosophy and Structure.md`.
+- **Stabilised approach** 🟥 — An approach flown, from a defined gate (commonly 1,000 ft AAL in IMC / 500 ft AAL in VMC) to landing, on the correct lateral and vertical flight path and target speed, in landing configuration, with an appropriate rate of descent and power setting. Any parameter outside tolerance below the gate requires an immediate go-around — one of the few 🟥 hard SOP gates in the manual. See [A07 — Standard Operating Procedures — Philosophy and Structure](a07-standard-operating-procedures-philosophy-and-structure.md).
 - **PF / PM (Pilot Flying / Pilot Monitoring)** 🟩 — The task-based crew-role model used in place of the older "handling/non-handling pilot" language. PF manages the flight path and aircraft handling; PM manages checklists, radio/datalink, monitoring and cross-checking the PF's actions. Either seat may hold either role; the roles — not the seat — define the task split.
-- **TEM (Threat and Error Management)** 🟩 — The operating philosophy of anticipating operational threats before they materialise, trapping the errors those threats (or normal human performance) may induce, and managing any resulting aircraft-state deviation before it becomes consequential. TEM underlies K Global's SOP structure and CRM model; see `A07 — Standard Operating Procedures — Philosophy and Structure.md`.
+- **TEM (Threat and Error Management)** 🟩 — The operating philosophy of anticipating operational threats before they materialise, trapping the errors those threats (or normal human performance) may induce, and managing any resulting aircraft-state deviation before it becomes consequential. TEM underlies K Global's SOP structure and CRM model; see [A07 — Standard Operating Procedures — Philosophy and Structure](a07-standard-operating-procedures-philosophy-and-structure.md).
 
 ### 1.5 Airspace, navigation & performance
 
@@ -48,7 +48,7 @@
 
 ### 1.6 Airworthiness & dispatch policy
 
-- **MEL / CDL (Minimum Equipment List / Configuration Deviation List)** 🟩 — The MEL is the operator-specific list, derived from the type's MMEL, of equipment permitted to be inoperative for dispatch subject to stated conditions and limitations. The CDL lists external airframe parts, panels or fairings that may be missing for dispatch, each with any associated performance penalty. See `A09 — Minimum Equipment Policy.md`.
+- **MEL / CDL (Minimum Equipment List / Configuration Deviation List)** 🟩 — The MEL is the operator-specific list, derived from the type's MMEL, of equipment permitted to be inoperative for dispatch subject to stated conditions and limitations. The CDL lists external airframe parts, panels or fairings that may be missing for dispatch, each with any associated performance penalty. See [A09 — Minimum Equipment Policy](a09-minimum-equipment-policy.md).
 - **MMEL (Master Minimum Equipment List)** 🟩 — The type-design authority's baseline equipment list for a given type, from which every operator's MEL is derived; an operator's MEL may equal or tighten the MMEL but may never relax it.
 
 ---
@@ -284,10 +284,10 @@
 
 ## 4. Cross-references
 
-- **OM A00 — Administration and Control** — manual structure, amendment control, distribution, the K Global identity block: `A00 — Administration and Control.md`
-- **OM A07 — Standard Operating Procedures — Philosophy and Structure** — PF/PM, TEM, stabilised-approach gate: `A07 — Standard Operating Procedures — Philosophy and Structure.md`
-- **OM A08 — Fuel and Payload Policy** — contingency fuel and the wider fuel scheme: `A08 — Fuel and Payload Policy.md`
-- **OM A09 — Minimum Equipment Policy** — MEL/CDL/MMEL: `A09 — Minimum Equipment Policy.md`
+- **OM A00 — Administration and Control** — manual structure, amendment control, distribution, the K Global identity block: [A00 — Administration and Control](a00-administration-and-control.md)
+- **OM A07 — Standard Operating Procedures — Philosophy and Structure** — PF/PM, TEM, stabilised-approach gate: [A07 — Standard Operating Procedures — Philosophy and Structure](a07-standard-operating-procedures-philosophy-and-structure.md)
+- **OM A08 — Fuel and Payload Policy** — contingency fuel and the wider fuel scheme: [A08 — Fuel and Payload Policy](a08-fuel-and-payload-policy.md)
+- **OM A09 — Minimum Equipment Policy** — MEL/CDL/MMEL: [A09 — Minimum Equipment Policy](a09-minimum-equipment-policy.md)
 - **OM E — ETOPS/EDTO Procedures**: the relevant OM section
 - **OM E — Low Visibility Operations**: the relevant OM section
 - **OM E — PBN and RNP Operations**: the relevant OM section

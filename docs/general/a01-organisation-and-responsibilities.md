@@ -90,10 +90,10 @@ Before and during each flight, the PIC shall take all reasonable steps to:
 
 ## Cross-references
 
-- [`A00 — Administration and Control.md`](a00-administration-and-control.md) — manual purpose, identity block, applicability.
-- [`A02 — Operational Control and Supervision.md`](a02-operational-control-and-supervision.md) — dispatch/flight-following authority; initiate/continue/divert/terminate.
-- [`A03 — Safety Management System (SMS) and Quality.md`](a03-safety-management-system-sms-and-quality.md) — safety policy and quality/compliance monitoring.
-- [`A04 — Crew Composition.md`](a04-crew-composition.md) — crew complement, augmentation, and rest.
+- [[A00 — Administration and Control](a00-administration-and-control.md)](a00-administration-and-control.md) — manual purpose, identity block, applicability.
+- [[A02 — Operational Control and Supervision](a02-operational-control-and-supervision.md)](a02-operational-control-and-supervision.md) — dispatch/flight-following authority; initiate/continue/divert/terminate.
+- [[A03 — Safety Management System (SMS) and Quality](a03-safety-management-system-sms-and-quality.md)](a03-safety-management-system-sms-and-quality.md) — safety policy and quality/compliance monitoring.
+- [[A04 — Crew Composition](a04-crew-composition.md)](a04-crew-composition.md) — crew complement, augmentation, and rest.
 -  — training owned by the Crew Training post-holder (A05/A06 competence).
 -  — operating methods owned, as policy, by Flight Operations (e.g. Fuel Policy, Flight Management and Operational Flows).
 

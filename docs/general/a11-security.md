@@ -48,8 +48,8 @@ This chapter sets K Global's security policy for the aircraft, its crew, cargo/m
 
 ## Cross-references
 
-- **OM A10 — Dangerous Goods and Special Loads** (weapons, security items, cargo acceptance). See `A10 — Dangerous Goods and Special Loads.md`.
-- **OM A12 — Occurrence Reporting and Investigation** (security events are reportable occurrences). See `A12 — Occurrence Reporting and Investigation.md`.
+- **OM A10 — Dangerous Goods and Special Loads** (weapons, security items, cargo acceptance). See [A10 — Dangerous Goods and Special Loads](a10-dangerous-goods-and-special-loads.md).
+- **OM A12 — Occurrence Reporting and Investigation** (security events are reportable occurrences). See [A12 — Occurrence Reporting and Investigation](a12-occurrence-reporting-and-investigation.md).
 - **OM A03 — Safety Management System (SMS) and Quality** (security hazards feed the risk register).
 
 ## Sources & References

@@ -53,8 +53,8 @@ Beyond DG proper, K Global applies realistic handling principles for special loa
 
 ## Cross-references
 
-- **OM A11 — Security** (weapons, security items, cargo/mail screening interface). See `A11 — Security.md`.
-- **OM A12 — Occurrence Reporting and Investigation** (DG incidents/undeclared-DG findings are reportable occurrences). See `A12 — Occurrence Reporting and Investigation.md`.
+- **OM A11 — Security** (weapons, security items, cargo/mail screening interface). See [A11 — Security](a11-security.md).
+- **OM A12 — Occurrence Reporting and Investigation** (DG incidents/undeclared-DG findings are reportable occurrences). See [A12 — Occurrence Reporting and Investigation](a12-occurrence-reporting-and-investigation.md).
 - **OM D Training** — dangerous-goods / special-loads training delivery.
 - **OM B — Fleet Capability Matrix** (freighter vs passenger role, e.g. `B77F`): the relevant OM section.
 
