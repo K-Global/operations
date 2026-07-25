@@ -54,9 +54,6 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-extra_javascript:
-  - javascripts/disclaimer.js
-
 markdown_extensions:
   - abbr
   - admonition
@@ -85,6 +82,27 @@ markdown_extensions:
 plugins:
   - search
   - glightbox
+  # Members-only gate — every page is AES-encrypted at build time; readers
+  # enter the shared password to decrypt in-browser. The password comes from
+  # the OPS_PASSWORD environment variable (a GitHub Actions secret in CI), so
+  # it is never committed. The local fallback is a non-secret placeholder.
+  - encryptcontent:
+      global_password: !ENV [OPS_PASSWORD, "CHANGE-ME-LOCAL-ONLY"]
+      title_prefix: "K Global · "
+      summary: "K Global Operations Manual"
+      encryption_info_message: >-
+        Members only. This is the operations manual for K Global, a fictional
+        virtual airline for flight-simulation use on VATSIM — not real-world
+        aviation guidance. Enter the members password to continue.
+      placeholder: "Members password"
+      decryption_failure_message: "Incorrect password — please try again."
+      password_button: True
+      password_button_text: "Enter"
+      remember_password: True
+      # Silence the plugin's password-entropy warning so it can't fail the
+      # `--strict` build for a user-chosen secret. Pick a strong password
+      # (see HANDOFF.md) — that's the real mitigation, not this threshold.
+      threshold_warning_min_entropy: 0
 
 nav:
   - Home: index.md

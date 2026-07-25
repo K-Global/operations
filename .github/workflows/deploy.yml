@@ -31,7 +31,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Build manual (strict)
+      # Fail safe: refuse to publish an UNencrypted manual if the members
+      # password secret is missing (otherwise the whole site would be public).
+      - name: Require members password secret
+        env:
+          OPS_PASSWORD: ${{ secrets.OPS_PASSWORD }}
+        run: |
+          if [ -z "$OPS_PASSWORD" ]; then
+            echo "::error::OPS_PASSWORD secret is not set. Add it in Settings → Secrets and variables → Actions. Refusing to build an unencrypted manual."
+            exit 1
+          fi
+
+      - name: Build manual (strict, encrypted)
+        env:
+          OPS_PASSWORD: ${{ secrets.OPS_PASSWORD }}
         run: mkdocs build --strict
 
       - name: Upload Pages artifact
