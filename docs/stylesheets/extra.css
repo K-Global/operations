@@ -251,3 +251,20 @@
 .kg-status--review   { background: var(--kg-accent-tint); color: var(--kg-accent-ink); }
 .kg-status--approved { background: #CDE7CE; color: #123a16; }
 .kg-status--stub     { background: var(--kg-line); color: var(--kg-slate); }
+
+/* ==========================================================================
+   Fictional-airline clarity guards
+   (disclaimer banner + one-time acknowledgement overlay)
+   ========================================================================== */
+
+/* Persistent banner in Material's announcement bar */
+.kg-disclaimer-banner {
+  text-align: center;
+  font-family: "B612 Mono", ui-monospace, monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.15rem 1rem;
+  line-height: 1.5;
+}
+.kg-disclaimer-banner strong { color: var(--kg-accent-lift); }

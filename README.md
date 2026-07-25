@@ -9,22 +9,24 @@ Branded to the K Global Brand Guidelines v1.0 (Marine Teal accent on a
 monochrome core; Inter Tight / Inter / B612 Mono), shared with the
 [public website](https://kglobalair.com).
 
-> **Public knowledge center.** This manual is served on **public GitHub Pages**.
-> It carries operational detail that's off-tone for the marketing website — but
-> because it's world-readable, sensitive material is **deliberately kept out**.
+> **Members-only.** Every page is **AES-encrypted at build time**
+> (`mkdocs-encryptcontent-plugin`); readers enter a shared members password to
+> view it. Still on free GitHub Pages — no host change, no per-user login.
 
-## Visibility & the golden rule
+## Access & the golden rule
 
-This manual is **public**. The split from the marketing website is *scope*, not
-*secrecy*: operational reference lives here, brand-facing summaries live there.
-Genuine secrets belong in **neither** — keep them in access-controlled systems.
+The manual sits behind a **single shared members password** (the `OPS_PASSWORD`
+GitHub Actions secret; see `HANDOFF.md` to set/rotate it). That's a **gate, not
+a vault** — the encryption is brute-forceable by design and the password is
+shared, so it keeps the public out but must not be trusted with real secrets.
 
-**Never write into these pages:** credentials, API keys, OAuth client IDs,
-private endpoints, tokens, or any identifier that would let someone reach a
-live system. When in doubt, leave it out.
+**Never write into these pages** — even behind the password: credentials, API
+keys, OAuth client IDs, private endpoints, tokens, or anything that would let
+someone reach a live system. When in doubt, leave it out.
 
-(If the manual ever needs to be genuinely private, that requires GitHub
-Enterprise Cloud private Pages or self-hosting behind auth — see `HANDOFF.md`.)
+(For true per-user access, you'd need a backend — e.g. a Cloudflare Worker
+running VATSIM/VAMSYS OAuth — or GitHub Enterprise Cloud private Pages. Both
+were considered and set aside in favour of this simpler gate.)
 
 ## Local preview
 
@@ -32,7 +34,7 @@ Requires Python 3.9+.
 
 ```bash
 pip install -r requirements.txt
-mkdocs serve      # http://127.0.0.1:8000
+OPS_PASSWORD="anything-for-local" mkdocs serve   # http://127.0.0.1:8000
 mkdocs build --strict
 ```
 

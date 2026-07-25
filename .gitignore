@@ -7,3 +7,6 @@ __pycache__/
 .venv/
 venv/
 .cache/
+
+# encryptcontent plugin build cache
+encryptcontent.cache

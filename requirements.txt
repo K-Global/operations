@@ -3,3 +3,5 @@
 mkdocs==1.6.1
 mkdocs-material==9.7.7
 mkdocs-glightbox==0.5.2
+# Members-only gate: build-time password encryption of every page.
+mkdocs-encryptcontent-plugin==3.1.0
