@@ -58,7 +58,11 @@ The **kiremt (main rainy season) runs Jun–mid-Sep**: heavy convective rain, em
 
 ## 5. Aerodrome category, restrictions & crew qualification
 
-- **Special-airport / category:** Not operator-categorised in reachable sources; a **high-elevation special-aerodrome qualification is plausible** but not confirmed. - **Crew-qualification gate:** None confirmed in reachable source — verify (high-altitude/high-terrain field warrants careful performance briefing). - **Operating restrictions / bans:** None confirmed in reachable source — verify. - **Overflight / entry / permits:** State overflight/landing permits per Ethiopia; confirm on the OFP. - **Operations notes:** Regulator — Ethiopian Civil Aviation Authority (ECAA). Hub of Ethiopian Airlines. FIR — Addis Ababa.
+- **Special-airport / category:** Not operator-categorised in reachable sources; a **high-elevation special-aerodrome qualification is plausible** but not confirmed.
+- **Crew-qualification gate:** None confirmed in reachable source — verify (high-altitude/high-terrain field warrants careful performance briefing).
+- **Operating restrictions / bans:** None confirmed in reachable source — verify.
+- **Overflight / entry / permits:** State overflight/landing permits per Ethiopia; confirm on the OFP.
+- **Operations notes:** Regulator — Ethiopian Civil Aviation Authority (ECAA). Hub of Ethiopian Airlines. FIR — Addis Ababa.
 
 ## 6. General / hours / services
 

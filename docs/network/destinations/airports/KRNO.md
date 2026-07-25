@@ -11,7 +11,7 @@ title: KRNO — Reno-Tahoe Intl
 
 | Field | Value |
 |---|---|
-| ARP (lat/long) | N39°29′56.8″ / W119°46′05.2″ (39.4991, -119.7681) `` |
+| ARP (lat/long) | N39°29′56.8″ / W119°46′05.2″ (39.4991, -119.7681) |
 | Field elevation | **4,415 ft / 1,346 m MSL** (surveyed 4,414.9 ft) — **HOT-AND-HIGH** |
 | Mag variation | **13° E (2020 epoch)** — drifting fast; Reno's runways were themselves redesignated 16/34→17/35 in Dec 2022 because of magnetic drift. Treat as a **live figure, re-verify current epoch** |
 | Time zone | Pacific Time: **UTC-8 (PST)** standard / **UTC-7 (PDT)** daylight |
@@ -19,7 +19,7 @@ title: KRNO — Reno-Tahoe Intl
 | Preferential runway | Not published / verify — no formal preferential-runway program found; 17R/35L (longest, ILS + MALSR) is the primary jet runway when wind allows |
 | Longest LDA | 35L **10,011 ft** / 17R **10,001 ft** (displaced thresholds both ends) |
 | Approaches | ILS/LOC 35L & 17R (3 variants), RNAV (RNP) & RNAV (GPS) both long runways, LOC Y 17R, VOR-D, TACAN-F — see §10 |
-| RFF category | **ARFF Index C** `` |
+| RFF category | **ARFF Index C** |
 | Control type | **Radar** — NORCAL TRACON (Approach/Departure), Class C surface area |
 | Elevation class | **Hot-and-high** — dominant performance driver; summer density altitude routinely well above field elevation |
 | Special-airport status | Not formally categorised in the FAA system (no ICAO-style Cat B/C list); given terrain + hot-and-high profile, K Global should treat as an enhanced-briefing field — see §5 |
@@ -41,7 +41,7 @@ All three runways are concrete/grooved and in good condition. 17R/35L and 17L/35
 
 ### 3.4 Weather threat
 
-Summer afternoons: NOAA 1991–2020 normals show a **July mean daily maximum of ~93.9°F (34.4°C)** at Reno, with a record high of 108°F (42°C) ``. Combined with the 4,415 ft field elevation, density altitude on hot summer afternoons commonly rises well above field elevation — compute actual density altitude and takeoff/climb performance at dispatch; do not rely on a generic "long runway" assumption. Terrain-driven **mountain-wave turbulence** and strong, gusty afternoon winds are a recognised local hazard (reflected in the glider/soaring remarks above). Winter brings mountain weather — snow, icing, and gusty frontal passages — and the field is FAA-flagged as a **"Cold Temperature Airport"**, requiring altimetry temperature correction at or below -13°C. See also §14.
+Summer afternoons: NOAA 1991–2020 normals show a **July mean daily maximum of ~93.9°F (34.4°C)** at Reno, with a record high of 108°F (42°C) . Combined with the 4,415 ft field elevation, density altitude on hot summer afternoons commonly rises well above field elevation — compute actual density altitude and takeoff/climb performance at dispatch; do not rely on a generic "long runway" assumption. Terrain-driven **mountain-wave turbulence** and strong, gusty afternoon winds are a recognised local hazard (reflected in the glider/soaring remarks above). Winter brings mountain weather — snow, icing, and gusty frontal passages — and the field is FAA-flagged as a **"Cold Temperature Airport"**, requiring altimetry temperature correction at or below -13°C. See also §14.
 
 ### 3.5 Operational considerations
 
@@ -62,8 +62,11 @@ Hot-and-high performance is the headline planning item: expect reduced climb gra
 
 ## 5. Aerodrome category, restrictions & crew qualification
 
-- **Special-airport / category:** Not formally categorised in the FAA system (the US does not run an ICAO-style Cat B/C special-aerodrome list). Given the terrain profile, hot-and-high performance sensitivity, and DME-dependent/RNP AR procedures, K Global should treat KRNO as an **enhanced-briefing field** for any crew tasked to actually land there — currently it is referenced only as an OFP alternate, not a scheduled destination. - **Crew-qualification gate:** No published FAA gate; recommend an internal K Global policy decision (command-experience / specific-briefing requirement) if KRNO is ever used operationally rather than only as a diversion reference — not yet decided, see §18. - **Operating restrictions / bans:** RNAV (RNP) W/Y/Z approaches are RNP AR (Authorization Required) — do not plan to use unless fleet/crew RNP AR authorisation is confirmed (§18). Circling approaches likely terrain-restricted on some runway ends — verify per current chart before planning any circling approach.
-- **Overflight / entry / permits:** Domestic US field — no overflight permit required for a US-registered/US-operating carrier; **Customs Landing Rights Airport** status means international arrivals require **PPR** (775-784-5585) and after-hours landing without prior approval is **not authorised**. - **Operations notes:** All commercial aircraft must contact Ground Control for advisories prior to pushback on the terminal ramp (FAA remark). Transient aircraft with wingspan >75 ft require 24-hour PPR for parking (775-328-6600); aircraft over 12,500 lb require written PPR for training flights.
+- **Special-airport / category:** Not formally categorised in the FAA system (the US does not run an ICAO-style Cat B/C special-aerodrome list). Given the terrain profile, hot-and-high performance sensitivity, and DME-dependent/RNP AR procedures, K Global should treat KRNO as an **enhanced-briefing field** for any crew tasked to actually land there — currently it is referenced only as an OFP alternate, not a scheduled destination.
+- **Crew-qualification gate:** No published FAA gate; recommend an internal K Global policy decision (command-experience / specific-briefing requirement) if KRNO is ever used operationally rather than only as a diversion reference — not yet decided, see §18.
+- **Operating restrictions / bans:** RNAV (RNP) W/Y/Z approaches are RNP AR (Authorization Required) — do not plan to use unless fleet/crew RNP AR authorisation is confirmed (§18). Circling approaches likely terrain-restricted on some runway ends — verify per current chart before planning any circling approach.
+- **Overflight / entry / permits:** Domestic US field — no overflight permit required for a US-registered/US-operating carrier; **Customs Landing Rights Airport** status means international arrivals require **PPR** (775-784-5585) and after-hours landing without prior approval is **not authorised**.
+- **Operations notes:** All commercial aircraft must contact Ground Control for advisories prior to pushback on the terminal ramp (FAA remark). Transient aircraft with wingspan >75 ft require 24-hour PPR for parking (775-328-6600); aircraft over 12,500 lb require written PPR for training flights.
 
 ## 6. General / hours / services
 
@@ -151,31 +154,40 @@ Hot-and-high performance is the headline planning item: expect reduced climb gra
 | 08/26 | None published in sources checked | Crosswind/shorter runway — verify on current AIRAC |
 
 - **STARs (names only):** ANAHO TWO, DNGLE ONE (RNAV), EELZA FOUR (RNAV), KLUBS ONE (RNAV), ORRCA ONE (RNAV), RYANN TWO, SCOLA ONE (RNAV), TARVR TWO (RNAV), WADOL FOUR (RNAV), WINRZ ONE (RNAV).
-- **LVP:** Trigger conditions not published in the sources checked — verify on current chart. - **Missed approach watch-items:** Close-in high terrain on most quadrants — brief the published missed-approach track and climb gradient before every approach; do not assume a shallow standard climb clears terrain.
+- **LVP:** Trigger conditions not published in the sources checked — verify on current chart.
+- **Missed approach watch-items:** Close-in high terrain on most quadrants — brief the published missed-approach track and climb gradient before every approach; do not assume a shallow standard climb clears terrain.
 
 ## 11. Departure
 
 - **SIDs (names only — fly the charted version):** ALPYN ONE (RNAV), MUSTANG ONE, PVINE FIVE (RNAV), RENO ONE, WAGGE EIGHT, ZEFFR NINE (RNAV). A dedicated obstacle departure procedure, **SPARKS ONE (OBSTACLE)**, is also published — its existence is itself evidence of terrain-driven, non-standard climb requirements at this field.
-- **RNP / climb-gradient requirements:** Several SIDs are RNAV; confirm RNP capability and the specific climb-gradient/minimum-climb requirement on the current chart before dispatch — **do not assume a standard climb gradient clears the surrounding terrain.** Special take-off minimums/departure procedures are published (FAA "SW4TO" special-minimums page) — verify content on current AIRAC. - **Take-off minima:** Special takeoff minimums apply per FAA Chart Supplement — not transcribed here; verify on current chart. - **Start-up / push-back:** All commercial aircraft must contact Ground Control for advisories prior to pushback on the terminal ramp (FAA remark).
-- **ATC slot / CTOT & clearance:** No slot regime found in sources checked — verify on OFP. - **De-icing:** Availability/procedure not confirmed in sources checked — verify; winter mountain weather and the airport's "Cold Temperature Airport" designation make this a likely requirement in season. ---
+- **RNP / climb-gradient requirements:** Several SIDs are RNAV; confirm RNP capability and the specific climb-gradient/minimum-climb requirement on the current chart before dispatch — **do not assume a standard climb gradient clears the surrounding terrain.** Special take-off minimums/departure procedures are published (FAA "SW4TO" special-minimums page) — verify content on current AIRAC.
+- **Take-off minima:** Special takeoff minimums apply per FAA Chart Supplement — not transcribed here; verify on current chart.
+- **Start-up / push-back:** All commercial aircraft must contact Ground Control for advisories prior to pushback on the terminal ramp (FAA remark).
+- **ATC slot / CTOT & clearance:** No slot regime found in sources checked — verify on OFP.
+- **De-icing:** Availability/procedure not confirmed in sources checked — verify; winter mountain weather and the airport's "Cold Temperature Airport" designation make this a likely requirement in season. ---
 
 ## 12. Noise & Environmental
 
-- **Noise abatement (NAP):** FAA remarks flag KRNO as a **"noise sensitive area all quadrants"**; turbojet operators are directed to use "recommended noise abatement procedures, available on request" — specific NAP routings not published in the sources checked. - **Night noise / dB limits:** Not published in sources checked. - **Engine run-up restrictions:** Not published in sources checked. - **Reverse thrust / idle-reverse policy:** No published idle-reverse restriction found. ---
+- **Noise abatement (NAP):** FAA remarks flag KRNO as a **"noise sensitive area all quadrants"**; turbojet operators are directed to use "recommended noise abatement procedures, available on request" — specific NAP routings not published in the sources checked.
+- **Night noise / dB limits:** Not published in sources checked.
+- **Engine run-up restrictions:** Not published in sources checked.
+- **Reverse thrust / idle-reverse policy:** No published idle-reverse restriction found. ---
 
 ## 13. Ground operations
 
-- **Stands for our types:** Two concourses (B/C), 23 jet bridge gates per public reporting; specific stand/apron assignment not published in the sources checked. - **Push-back:** All commercial aircraft contact Ground Control for advisories prior to pushback on the terminal ramp.
+- **Stands for our types:** Two concourses (B/C), 23 jet bridge gates per public reporting; specific stand/apron assignment not published in the sources checked.
+- **Push-back:** All commercial aircraft contact Ground Control for advisories prior to pushback on the terminal ramp.
 - **Standard taxi routes:** Not detailed in sources checked; note the following published taxiway restrictions:
   - Twy C between Twy L and Twy D — closed to air carrier aircraft / restricted to aircraft ≤100,000 lb.
   - Twy A between north Twy B and Twy D — closed to aircraft with wingspan >149 ft.
   - Twy M — closed to air carrier aircraft.
   - Twy J east of RWY 17L/35R — closed to air carrier aircraft.
-- **Hot spots / tight taxiways:** Not captured from sources checked beyond the restrictions above — verify hot-spot chart on current AIRAC. - **Follow-me:** Availability not captured — verify. ---
+- **Hot spots / tight taxiways:** Not captured from sources checked beyond the restrictions above — verify hot-spot chart on current AIRAC.
+- **Follow-me:** Availability not captured — verify. ---
 
 ## 14. Weather & seasonal (durable)
 
-- **Climate / prevailing wind:** High-desert basin climate at 4,415 ft. NOAA 1991–2020 normals: July mean daily maximum ≈93.9°F (34.4°C), record high 108°F (42°C); winters cold with snow. ``
+- **Climate / prevailing wind:** High-desert basin climate at 4,415 ft. NOAA 1991–2020 normals: July mean daily maximum ≈93.9°F (34.4°C), record high 108°F (42°C); winters cold with snow. 
 - **Seasonal hazards:** Summer — high density altitude on hot afternoons; mountain-wave turbulence and strong gusty winds, especially with westerly flow over the Sierra crest; intensive glider/soaring activity (including 30–50 NM south during mountain-wave conditions). Winter — mountain weather systems bringing snow/icing; airport is FAA-flagged as a **"Cold Temperature Airport"** requiring altimetry temperature correction at or below -13°C.
 - **Local effects:** Terrain-channelled wind through the Truckee Meadows bowl; afternoon convective/orographic effects near the Sierra Nevada and Carson Range.
 
@@ -188,7 +200,9 @@ Hot-and-high performance is the headline planning item: expect reduced climb gra
 ## 16. Fuel & alternate planning notes
 
 - **Typical role for us:** Secondary/enroute destination-area alternate on transcontinental West-Coast routings (e.g., OFP KAY09MA EDDF–KSFO); not a planned network destination — a **mountainous secondary alternate** requiring the performance and CFIT constraints in §3 to be briefed if ever selected.
-- **Nearest suitable alternates:** KRTS Reno-Stead (~11 NM NW, GA field — limited/verify suitability for our types); KCXP Carson City (~18 NM S); KTRK Truckee-Tahoe (~20 NM SW — also high-terrain); KSPZ Silver Springs (~25 NM E). Not cross-checked against current dispatch data — verify against the Fleet/Route register. - **Fuel-uplift notes:** 100LL and Jet A-1+ confirmed available via Atlantic Aviation and Stellar Aviation FBOs; exact hours and contract-fuel arrangements not confirmed — verify before planning an uplift. - **Range/perf flags for our fleet:** Hot-and-high density altitude is the dominant performance driver — takeoff weight/climb-gradient compliance over terrain, not runway length, is the limiting factor for widebody-class types even off the 11,001 ft runway. Link to relevant OM B performance data before using KRNO operationally.
+- **Nearest suitable alternates:** KRTS Reno-Stead (~11 NM NW, GA field — limited/verify suitability for our types); KCXP Carson City (~18 NM S); KTRK Truckee-Tahoe (~20 NM SW — also high-terrain); KSPZ Silver Springs (~25 NM E). Not cross-checked against current dispatch data — verify against the Fleet/Route register.
+- **Fuel-uplift notes:** 100LL and Jet A-1+ confirmed available via Atlantic Aviation and Stellar Aviation FBOs; exact hours and contract-fuel arrangements not confirmed — verify before planning an uplift.
+- **Range/perf flags for our fleet:** Hot-and-high density altitude is the dominant performance driver — takeoff weight/climb-gradient compliance over terrain, not runway length, is the limiting factor for widebody-class types even off the 11,001 ft runway. Link to relevant OM B performance data before using KRNO operationally.
 
 ## 17. Fleet-specific notes (optional)
 

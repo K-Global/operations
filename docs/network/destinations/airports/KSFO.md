@@ -11,7 +11,7 @@ title: KSFO — San Francisco Intl
 
 | Field | Value |
 |---|---|
-| ARP (lat/long) | N37°37.13′ / W122°22.53′ (37.6188, -122.3755) `` |
+| ARP (lat/long) | N37°37.13′ / W122°22.53′ (37.6188, -122.3755) |
 | Field elevation | **13 ft** MSL (surveyed) |
 | Mag variation | 14° E (secondary/AirNav — confirm epoch against current AIRAC) |
 | Time zone | UTC −8 (PST) / UTC −7 (PDT, US DST observed) |
@@ -61,7 +61,11 @@ Plan for **marine-layer-driven arrival delay** June–September (worst Jul–Aug
 
 ## 5. Aerodrome category, restrictions & crew qualification
 
-- **Special-airport / category:** Not formally categorised as a "special airport" in reachable sources; treat the **closely-spaced parallel runway (28L/28R)** geometry and the current staggered-approach mandate as the standing crew-briefing item. - **Crew-qualification gate:** ILS CAT II/III currency required for full-capability ops to 28R; ILS SA CAT II on 28L requires Special Authorization per operator approval — confirm crew/aircraft CAT II/III currency before planning either as the primary approach in low-vis conditions. - **Operating restrictions / bans:** RWY 1L closed to departing tri-jet aircraft with wingspan >155 ft (does not affect A330-900 configuration, but note the type-specific rule exists). Twy Zulu westbound closed to outbound heavy aircraft with wingspan ≥171 ft under power (**applies to our A330-900neo, ≈210 ft**) — see §13. No RNP AR ban found; no circling-not-authorised note found — verify current AIRAC. - **Overflight / entry / permits:** Standard US domestic/international arrival; confirm any state/CBP pre-clearance requirements on the OFP. - **Operations notes:** ANSP — FAA (NORCAL TRACON, Oakland ARTCC); Airport operator — City & County of San Francisco. Noise-sensitive airport — Airport Noise Abatement Office contactable Mon–Fri 0800–1700 (650-821-5100).
+- **Special-airport / category:** Not formally categorised as a "special airport" in reachable sources; treat the **closely-spaced parallel runway (28L/28R)** geometry and the current staggered-approach mandate as the standing crew-briefing item.
+- **Crew-qualification gate:** ILS CAT II/III currency required for full-capability ops to 28R; ILS SA CAT II on 28L requires Special Authorization per operator approval — confirm crew/aircraft CAT II/III currency before planning either as the primary approach in low-vis conditions.
+- **Operating restrictions / bans:** RWY 1L closed to departing tri-jet aircraft with wingspan >155 ft (does not affect A330-900 configuration, but note the type-specific rule exists). Twy Zulu westbound closed to outbound heavy aircraft with wingspan ≥171 ft under power (**applies to our A330-900neo, ≈210 ft**) — see §13. No RNP AR ban found; no circling-not-authorised note found — verify current AIRAC.
+- **Overflight / entry / permits:** Standard US domestic/international arrival; confirm any state/CBP pre-clearance requirements on the OFP.
+- **Operations notes:** ANSP — FAA (NORCAL TRACON, Oakland ARTCC); Airport operator — City & County of San Francisco. Noise-sensitive airport — Airport Noise Abatement Office contactable Mon–Fri 0800–1700 (650-821-5100).
 
 ## 6. General / hours / services
 
@@ -135,23 +139,32 @@ Plan for **marine-layer-driven arrival delay** June–September (worst Jul–Aug
 | 10R | RNAV (RNP) Z RWY 10R, RNAV (GPS) Y RWY 10R | No ILS published this end |
 
 - **STARs (names only):** ALWYS THREE (RNAV), **BDEGA FOUR (RNAV)** *(our OFP arrival)*, BIG SUR THREE, DYAMD FIVE (RNAV), MODESTO NINE, PIRAT THREE (RNAV), POINT REYES THREE, RISTI ONE (RNAV), SERFR FOUR (RNAV), STINS FOUR, STLER FOUR (RNAV), WWAVS TWO (RNAV), YOSEM THREE (RNAV).
-- **LVP:** CAT II/III equipment and lighting confirmed on 28R; SA CAT II on 28L requires operator/crew special authorization — trigger conditions per current chart. - **Missed approach watch-items:** Most approach paths track over San Francisco Bay/Pacific approaches — low terrain close-in, but airspace density (Class B, closely-spaced parallels) is the primary missed-approach workload driver. Brief the published MAP and expect vectoring back into a high-density radar environment.
+- **LVP:** CAT II/III equipment and lighting confirmed on 28R; SA CAT II on 28L requires operator/crew special authorization — trigger conditions per current chart.
+- **Missed approach watch-items:** Most approach paths track over San Francisco Bay/Pacific approaches — low terrain close-in, but airspace density (Class B, closely-spaced parallels) is the primary missed-approach workload driver. Brief the published MAP and expect vectoring back into a high-density radar environment.
 
 ## 11. Departure
 
 - **SIDs (names only — fly the charted version):** CIITY THREE (RNAV), **GAP SEVEN**, GNNRR THREE (RNAV), MOLEN NINE, NIITE FOUR (RNAV), SAHEY FOUR (RNAV), **SAN FRANCISCO FIVE**, SEGUL ONE (RNAV), SNTNA TWO (RNAV), **SSTIK FIVE (RNAV)**, TRUKN TWO (RNAV), WESLA FIVE (RNAV).
 - **RNP / climb-gradient requirements:** RNAV SIDs likely require RNP-1 (or better) equipage per FAA standard — confirm gradient/equipage requirements on the current chart; no unusual (hot-and-high style) gradients expected at sea level.
-- **Take-off minima:** Published on the FAA take-off minimums/DVA page for SFO — verify current values before use. - **Start-up / push-back:** Not confirmed in reachable extract — verify cross-bleed/APU notification requirements and push-back procedure locally. - **ATC slot / CTOT & clearance:** Clearance Delivery/Pre-Taxi Clearance on 118.2. No formal slot-control regime confirmed for SFO in reachable sources — verify on the OFP; note the reduced-capacity operating environment described in §3.2 can still generate flow-control (EDCT) restrictions in practice. - **De-icing:** Mediterranean climate — de-icing rarely required; not confirmed as a routinely available service. Verify if operating in a rare winter cold event.
+- **Take-off minima:** Published on the FAA take-off minimums/DVA page for SFO — verify current values before use.
+- **Start-up / push-back:** Not confirmed in reachable extract — verify cross-bleed/APU notification requirements and push-back procedure locally.
+- **ATC slot / CTOT & clearance:** Clearance Delivery/Pre-Taxi Clearance on 118.2. No formal slot-control regime confirmed for SFO in reachable sources — verify on the OFP; note the reduced-capacity operating environment described in §3.2 can still generate flow-control (EDCT) restrictions in practice.
+- **De-icing:** Mediterranean climate — de-icing rarely required; not confirmed as a routinely available service. Verify if operating in a rare winter cold event.
 
 ## 12. Noise & Environmental
 
 - **Noise abatement (NAP):** SFO is a **noise-sensitive airport**. Quiet Bridge Visual RWY 28R and related visual procedures are published specifically for noise routing. Contact the Airport Noise Abatement Office (Mon–Fri 0800–1700, 650-821-5100) for current NAP detail.
-- **Night noise / dB limits:** No specific dB limit found in reachable sources; **voluntary Nighttime Preferential Runway Use Program** (since 1988) governs night runway choice — night arrivals 28L/R, night departures 10L/R, core hours 0100–0600 (broader "night" often cited as 2200–0700). - **Engine run-up restrictions:** Not published in reachable source — verify locally. - **Reverse thrust / idle-reverse policy:** No published idle-reverse restriction found — verify locally. ---
+- **Night noise / dB limits:** No specific dB limit found in reachable sources; **voluntary Nighttime Preferential Runway Use Program** (since 1988) governs night runway choice — night arrivals 28L/R, night departures 10L/R, core hours 0100–0600 (broader "night" often cited as 2200–0700).
+- **Engine run-up restrictions:** Not published in reachable source — verify locally.
+- **Reverse thrust / idle-reverse policy:** No published idle-reverse restriction found — verify locally. ---
 
 ## 13. Ground operations
 
-- **Stands for our types:** Widebody international arrivals use the **International Terminal, Boarding Areas A and G** — at least six gates (incl. A9/G101 clusters) are configured for A380-class aircraft with dual/triple jetways, comfortably accommodating the A330-900 (Code E). - **Push-back:** Not confirmed as mandatory vs. self-manoeuvre in reachable source — verify locally for Code E stands. - **Standard taxi routes:** Confirm with Ground on the day; high-speed Twy T is grooved full-width between 28R and 28L for rapid runway exit.
-- **Hot spots / tight taxiways:** **Twy Zulu — outbound heavy aircraft with wingspan ≥171 ft under power are prohibited from entering the westbound Twy Zulu via Twy Zulu 2.** The **A330-900neo's ≈210 ft (64 m) wingspan is captured by this restriction** — confirm alternate routing with Ground. Separately, **Twy S between Twy Z and Twy S2 is closed to aircraft with wingspan over 215 ft** (does not affect the A330-900). Two **obstructed-vision** areas exist for Tower (Twy A between Gates 88/89, and between Gates F20/F21) — Tower cannot confirm these areas are clear. Strict adherence to painted nose-gear lines is required; no oversteering adjustment permitted. - **Follow-me:** Availability not confirmed in reachable source — verify locally. ---
+- **Stands for our types:** Widebody international arrivals use the **International Terminal, Boarding Areas A and G** — at least six gates (incl. A9/G101 clusters) are configured for A380-class aircraft with dual/triple jetways, comfortably accommodating the A330-900 (Code E).
+- **Push-back:** Not confirmed as mandatory vs. self-manoeuvre in reachable source — verify locally for Code E stands.
+- **Standard taxi routes:** Confirm with Ground on the day; high-speed Twy T is grooved full-width between 28R and 28L for rapid runway exit.
+- **Hot spots / tight taxiways:** **Twy Zulu — outbound heavy aircraft with wingspan ≥171 ft under power are prohibited from entering the westbound Twy Zulu via Twy Zulu 2.** The **A330-900neo's ≈210 ft (64 m) wingspan is captured by this restriction** — confirm alternate routing with Ground. Separately, **Twy S between Twy Z and Twy S2 is closed to aircraft with wingspan over 215 ft** (does not affect the A330-900). Two **obstructed-vision** areas exist for Tower (Twy A between Gates 88/89, and between Gates F20/F21) — Tower cannot confirm these areas are clear. Strict adherence to painted nose-gear lines is required; no oversteering adjustment permitted.
+- **Follow-me:** Availability not confirmed in reachable source — verify locally. ---
 
 ## 14. Weather & seasonal (durable)
 

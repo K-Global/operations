@@ -12,8 +12,8 @@ title: BGSF — Kangerlussuaq
 | Field | Value |
 |---|---|
 | ARP (lat/long) | 67°01′01″N 050°41′22″W (≈67.0169, -50.6893) — AIP-derived, corroborated by SkyVector (N67°1.02′/W50°41.36′). Note: some tier-4 listings (OurAirports/AirportGuide/bigorre.org) give a nearby but distinct point ≈67.0122, -50.7116 (likely terminal/town reference, not ARP) — see §18. |
-| Field elevation | 165 ft / 50 m MSL `` |
-| Mag variation | 25.4°W (WMM2020, computed current) ``. Older AIP text carries 32°W (epoch Jan 2009) — confirm current-AIRAC published value. |
+| Field elevation | 165 ft / 50 m MSL |
+| Mag variation | 25.4°W (WMM2020, computed current) . Older AIP text carries 32°W (epoch Jan 2009) — confirm current-AIRAC published value. |
 | Time zone | UTC-2 (standard) / UTC-1 (DST) — America/Godthab |
 | Runway(s) | 09/27, 2,810 x 60 m (9,219 x 197 ft), asphalt, lighted — former Sondrestrom AB, widebody-capable |
 | Preferential runway | Not published / verify — expect wind-driven selection along the fjord axis (see §3.3/§14) |
@@ -61,7 +61,11 @@ BGSF is inland and, per Wikipedia/operational sources, historically **less prone
 
 ## 5. Aerodrome category, restrictions & crew qualification
 
-- **Special-airport / category:** Not formally categorised in the sources reached. Given the fjord approach, absent RWY 27 approach, and procedural control, K Global should treat this as a **briefing-required field**, not a routine alternate. - **Crew-qualification gate:** No published crew-experience restriction found. Recommend company policy require a specific fjord-approach/BGSF briefing before nomination as a primary alternate, given the terrain and RWY 27 approach gap. - **Operating restrictions / bans:** No RNP AR restriction identified; no circling-not-authorised statement found — but with no RWY 27 procedure, an effective circling requirement exists for that runway direction. Verify against current AIP. - **Overflight / entry / permits:** Greenland (Kingdom of Denmark) — no special overflight permit expected for a civil ETOPS/EDTO diversion. PPR status for planned (non-emergency) use is unconfirmed — verify. - **Operations notes:** Third-party ground/FBO handling is available (e.g. My Ops and others advertise fuel, ground handling, de-icing coordination at BGSF) — services outside scheduled Air Greenland operating hours should be confirmed in advance, not assumed. ---
+- **Special-airport / category:** Not formally categorised in the sources reached. Given the fjord approach, absent RWY 27 approach, and procedural control, K Global should treat this as a **briefing-required field**, not a routine alternate.
+- **Crew-qualification gate:** No published crew-experience restriction found. Recommend company policy require a specific fjord-approach/BGSF briefing before nomination as a primary alternate, given the terrain and RWY 27 approach gap.
+- **Operating restrictions / bans:** No RNP AR restriction identified; no circling-not-authorised statement found — but with no RWY 27 procedure, an effective circling requirement exists for that runway direction. Verify against current AIP.
+- **Overflight / entry / permits:** Greenland (Kingdom of Denmark) — no special overflight permit expected for a civil ETOPS/EDTO diversion. PPR status for planned (non-emergency) use is unconfirmed — verify.
+- **Operations notes:** Third-party ground/FBO handling is available (e.g. My Ops and others advertise fuel, ground handling, de-icing coordination at BGSF) — services outside scheduled Air Greenland operating hours should be confirmed in advance, not assumed. ---
 
 ## 6. General / hours / services
 
@@ -109,7 +113,8 @@ BGSF is inland and, per Wikipedia/operational sources, historically **less prone
 
 ## 10. Arrival
 
-- **Transition altitude / level:** Not published / verify - **Speed:** Standard 250 KIAS below FL100 assumed; not confirmed against a BGSF-specific restriction - **Preferential runway logic:** Not published / verify — expect wind to drive runway selection along the fjord axis (09/27); a late swing to 27 removes the only published instrument approach (see §3.1/§3.5). - **Approaches (names only — verify minima on current AIRAC charts):**
+- **Transition altitude / level:** Not published / verify - **Speed:** Standard 250 KIAS below FL100 assumed; not confirmed against a BGSF-specific restriction - **Preferential runway logic:** Not published / verify — expect wind to drive runway selection along the fjord axis (09/27); a late swing to 27 removes the only published instrument approach (see §3.1/§3.5).
+- **Approaches (names only — verify minima on current AIRAC charts):**
 
 | RWY | Approach | IAF | FAF/FAP alt | Notes |
 |---|---|---|---|---|
@@ -121,20 +126,33 @@ BGSF is inland and, per Wikipedia/operational sources, historically **less prone
 | 09 | NDB Y RWY 09 | Not published / verify | Not published / verify | |
 | 27 | — none published — | — | — | **No instrument approach for RWY 27** — visual/circling only |
 
-- **STARs (names only):** Not identified from sources reached — verify on current AIRAC. - **LVP:** Not published / verify. - **Missed approach watch-items:** Terrain rises on both sides of the fjord; assume the missed-approach climb must clear valley walls, not open terrain — verify the published MAP against the current chart before relying on it. ---
+- **STARs (names only):** Not identified from sources reached — verify on current AIRAC.
+- **LVP:** Not published / verify.
+- **Missed approach watch-items:** Terrain rises on both sides of the fjord; assume the missed-approach climb must clear valley walls, not open terrain — verify the published MAP against the current chart before relying on it. ---
 
 ## 11. Departure
 
 - **SIDs (names only — fly the charted version):** RNP 1 SID RWY 09; RNP 1 SID RWY 27 (both published per current AIRAC, AIRAC AMDT 12/24 series).
-- **RNP / climb-gradient requirements:** RNP 1 SIDs are published for both runway directions — given the fjord terrain, treat published climb gradients as a real constraint, not a formality. Verify current gradient requirements on the chart. - **Take-off minima:** Not published / verify. - **Start-up / push-back:** Not published / verify — no company-specific procedure identified. - **ATC slot / CTOT & clearance:** No slot regime identified; low-traffic procedural field. - **De-icing:** Third-party FBO/handling sources advertise de-icing coordination at BGSF; procedure/frequency not confirmed from a primary source. Given the extreme-cold operating environment, treat de-icing availability as needing pre-flight confirmation, not assumption. ---
+- **RNP / climb-gradient requirements:** RNP 1 SIDs are published for both runway directions — given the fjord terrain, treat published climb gradients as a real constraint, not a formality. Verify current gradient requirements on the chart.
+- **Take-off minima:** Not published / verify.
+- **Start-up / push-back:** Not published / verify — no company-specific procedure identified.
+- **ATC slot / CTOT & clearance:** No slot regime identified; low-traffic procedural field.
+- **De-icing:** Third-party FBO/handling sources advertise de-icing coordination at BGSF; procedure/frequency not confirmed from a primary source. Given the extreme-cold operating environment, treat de-icing availability as needing pre-flight confirmation, not assumption. ---
 
 ## 12. Noise & Environmental
 
-- **Noise abatement (NAP):** None identified — remote field, low population density. NIL / verify. - **Night noise / dB limits:** Not published / verify. - **Engine run-up restrictions:** Not published / verify. - **Reverse thrust / idle-reverse policy:** Not published / verify. ---
+- **Noise abatement (NAP):** None identified — remote field, low population density. NIL / verify.
+- **Night noise / dB limits:** Not published / verify.
+- **Engine run-up restrictions:** Not published / verify.
+- **Reverse thrust / idle-reverse policy:** Not published / verify. ---
 
 ## 13. Ground operations
 
-- **Stands for our types:** Former USAF base with historically generous apron space; current stand count/dimensions for widebody types not confirmed from a primary source. - **Push-back:** Not published / verify. - **Standard taxi routes:** Not published / verify. - **Hot spots / tight taxiways:** None identified from sources reached — not confirmed absent. - **Follow-me:** Not published / verify; plausible given low staffing at a remote field. ---
+- **Stands for our types:** Former USAF base with historically generous apron space; current stand count/dimensions for widebody types not confirmed from a primary source.
+- **Push-back:** Not published / verify.
+- **Standard taxi routes:** Not published / verify.
+- **Hot spots / tight taxiways:** None identified from sources reached — not confirmed absent.
+- **Follow-me:** Not published / verify; plausible given low staffing at a remote field. ---
 
 ## 14. Weather & seasonal (durable)
 
@@ -151,7 +169,9 @@ BGSF is inland and, per Wikipedia/operational sources, historically **less prone
 ## 16. Fuel & alternate planning notes
 
 - **Typical role for us:** Primary **ETOPS/EDTO enroute alternate**; named as the **ETP-entry alternate on OFP KAY09MA EDDF–KSFO** (OFP §9, WX MIN 600-3219). Per industry NAT-alternate guidance (OPSGROUP, Dec 2025/Mar 2026 updates), operators of aircraft **larger than A330-class are advised to prefer BGSF over BGGH/Nuuk** given BGSF's longer runway and lower traffic — reinforcing its role as K Global's primary heavy-widebody Greenland alternate.
-- **Nearest suitable alternates:** BGGH Nuuk (jet-capable, 2,200 m, ILS both ends, but runway/traffic profile favours smaller types per the guidance above); BIKF Keflavík (primary western-NAT/Iceland gateway). See  §8 for the full high-latitude diversion table. Distances not cross-checked against current dispatch data at build time — verify. - **Fuel-uplift notes:** Jet A-1 confirmed available via third-party FBO/handling (e.g. My Ops); hours, quantity assurance, and quality-control specifics not confirmed from a primary source — verify before relying on an uplift here. - **Range/perf flags for our fleet:** Runway length (2,810 m) is not a constraint for any K Global type. The binding constraint is **RFF category** (certified CAT 8 vs a possible current CAT 7 w/ 4h PN limitation) for our largest widebody types — confirm against current NOTAM/AIP before nominating BGSF unannounced for those types. Fuel-freeze relevance applies to any aircraft arriving cold-soaked off a long high-latitude sector — see  §8. Link OM B for type-specific ETOPS/EDTO diversion-weight planning. ---
+- **Nearest suitable alternates:** BGGH Nuuk (jet-capable, 2,200 m, ILS both ends, but runway/traffic profile favours smaller types per the guidance above); BIKF Keflavík (primary western-NAT/Iceland gateway). See  §8 for the full high-latitude diversion table. Distances not cross-checked against current dispatch data at build time — verify.
+- **Fuel-uplift notes:** Jet A-1 confirmed available via third-party FBO/handling (e.g. My Ops); hours, quantity assurance, and quality-control specifics not confirmed from a primary source — verify before relying on an uplift here.
+- **Range/perf flags for our fleet:** Runway length (2,810 m) is not a constraint for any K Global type. The binding constraint is **RFF category** (certified CAT 8 vs a possible current CAT 7 w/ 4h PN limitation) for our largest widebody types — confirm against current NOTAM/AIP before nominating BGSF unannounced for those types. Fuel-freeze relevance applies to any aircraft arriving cold-soaked off a long high-latitude sector — see  §8. Link OM B for type-specific ETOPS/EDTO diversion-weight planning. ---
 
 ## 17. Fleet-specific notes (optional)
 

@@ -59,7 +59,11 @@ Radar-vectored environment with no charted SIDs/STARs — brief the expected exi
 
 ## 5. Aerodrome category, restrictions & crew qualification
 
-- **Special-airport / category:** Not operator-categorised in reachable sources; no published "special airport" designation found. - **Crew-qualification gate:** None confirmed in reachable source — verify (CAT II ops on equipped runways need certified crew/aircraft). - **Operating restrictions / bans:** Self-positioned VFR not permitted (national rule). Prohibited/restricted areas around Cairo — verify ENR 5 and NOTAMs. No AR ban found — verify. - **Overflight / entry / permits:** State permits per Egypt; verify on the OFP. - **Operations notes:** Regulator — Egyptian Civil Aviation Authority; ANSP — NANSC (National Air Navigation Services Company). FIR — Cairo (HECC). On-field FBO/fuel — Petroleum Air Services (PAS) / General Aviation Support Egypt (GASE).
+- **Special-airport / category:** Not operator-categorised in reachable sources; no published "special airport" designation found.
+- **Crew-qualification gate:** None confirmed in reachable source — verify (CAT II ops on equipped runways need certified crew/aircraft).
+- **Operating restrictions / bans:** Self-positioned VFR not permitted (national rule). Prohibited/restricted areas around Cairo — verify ENR 5 and NOTAMs. No AR ban found — verify.
+- **Overflight / entry / permits:** State permits per Egypt; verify on the OFP.
+- **Operations notes:** Regulator — Egyptian Civil Aviation Authority; ANSP — NANSC (National Air Navigation Services Company). FIR — Cairo (HECC). On-field FBO/fuel — Petroleum Air Services (PAS) / General Aviation Support Egypt (GASE).
 
 ## 6. General / hours / services
 

@@ -63,7 +63,9 @@ This is a high-Arctic station at 76.5°N: **polar night** (no sunrise for an ext
 
 ## 5. Aerodrome category, restrictions & crew qualification
 
-- **Special-airport / category:** Military aerodrome, "Thule (MIL)" in the AIP — not operator-categorised in the civil sense, but effectively maximum-restricted access. - **Crew-qualification gate:** AIP states "special crew and aircraft authorization is required"; no published sim-training/CAT gate found — treat the authorization requirement itself as the gate. - **Operating restrictions / bans:** **"AD cannot be used for planned emergency divert or weather alternate"** (AIP §3.12) ; AD closed Sat/Sun/US federal holidays; ATS only Mon–Fri 1200–2000 UTC; PN 6 HR to the AD even within open hours.
+- **Special-airport / category:** Military aerodrome, "Thule (MIL)" in the AIP — not operator-categorised in the civil sense, but effectively maximum-restricted access.
+- **Crew-qualification gate:** AIP states "special crew and aircraft authorization is required"; no published sim-training/CAT gate found — treat the authorization requirement itself as the gate.
+- **Operating restrictions / bans:** **"AD cannot be used for planned emergency divert or weather alternate"** (AIP §3.12) ; AD closed Sat/Sun/US federal holidays; ATS only Mon–Fri 1200–2000 UTC; PN 6 HR to the AD even within open hours.
 - **Overflight / entry / permits:** PPR mandatory — landing permission ≥30 days in advance from **HAF/A30, 1480 Air Force Pentagon, Washington DC** (TEL +1 703 697 1738), or 72-hour PPR for aircraft with blanket/open approval. Commercial aircraft must additionally contact the FAA Flight Standards District Office / Principal Operations Inspector for guidance and a letter of authorization, and coordinate with the named FAA safety inspector (TEL +1 650 876-2858 per AIP).
 - **Operations notes:** AD administration — **U.S. Air Force** per the AIP text (Thule Airbase, DK-3970 Pituffik; TEL +299 97 66 06 ext 2717; e-mail Thule-BaseOps@Vectrus.com). Note: the base was transferred to the **US Space Force in 2020 and renamed Pituffik Space Base in 2023** (Wikipedia) — the AIP's administrative wording has not been confirmed updated to reflect this; verify current administrative point of contact before use.
 
@@ -98,7 +100,7 @@ This is a high-Arctic station at 76.5°N: **polar night** (no sunrise for an ext
 | Ground | Thule Ground | 275.800 MHz / 119.900 MHz | Mon–Fri 1200–2000 UTC | |
 | Tower | Thule Tower | 126.200 MHz / 255.600 MHz | Mon–Fri 1200–2000 (1100–1900); closed Sat/Sun/US Hol | Operated by US Air Force |
 | Approach | Thule TWR/APP (combined) | As Tower | As Tower | DASR (surveillance radar) referenced for maintenance scheduling |
-| Centre / FIR | Not on this AD page — see Nuuk FIR / Sondrestrom Information (Arctic brief) | — | — | Cross-ref  |
+| Centre / FIR | Not on this AD page — see Nuuk FIR / Sondrestrom Information (Arctic brief) | — | — | Cross-ref |
 | Base Ops | Thule Base Ops | 131.100 MHz | — | |
 | Emergency | — | 121.500 MHz (civil) / 243.000 MHz (military) | — | |
 
@@ -148,7 +150,8 @@ This is a high-Arctic station at 76.5°N: **polar night** (no sunrise for an ext
 
 ## 13. Ground operations
 
-- **Stands for our types:** Apron surface/strength data blank in AIP (§8); **hangar space for visiting aircraft is "extremely limited"** per AIP §4.5 — do not assume covered parking is available. - **Push-back:** Not published — verify .
+- **Stands for our types:** Apron surface/strength data blank in AIP (§8); **hangar space for visiting aircraft is "extremely limited"** per AIP §4.5 — do not assume covered parking is available.
+- **Push-back:** Not published — verify .
 - **Standard taxi routes:** Not published — verify .
 - **Hot spots / tight taxiways:** Not published — verify .
 - **Follow-me:** Not published — verify .

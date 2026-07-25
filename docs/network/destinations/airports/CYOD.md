@@ -13,11 +13,11 @@ title: CYOD — Cold Lake
 
 | Field | Value |
 |---|---|
-| ARP (lat/long) | 54°24′18″N 110°16′44″W (54.405, −110.279) ``; Wikipedia gives 54.40528°N 110.28222°W — consistent within rounding |
-| Field elevation | 1,775 ft / 541 m MSL `` |
+| ARP (lat/long) | 54°24′18″N 110°16′44″W (54.405, −110.279) ; Wikipedia gives 54.40528°N 110.28222°W — consistent within rounding |
+| Field elevation | 1,775 ft / 541 m MSL |
 | Mag variation | Not published / verify — approx. 15°E (regional estimate, not sourced to AIP) |
 | Time zone | Mountain Time — MST UTC−7 / MDT UTC−6 (Alberta observes DST) |
-| Runway(s) | 04/22 — 8,270 × 200 ft; 13L/31R — 12,600 × 200 ft; 13R/31L — 10,000 × 150 ft (all asphalt, lighted) `` |
+| Runway(s) | 04/22 — 8,270 × 200 ft; 13L/31R — 12,600 × 200 ft; 13R/31L — 10,000 × 150 ft (all asphalt, lighted) |
 | Preferential runway | Not published / verify |
 | Longest LDA | Not published / verify — runway 13L/31R physical length 12,600 ft; declared distances (TORA/TODA/ASDA/LDA) not sourced |
 | Approaches | Military-type procedures expected (ILS, TACAN, PAR) — **names only, not confirmed**; verify on current AIRAC/CFS |
@@ -61,7 +61,9 @@ The binding constraint at CYOD is not performance — it is **access**. This is 
 
 ## 5. Aerodrome category, restrictions & crew qualification
 
-- **Special-airport / category:** Military airbase (RCAF 4 Wing, CF-18 Hornet fighter operations) — not categorised under any civil operator special-airport scheme. Treat as a non-standard, PPR-gated field for all civil purposes. - **Crew-qualification gate:** No civil crew-qualification programme exists for this field in K Global's network — it is not a trained-to destination. Any real use would be an emergency/enroute-alternate diversion requiring full command-level briefing and real-time coordination with military ATC before commitment. - **Operating restrictions / bans:** Civil SIDs/STARs and RNP AR procedures are not established for this field in public sources; military approach names (ILS/TACAN/PAR-type) are referenced generically only — verify on current AIRAC/CFS before any planning reliance. Night ops / civil handling capability unconfirmed.
+- **Special-airport / category:** Military airbase (RCAF 4 Wing, CF-18 Hornet fighter operations) — not categorised under any civil operator special-airport scheme. Treat as a non-standard, PPR-gated field for all civil purposes.
+- **Crew-qualification gate:** No civil crew-qualification programme exists for this field in K Global's network — it is not a trained-to destination. Any real use would be an emergency/enroute-alternate diversion requiring full command-level briefing and real-time coordination with military ATC before commitment.
+- **Operating restrictions / bans:** Civil SIDs/STARs and RNP AR procedures are not established for this field in public sources; military approach names (ILS/TACAN/PAR-type) are referenced generically only — verify on current AIRAC/CFS before any planning reliance. Night ops / civil handling capability unconfirmed.
 - **Overflight / entry / permits:** CYOD is nominally listed as an Airport of Entry with CBSA staffing, but per the Canada Flight Supplement (cited via Wikipedia, eff. 2025-11-27 to 2026-01-22) its use by international flights is **currently restricted to military aircraft and personnel**. Unscheduled civilian traffic is directed instead to Cold Lake Regional Airport (CEN5), a separate uncontrolled civil field. **PPR via military channels is required for any civil aircraft movement.** - **Operations notes:** No civil handling/FBO presence is established at CYOD. Any diversion use is an emergency/military-coordinated event, not a planned commercial operation.
 
 ## 6. General / hours / services
@@ -81,9 +83,9 @@ The binding constraint at CYOD is not performance — it is **access**. This is 
 
 | RWY | Dimensions | Surface / PCN | TORA | TODA | ASDA | LDA | Notes |
 |---|---|---|---|---|---|---|---|
-| 04/22 | 8,270 × 200 ft (2,521 × 61 m) | Asphalt, lighted; PCN not published | Not published | Not published | Not published | Not published | `` |
-| 13L/31R | 12,600 × 200 ft (3,840 × 61 m) | Asphalt, lighted; PCN not published | Not published | Not published | Not published | Not published | Longest runway; physically widebody-capable `` |
-| 13R/31L | 10,000 × 150 ft (3,048 × 46 m) | Asphalt, lighted; PCN not published | Not published | Not published | Not published | Not published | `` |
+| 04/22 | 8,270 × 200 ft (2,521 × 61 m) | Asphalt, lighted; PCN not published | Not published | Not published | Not published | Not published | |
+| 13L/31R | 12,600 × 200 ft (3,840 × 61 m) | Asphalt, lighted; PCN not published | Not published | Not published | Not published | Not published | Longest runway; physically widebody-capable |
+| 13R/31L | 10,000 × 150 ft (3,048 × 46 m) | Asphalt, lighted; PCN not published | Not published | Not published | Not published | Not published | |
 
 <!-- Declared distances and PCN require NAV CANADA CFS/AIP Canada (subscription/publication-gated) or military AIP — not reachable as an open public source at build time. -->
 
@@ -91,16 +93,16 @@ The binding constraint at CYOD is not performance — it is **access**. This is 
 
 | Service | Callsign | Frequency | Hours | Notes |
 |---|---|---|---|---|
-| ATIS | — | 26 MHz (as published) — figure appears anomalous/incomplete, verify | Not published | `` |
-| Clearance Delivery | CLD | 120.6 MHz | Not published | `` |
-| Ground | GND | 121.9 MHz | Not published | `` |
-| Tower | TWR | 126.2 MHz | Not published | Military tower `` |
-| Approach | APP | 124.5 MHz | Not published | `` |
-| Departure | DEP | 124.5 MHz | Not published | `` |
-| Arrival | ARR | 124.5 MHz | Not published | `` |
-| Air/Ground (transient servicing) | A/G | 30.87 MHz | Not published | `` |
-| Wing Ops | OPS | 34.02 MHz | Not published | `` |
-| PMSV (military weather) | PMSV | 34.46 MHz | Not published | `` |
+| ATIS | — | 26 MHz (as published) — figure appears anomalous/incomplete, verify | Not published | |
+| Clearance Delivery | CLD | 120.6 MHz | Not published | |
+| Ground | GND | 121.9 MHz | Not published | |
+| Tower | TWR | 126.2 MHz | Not published | Military tower |
+| Approach | APP | 124.5 MHz | Not published | |
+| Departure | DEP | 124.5 MHz | Not published | |
+| Arrival | ARR | 124.5 MHz | Not published | |
+| Air/Ground (transient servicing) | A/G | 30.87 MHz | Not published | |
+| Wing Ops | OPS | 34.02 MHz | Not published | |
+| PMSV (military weather) | PMSV | 34.46 MHz | Not published | |
 | Centre / FIR | — | Edmonton Centre (name only, frequency not published) | — | Cross-check current Canada Airspace/Enroute chart |
 
 All frequencies above are tier-4 (OurAirports) and uncorroborated against CFS/AIP Canada — treat as provisional and re-verify before any real use.
@@ -150,7 +152,9 @@ All frequencies above are tier-4 (OurAirports) and uncorroborated against CFS/AI
 ## 16. Fuel & alternate planning notes
 
 - **Typical role for us:** Fuel-enroute / enroute-alternate reference point only — named as "CYOD/YOD" on OFP KAY09MA (EDDF–KSFO) as the contingency-fuel check point. **Not a scheduled destination, base, or planned diversion of first choice.**
-- **Nearest suitable (civil) alternates for real contingency planning:** CYEG Edmonton International and CYYC Calgary International are the nearest fully civil, fully serviced alternates in the region — exact distances/bearings not verified; confirm via current OFP/route manual before relying on them. Not yet cross-checked against current dispatch data (this field is not a scheduled destination). - **Fuel-uplift notes:** Military supply only; availability by prior arrangement, not established for civil/commercial uplift. Do not plan fuel uplift at CYOD. - **Range/perf flags for our fleet:** Runway length (12,600 ft on 13L/31R) is physically compatible with all K Global widebody types — runway performance is not the constraint. The binding constraint is civil access (military PPR, §5). No OM B type-specific performance penalty identified at this elevation (1,775 ft, non-hot-and-high).
+- **Nearest suitable (civil) alternates for real contingency planning:** CYEG Edmonton International and CYYC Calgary International are the nearest fully civil, fully serviced alternates in the region — exact distances/bearings not verified; confirm via current OFP/route manual before relying on them. Not yet cross-checked against current dispatch data (this field is not a scheduled destination).
+- **Fuel-uplift notes:** Military supply only; availability by prior arrangement, not established for civil/commercial uplift. Do not plan fuel uplift at CYOD.
+- **Range/perf flags for our fleet:** Runway length (12,600 ft on 13L/31R) is physically compatible with all K Global widebody types — runway performance is not the constraint. The binding constraint is civil access (military PPR, §5). No OM B type-specific performance penalty identified at this elevation (1,775 ft, non-hot-and-high).
 
 ## 17. Fleet-specific notes (optional)
 

@@ -58,7 +58,11 @@ High-elevation field (5,330 ft) — density-altitude penalties on take-off perfo
 
 ## 5. Aerodrome category, restrictions & crew qualification
 
-- **Special-airport / category:** Not operator-categorised in reachable sources; no published "special airport" designation found. - **Crew-qualification gate:** None published in reachable source — verify (high-elevation field; CAT II if confirmed needs certified crew/aircraft). - **Operating restrictions / bans:** **Slot-coordinated, SCR Level 3** — slots and handling mandatory. Visual RWY 06 right base ≥1.5 NM from threshold (fuel-tank avoidance). No AR ban found — verify. - **Overflight / entry / permits:** State permits per Kenya; verify on OFP. - **Operations notes:** Regulator/operator — Kenya Civil Aviation Authority (KCAA) / Kenya Airports Authority (KAA). FIR — **Nairobi FIR (HKNA)**.
+- **Special-airport / category:** Not operator-categorised in reachable sources; no published "special airport" designation found.
+- **Crew-qualification gate:** None published in reachable source — verify (high-elevation field; CAT II if confirmed needs certified crew/aircraft).
+- **Operating restrictions / bans:** **Slot-coordinated, SCR Level 3** — slots and handling mandatory. Visual RWY 06 right base ≥1.5 NM from threshold (fuel-tank avoidance). No AR ban found — verify.
+- **Overflight / entry / permits:** State permits per Kenya; verify on OFP.
+- **Operations notes:** Regulator/operator — Kenya Civil Aviation Authority (KCAA) / Kenya Airports Authority (KAA). FIR — **Nairobi FIR (HKNA)**.
 
 ## 6. General / hours / services
 

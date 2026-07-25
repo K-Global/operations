@@ -11,7 +11,7 @@ title: CYZF — Yellowknife
 
 | Field | Value |
 |---|---|
-| ARP (lat/long) | N62°27′47″ W114°26′25″ (62.4631, -114.4403) `` |
+| ARP (lat/long) | N62°27′47″ W114°26′25″ (62.4631, -114.4403) |
 | Field elevation | 675 ft / 206 m |
 | Mag variation | ~16°E (2018 AIP epoch, CFS/SkyVector); current estimate ≈15.5°E (2026) — changing >1°/3 yr near this latitude verify current epoch. Note: **CYZF lies within the Northern Domestic Airspace (NDA)** — procedures/runway idents are TRUE-referenced (0° declination in NDA), not magnetic — see  §4. |
 | Time zone | UTC−7 (MST) / UTC−6 (MDT, summer) |
@@ -61,7 +61,11 @@ Sub-Arctic continental climate: long, severe winters (routine sub‑(-30 °C) te
 
 ## 5. Aerodrome category, restrictions & crew qualification
 
-- **Special-airport / category:** Not operator-categorised in the reachable source. - **Crew-qualification gate:** None identified — extreme-cold-ops competency (cold-soak fuel, cold-start, altimetry corrections) should be assumed a standing requirement for any Arctic-alternate rotation regardless of field-specific gating. - **Operating restrictions / bans:** **RVOP** in effect for low-vis ops (RWY 10/28 used as taxiway west of 16/34; towing needs ATC/FSS clearance; access to 16/34 only via Twy A, H or G). Outside ARFF hours the aerodrome is closed to aircraft ≥20 seats **except for diversions or use as an alternate aerodrome** (no PPR needed for that exception). - **Overflight / entry / permits:** Standard Canadian entry; CYZF is within the **Northern Domestic Airspace (NDA)** — True-track reference, standard-pressure procedures may apply en route per  §4; no separate overflight permit identified for this field. - **Operations notes:** Operator — Government of the Northwest Territories (867-767-9091), certified aerodrome, aerodrome operating hours **1100–0754Z** with O/T 2-hr PN (call-out charge may apply). Transient parking is limited — **PPR required** (867-445-5518). RCAF **440 Transport Squadron** and RCMP "G" Division air section are co-located; military advisory freq 134.1 (no transient servicing available from the military side).
+- **Special-airport / category:** Not operator-categorised in the reachable source.
+- **Crew-qualification gate:** None identified — extreme-cold-ops competency (cold-soak fuel, cold-start, altimetry corrections) should be assumed a standing requirement for any Arctic-alternate rotation regardless of field-specific gating.
+- **Operating restrictions / bans:** **RVOP** in effect for low-vis ops (RWY 10/28 used as taxiway west of 16/34; towing needs ATC/FSS clearance; access to 16/34 only via Twy A, H or G). Outside ARFF hours the aerodrome is closed to aircraft ≥20 seats **except for diversions or use as an alternate aerodrome** (no PPR needed for that exception).
+- **Overflight / entry / permits:** Standard Canadian entry; CYZF is within the **Northern Domestic Airspace (NDA)** — True-track reference, standard-pressure procedures may apply en route per  §4; no separate overflight permit identified for this field.
+- **Operations notes:** Operator — Government of the Northwest Territories (867-767-9091), certified aerodrome, aerodrome operating hours **1100–0754Z** with O/T 2-hr PN (call-out charge may apply). Transient parking is limited — **PPR required** (867-445-5518). RCAF **440 Transport Squadron** and RCMP "G" Division air section are co-located; military advisory freq 134.1 (no transient servicing available from the military side).
 
 ## 6. General / hours / services
 
@@ -143,13 +147,16 @@ Sub-Arctic continental climate: long, severe winters (routine sub‑(-30 °C) te
 
 ## 13. Ground operations
 
-- **Stands for our types:** General-aviation/transient ramp; **transient parking is limited and PPR is required** (867-445-5518). Military (RCAF 440 Sqn) and RCMP "G" Division facilities are co-located but not available for transient servicing. - **Push-back:** Not separately published — verify for code C/D types. - **Standard taxi routes:** Taxiways A–K; **D, E, F, G, K are uncontrolled**. Access to RWY 16/34 restricted to Twy A, H or G during RVOP.
+- **Stands for our types:** General-aviation/transient ramp; **transient parking is limited and PPR is required** (867-445-5518). Military (RCAF 440 Sqn) and RCMP "G" Division facilities are co-located but not available for transient servicing.
+- **Push-back:** Not separately published — verify for code C/D types.
+- **Standard taxi routes:** Taxiways A–K; **D, E, F, G, K are uncontrolled**. Access to RWY 16/34 restricted to Twy A, H or G during RVOP.
 - **Hot spots / tight taxiways:** Not published / verify .
 - **Follow-me:** Not published / verify .
 
 ## 14. Weather & seasonal (durable)
 
-- **Climate / prevailing wind:** Sub-Arctic continental (Köppen Dfc) — long, severe winters and short, mild summers. Prevailing wind not confirmed in the reachable source — verify against climatological data/current AIRAC. - **Seasonal hazards:** Extreme cold Nov–Mar (routine sub‑(-30 °C), occasional sub‑(-40 °C) — cold-soak fuel and altimetry cold-temperature-correction risk); blowing snow/whiteout; ice fog at very low temperature/high humidity; **extensive migratory bird activity Apr–Oct**; modest summer convective activity. At 62.5°N, space-weather HF-blackout/GNSS-scintillation exposure during solar events is a live consideration ( §11).
+- **Climate / prevailing wind:** Sub-Arctic continental (Köppen Dfc) — long, severe winters and short, mild summers. Prevailing wind not confirmed in the reachable source — verify against climatological data/current AIRAC.
+- **Seasonal hazards:** Extreme cold Nov–Mar (routine sub‑(-30 °C), occasional sub‑(-40 °C) — cold-soak fuel and altimetry cold-temperature-correction risk); blowing snow/whiteout; ice fog at very low temperature/high humidity; **extensive migratory bird activity Apr–Oct**; modest summer convective activity. At 62.5°N, space-weather HF-blackout/GNSS-scintillation exposure during solar events is a live consideration ( §11).
 - **Local effects:** Proximity to Great Slave Lake (immediately S/E) may produce localised lake-influenced weather — not separately quantified.
 
 > **Live weather — pull at planning (T-2h):** METAR (H24), TAF (H24, issued 00/06/12/18Z), TREND, SIGMET/AIRMET, and **space-weather (HF/GNSS) advisories — NOAA SWPC**. Not stored here.
@@ -161,7 +168,7 @@ Sub-Arctic continental climate: long, severe winters (routine sub‑(-30 °C) te
 ## 16. Fuel & alternate planning notes
 
 - **Typical role for us:** Primary **western-Arctic ETOPS/EDTO enroute alternate**; cited as the **ETP-exit alternate on OFP KAY09MA EDDF–KSFO** (OFP §9: CYZF, WX MIN 600-3219, FCST 600-4825 — OFP-context, not AIP-sourced). Also listed as the "Western-Arctic alternate" in  §8 (Edmonton FIR/NDA sector).
-- **Nearest suitable alternates:** **CYHY** Hay River (~105 NM S, per SkyVector nearby-navaid data) is the most plausible larger-aircraft alternate nearby; **CEM3** Whati (~87 NM), **CYWE** Wekweètì (~104 NM) and **CYRA** Gamètì/Rae Lakes (~126 NM) are short strips likely unsuitable for our fleet — verify against the OFP alternate minima before use. `` - **Fuel-uplift notes:** Jet A-1 (with FSII) confirmed available via private suppliers (Midnight Petroleum / Det'on Cho Logistics), but only **1200–2359Z Mon–Fri**, with an O/T call-out charge outside those hours — build lead time into any diversion/alternate fuel plan. Confirm grade/quantity on the day's OFP.
+- **Nearest suitable alternates:** **CYHY** Hay River (~105 NM S, per SkyVector nearby-navaid data) is the most plausible larger-aircraft alternate nearby; **CEM3** Whati (~87 NM), **CYWE** Wekweètì (~104 NM) and **CYRA** Gamètì/Rae Lakes (~126 NM) are short strips likely unsuitable for our fleet — verify against the OFP alternate minima before use.  - **Fuel-uplift notes:** Jet A-1 (with FSII) confirmed available via private suppliers (Midnight Petroleum / Det'on Cho Logistics), but only **1200–2359Z Mon–Fri**, with an O/T call-out charge outside those hours — build lead time into any diversion/alternate fuel plan. Confirm grade/quantity on the day's OFP.
 - **Range/perf flags for our fleet:** Not hot-and-high — **extreme cold** is the governing factor: cold-soak fuel management, engine/APU cold-start limits, and altimetry cold-temperature corrections (cross-ref relevant OM B type sections and  §7/§8 fuel-freeze guidance). RFF **CAT 6** may be below requirement for a wide-body diversion — verify against fleet.
 
 ## 17. Fleet-specific notes (optional)

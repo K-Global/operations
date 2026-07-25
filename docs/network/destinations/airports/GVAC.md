@@ -39,12 +39,17 @@ Low-density field, **Class C** SAL CTR (GND–FL85), **radar available** (Sal Ap
 
 **3,000 m × 45 m, flat (0.05% slope), asphalt** — length is a non-issue for a 777-300ER diversion. Two live watch-items:
 - **Crosswind:** the runway is aligned **~360°/180°** and the prevailing wind is the **NE trade** — expect a **quartering crosswind** in normal conditions, stronger when the trades are up. A single-engine / heavy diversion into a crosswind is the real handling threat, not runway length.
-- **Pavement:** **PCN 58/F/A/W/U.** A heavy 777-300ER on flexible pavement can present an **ACN above 58** — a technical overload. For a genuine emergency diversion that is acceptable under ACN/PCN overload provisions, but **brief it and expect a pavement inspection** before any subsequent movement. *(Reasoning from PCN + type, not a sourced ACN figure — .)*
+- **Pavement:** **PCN 58/F/A/W/U.** A heavy 777-300ER on flexible pavement can present an **ACN above 58** — a technical overload. For a genuine emergency diversion that is acceptable under ACN/PCN overload provisions, but **brief it and expect a pavement inspection** before any subsequent movement. *(Reasoning from PCN + type, not a sourced ACN figure)*
 
 ### 3.4 Weather threat
 
 Two seasonal signatures dominate and **must be re-checked at the §14 pull**:
-- **Harmattan (roughly Dec–Feb):** Saharan dust plumes reach the archipelago and **reduce visibility** — the classic Cape Verde "brown-out" haze. On a single-ILS field, dust that pushes 01 below CAT I minima **and** forces a non-precision 19 is the worst-case combination. - **NE trade wind, year-round:** steady, sometimes strong, giving the crosswind in §3.3. Trade-wind cumulus and the occasional easterly wave / late-season tropical system (Cape Verde is the genesis region for Atlantic hurricanes, **Aug–Oct**) round out the picture. ### 3.5 Operational considerations  /**This field's whole reason for being in the pack is ETOPS.** GVAC is the **NORTH ETP diversion alternate**, paired with **SBFZ Fortaleza** as the south alternate; **the GVAC↔SBFZ stretch is the committed ETOPS-120 segment**, equal-time point **ETP1 near N07°43.5′ W032°25.5′**. If the 777 loses an engine or depressurises in the **northern half** of the crossing (before ETP1), **GVAC is the divert** — and the 120-minute single-engine rule sizes the whole exercise. Consequences:
+- **Harmattan (roughly Dec–Feb):** Saharan dust plumes reach the archipelago and **reduce visibility** — the classic Cape Verde "brown-out" haze. On a single-ILS field, dust that pushes 01 below CAT I minima **and** forces a non-precision 19 is the worst-case combination.
+- **NE trade wind, year-round:** steady, sometimes strong, giving the crosswind in §3.3. Trade-wind cumulus and the occasional easterly wave / late-season tropical system (Cape Verde is the genesis region for Atlantic hurricanes, **Aug–Oct**) round out the picture.
+
+### 3.5 Operational considerations
+
+**This field's whole reason for being in the pack is ETOPS.** GVAC is the **NORTH ETP diversion alternate**, paired with **SBFZ Fortaleza** as the south alternate; **the GVAC↔SBFZ stretch is the committed ETOPS-120 segment**, equal-time point **ETP1 near N07°43.5′ W032°25.5′**. If the 777 loses an engine or depressurises in the **northern half** of the crossing (before ETP1), **GVAC is the divert** — and the 120-minute single-engine rule sizes the whole exercise. Consequences:
 - **Single ILS (01):** plan the diversion on **RWY 01 ILS** where wind allows; a **19 landing is non-precision** (RNAV GNSS / circling) and you may be flying it single-engine or unpressurised. Brief both ends before top-of-descent into the divert.
 - **Isolated island:** the alternate-for-the-alternate is thin (§16). Commit the fuel/decision early.
 - **RFF CAT 9 exactly meets** the 777-300ER requirement — a **NOTAM downgrade to CAT 7/8 would break the diversion plan** for a full-weight arrival. Check §15 at planning.
@@ -65,7 +70,8 @@ Two seasonal signatures dominate and **must be re-checked at the §14 pull**:
 - **Special-airport / crew-qualification designation: NONE FOUND** — nothing in AIP AD 2 GVAC designating it a Cat B/C or crew-qual airport. Treat as **none published**.
 - **Slots** — **IATA Level 3, schedule-coordinated** since winter 2017 (AD 2.23, Decree-Law 10/2016). Requests to slot.coordination@asa.cv in IATA SSIM format. **Not a gate for an unscheduled safety diversion.**
 - **Operating restrictions / bans:** none published beyond the night stop-parking note (§4/§13). **RWY 19 non-precision only** is a capability limit, not a ban.
-- **Overflight / entry / permits:** state overflight/landing permits per Cabo Verde; confirm on OFP. - **Operations notes:** removal of disabled aircraft is **operator's responsibility** (AD 2.6/2.20), failing which the AD authority removes it at the operator's expense. Relevant if a diversion goes off the paved area.
+- **Overflight / entry / permits:** state overflight/landing permits per Cabo Verde; confirm on OFP.
+- **Operations notes:** removal of disabled aircraft is **operator's responsibility** (AD 2.6/2.20), failing which the AD authority removes it at the operator's expense. Relevant if a diversion goes off the paved area.
 
 ## 6. General / hours / services
 

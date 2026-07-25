@@ -61,7 +61,8 @@ Procedural, non-radar, island-terrain environment, single runway, asymmetric app
 - **Special-airport / category:** Not operator-categorised (no CCI/AOI in use for FIMP). No "special airport" designation found in the eAIP.
 - **Crew-qualification gate:** None published — no captains-only or sim-training prerequisite in AD 2.
 - **Operating restrictions / bans:** No approach bans or AR restrictions published. Do not overfly Port Louis below 3,500 ft (prohibited-area belt). Many RNP SIDs require **RNP 1** capability (§11).
-- **Overflight / entry / permits:** State permits per Mauritius; verify on OFP. - **Operations notes:** Operators — DCA Mauritius (regulator); Airports of Mauritius Co Ltd / AML (airport); ATOL (terminal). AFS FIMPYAYX.
+- **Overflight / entry / permits:** State permits per Mauritius; verify on OFP.
+- **Operations notes:** Operators — DCA Mauritius (regulator); Airports of Mauritius Co Ltd / AML (airport); ATOL (terminal). AFS FIMPYAYX.
 
 ## 6. General / hours / services
 

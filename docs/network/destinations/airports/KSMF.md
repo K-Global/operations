@@ -11,7 +11,7 @@ title: KSMF — Sacramento Intl
 
 | Field | Value |
 |---|---|
-| ARP (lat/long) | N38°41′43.6″ W121°35′26.8″ (38.695444, -121.590778) `` |
+| ARP (lat/long) | N38°41′43.6″ W121°35′26.8″ (38.695444, -121.590778) |
 | Field elevation | **26.9 ft / 8.2 m** (surveyed) — flat Central Valley floor, no significant local terrain |
 | Mag variation | 13° E (2020 epoch) |
 | Time zone | **UTC −7 (PDT, Mar–Nov) / UTC −8 (PST, Nov–Mar)** — no live DST offset stored here, confirm date |
@@ -60,7 +60,8 @@ KSMF's good long parallel runways, CAT II/III ILS on 17R, and radar Class C cont
 
 ## 5. Aerodrome category, restrictions & crew qualification
 
-- **Special-airport / category:** Not categorised in reachable sources; no special crew-qualification gate identified. - **Crew-qualification gate:** None published — standard qualification expected. Widebody CAT II/III approach currency (17R) applies as per OM B/type training, not a KSMF-specific gate.
+- **Special-airport / category:** Not categorised in reachable sources; no special crew-qualification gate identified.
+- **Crew-qualification gate:** None published — standard qualification expected. Widebody CAT II/III approach currency (17R) applies as per OM B/type training, not a KSMF-specific gate.
 - **Operating restrictions / bans:** Special (non-standard) take-off minimums and alternate minimums are published for KSMF — verify current values before planning . No RNP AR / circling restriction found.
 - **Overflight / entry / permits:** U.S. domestic field; Customs Landing Rights Airport / Port of Entry since 2006-10-05 — advance-notice (eAPIS) requirement for international arrivals not confirmed in reachable source .
 - **Operations notes:** Owned/operated by Sacramento County Airport System (Sacramento County Department of Airports). Sole FBO is Modern Aviation International (UNICOM 122.95, IS-BAH registered).
@@ -120,7 +121,8 @@ KSMF's good long parallel runways, CAT II/III ILS on 17R, and radar Class C cont
 
 - **Transition altitude / level:** US-standard **18,000 ft MSL / FL180** (no field-specific variation).
 - **Speed:** 250 KIAS < FL100 (US domestic standard); observe charted STAR speed/altitude constraints.
-- **Preferential runway logic:** Not formally published. **17R/35L carries the CAT II/III ILS (ALSF2)** and is the natural preference in low-visibility ops; otherwise wind-driven, noting the Central Valley's afternoon "Delta breeze" tends to shift wind NW/W later in the day. - **Approaches (names only — verify minima on current AIRAC charts):**
+- **Preferential runway logic:** Not formally published. **17R/35L carries the CAT II/III ILS (ALSF2)** and is the natural preference in low-visibility ops; otherwise wind-driven, noting the Central Valley's afternoon "Delta breeze" tends to shift wind NW/W later in the day.
+- **Approaches (names only — verify minima on current AIRAC charts):**
 
 | RWY | Approach | Notes |
 |---|---|---|
