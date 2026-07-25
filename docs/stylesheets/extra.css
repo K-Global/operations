@@ -276,12 +276,22 @@
    only — on mobile the nav is a drawer, not tabs.
    ========================================================================== */
 @media screen and (min-width: 76.25em) {
+  /* The header is sticky at top:0 (2.4rem tall). Pin the tab bar directly
+     beneath it, and lift it above the sidebars so it never renders behind the
+     nav rail. Material already reserves the 2.4–4.8rem band for the sidebars. */
   .md-tabs {
     position: sticky;
-    /* Sit directly below the header. Track Material's header-height variable
-       when present so we don't drift if the theme resizes the header; fall
-       back to its current 2.4rem height otherwise. */
+    /* Sit directly below the header. Use Material's header-height variable so
+       we track the real header height if the theme ever changes it; today the
+       variable is undefined and this resolves to the 2.4rem fallback (the value
+       Material itself uses for the sticky sidebar offset). */
     top: var(--md-header-height, 2.4rem);
-    z-index: 3;       /* above content, below the header */
+    z-index: 4;
+  }
+  /* Anchor / in-page links must clear BOTH the header and the sticky tabs, or
+     the target heading lands hidden behind the tab bar. The tab bar is the same
+     height as the header, so the padding is twice the header height (4.8rem). */
+  html {
+    scroll-padding-top: calc(var(--md-header-height, 2.4rem) * 2);
   }
 }

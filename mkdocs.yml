@@ -14,18 +14,6 @@ strict: true
 exclude_docs: |
   assets/README.md
 
-# Pages reachable from within the manual but kept out of the left nav to keep it
-# scannable. Per-airport briefs come off the Destinations region tables; each
-# fleet type's six pack pages come off that type's page.
-not_in_nav: |
-  network/destinations/airports/*.md
-  fleet/*/intro.md
-  fleet/*/dispatch.md
-  fleet/*/sim-model.md
-  fleet/*/checklist.md
-  fleet/*/qrh.md
-  fleet/*/livery.md
-
 theme:
   name: material
   custom_dir: overrides
@@ -50,13 +38,15 @@ theme:
         name: Switch to light mode
   features:
     - navigation.tabs
-    - navigation.sections
     - navigation.indexes
     - navigation.top
     - navigation.tracking
     - navigation.instant
     - navigation.instant.progress
     - navigation.footer
+    # Fold each page's headings into the left nav under the active page, so the
+    # sidebar is one rail of folder pages + in-page links (no separate TOC).
+    - toc.integrate
     - toc.follow
     - search.suggest
     - search.highlight
@@ -141,45 +131,283 @@ nav:
       - Overview: fleet/index.md
       - Capability Matrix: fleet/capability-matrix.md
       - Airbus:
-          - "A220-300 · BCS3": fleet/bcs3/index.md
-          - "A319": fleet/a319/index.md
-          - "A320": fleet/a320/index.md
-          - "A321neo · A21N": fleet/a21n/index.md
-          - "A330-900neo · A339": fleet/a339/index.md
-          - "A340-600 · A346": fleet/a346/index.md
-          - "A350-900 · A359": fleet/a359/index.md
-          - "A350-1000 · A35K": fleet/a35k/index.md
-          - "A380-800 · A388": fleet/a388/index.md
+          - "A220-300 · BCS3":
+              - fleet/bcs3/index.md
+              - "Intro": fleet/bcs3/intro.md
+              - "Dispatch": fleet/bcs3/dispatch.md
+              - "Sim-Model": fleet/bcs3/sim-model.md
+              - "Checklist": fleet/bcs3/checklist.md
+              - "QRH": fleet/bcs3/qrh.md
+              - "Livery": fleet/bcs3/livery.md
+          - "A319":
+              - fleet/a319/index.md
+              - "Intro": fleet/a319/intro.md
+              - "Dispatch": fleet/a319/dispatch.md
+              - "Sim-Model": fleet/a319/sim-model.md
+              - "Checklist": fleet/a319/checklist.md
+              - "QRH": fleet/a319/qrh.md
+              - "Livery": fleet/a319/livery.md
+          - "A320":
+              - fleet/a320/index.md
+              - "Intro": fleet/a320/intro.md
+              - "Dispatch": fleet/a320/dispatch.md
+              - "Sim-Model": fleet/a320/sim-model.md
+              - "Checklist": fleet/a320/checklist.md
+              - "QRH": fleet/a320/qrh.md
+              - "Livery": fleet/a320/livery.md
+          - "A321neo · A21N":
+              - fleet/a21n/index.md
+              - "Intro": fleet/a21n/intro.md
+              - "Dispatch": fleet/a21n/dispatch.md
+              - "Sim-Model": fleet/a21n/sim-model.md
+              - "Checklist": fleet/a21n/checklist.md
+              - "QRH": fleet/a21n/qrh.md
+              - "Livery": fleet/a21n/livery.md
+          - "A330-900neo · A339":
+              - fleet/a339/index.md
+              - "Intro": fleet/a339/intro.md
+              - "Dispatch": fleet/a339/dispatch.md
+              - "Sim-Model": fleet/a339/sim-model.md
+              - "Checklist": fleet/a339/checklist.md
+              - "QRH": fleet/a339/qrh.md
+              - "Livery": fleet/a339/livery.md
+          - "A340-600 · A346":
+              - fleet/a346/index.md
+              - "Intro": fleet/a346/intro.md
+              - "Dispatch": fleet/a346/dispatch.md
+              - "Sim-Model": fleet/a346/sim-model.md
+              - "Checklist": fleet/a346/checklist.md
+              - "QRH": fleet/a346/qrh.md
+              - "Livery": fleet/a346/livery.md
+          - "A350-900 · A359":
+              - fleet/a359/index.md
+              - "Intro": fleet/a359/intro.md
+              - "Dispatch": fleet/a359/dispatch.md
+              - "Sim-Model": fleet/a359/sim-model.md
+              - "Checklist": fleet/a359/checklist.md
+              - "QRH": fleet/a359/qrh.md
+              - "Livery": fleet/a359/livery.md
+          - "A350-1000 · A35K":
+              - fleet/a35k/index.md
+              - "Intro": fleet/a35k/intro.md
+              - "Dispatch": fleet/a35k/dispatch.md
+              - "Sim-Model": fleet/a35k/sim-model.md
+              - "Checklist": fleet/a35k/checklist.md
+              - "QRH": fleet/a35k/qrh.md
+              - "Livery": fleet/a35k/livery.md
+          - "A380-800 · A388":
+              - fleet/a388/index.md
+              - "Intro": fleet/a388/intro.md
+              - "Dispatch": fleet/a388/dispatch.md
+              - "Sim-Model": fleet/a388/sim-model.md
+              - "Checklist": fleet/a388/checklist.md
+              - "QRH": fleet/a388/qrh.md
+              - "Livery": fleet/a388/livery.md
       - Boeing & McDonnell Douglas:
-          - "737-800 · B738": fleet/b738/index.md
-          - "747-8 · B748": fleet/b748/index.md
-          - "777-300ER · B77W": fleet/b77w/index.md
-          - "777F · B77F": fleet/b77f/index.md
-          - "787-9 · B789": fleet/b789/index.md
-          - "MD-11F · MD11": fleet/md11/index.md
+          - "737-800 · B738":
+              - fleet/b738/index.md
+              - "Intro": fleet/b738/intro.md
+              - "Dispatch": fleet/b738/dispatch.md
+              - "Sim-Model": fleet/b738/sim-model.md
+              - "Checklist": fleet/b738/checklist.md
+              - "QRH": fleet/b738/qrh.md
+              - "Livery": fleet/b738/livery.md
+          - "747-8 · B748":
+              - fleet/b748/index.md
+              - "Intro": fleet/b748/intro.md
+              - "Dispatch": fleet/b748/dispatch.md
+              - "Sim-Model": fleet/b748/sim-model.md
+              - "Checklist": fleet/b748/checklist.md
+              - "QRH": fleet/b748/qrh.md
+              - "Livery": fleet/b748/livery.md
+          - "777-300ER · B77W":
+              - fleet/b77w/index.md
+              - "Intro": fleet/b77w/intro.md
+              - "Dispatch": fleet/b77w/dispatch.md
+              - "Sim-Model": fleet/b77w/sim-model.md
+              - "Checklist": fleet/b77w/checklist.md
+              - "QRH": fleet/b77w/qrh.md
+              - "Livery": fleet/b77w/livery.md
+          - "777F · B77F":
+              - fleet/b77f/index.md
+              - "Intro": fleet/b77f/intro.md
+              - "Dispatch": fleet/b77f/dispatch.md
+              - "Sim-Model": fleet/b77f/sim-model.md
+              - "Checklist": fleet/b77f/checklist.md
+              - "QRH": fleet/b77f/qrh.md
+              - "Livery": fleet/b77f/livery.md
+          - "787-9 · B789":
+              - fleet/b789/index.md
+              - "Intro": fleet/b789/intro.md
+              - "Dispatch": fleet/b789/dispatch.md
+              - "Sim-Model": fleet/b789/sim-model.md
+              - "Checklist": fleet/b789/checklist.md
+              - "QRH": fleet/b789/qrh.md
+              - "Livery": fleet/b789/livery.md
+          - "MD-11F · MD11":
+              - fleet/md11/index.md
+              - "Intro": fleet/md11/intro.md
+              - "Dispatch": fleet/md11/dispatch.md
+              - "Sim-Model": fleet/md11/sim-model.md
+              - "Checklist": fleet/md11/checklist.md
+              - "QRH": fleet/md11/qrh.md
+              - "Livery": fleet/md11/livery.md
       - Embraer:
-          - "E190": fleet/e190/index.md
-          - "E195": fleet/e195/index.md
-          - "E170 · E70": fleet/e70/index.md
-          - "E175 · E75": fleet/e75/index.md
-          - "ERJ-145 · E145": fleet/e145/index.md
-          - "Legacy 650 · E35L": fleet/e35l/index.md
+          - "E190":
+              - fleet/e190/index.md
+              - "Intro": fleet/e190/intro.md
+              - "Dispatch": fleet/e190/dispatch.md
+              - "Sim-Model": fleet/e190/sim-model.md
+              - "Checklist": fleet/e190/checklist.md
+              - "QRH": fleet/e190/qrh.md
+              - "Livery": fleet/e190/livery.md
+          - "E195":
+              - fleet/e195/index.md
+              - "Intro": fleet/e195/intro.md
+              - "Dispatch": fleet/e195/dispatch.md
+              - "Sim-Model": fleet/e195/sim-model.md
+              - "Checklist": fleet/e195/checklist.md
+              - "QRH": fleet/e195/qrh.md
+              - "Livery": fleet/e195/livery.md
+          - "E170 · E70":
+              - fleet/e70/index.md
+              - "Intro": fleet/e70/intro.md
+              - "Dispatch": fleet/e70/dispatch.md
+              - "Sim-Model": fleet/e70/sim-model.md
+              - "Checklist": fleet/e70/checklist.md
+              - "QRH": fleet/e70/qrh.md
+              - "Livery": fleet/e70/livery.md
+          - "E175 · E75":
+              - fleet/e75/index.md
+              - "Intro": fleet/e75/intro.md
+              - "Dispatch": fleet/e75/dispatch.md
+              - "Sim-Model": fleet/e75/sim-model.md
+              - "Checklist": fleet/e75/checklist.md
+              - "QRH": fleet/e75/qrh.md
+              - "Livery": fleet/e75/livery.md
+          - "ERJ-145 · E145":
+              - fleet/e145/index.md
+              - "Intro": fleet/e145/intro.md
+              - "Dispatch": fleet/e145/dispatch.md
+              - "Sim-Model": fleet/e145/sim-model.md
+              - "Checklist": fleet/e145/checklist.md
+              - "QRH": fleet/e145/qrh.md
+              - "Livery": fleet/e145/livery.md
+          - "Legacy 650 · E35L":
+              - fleet/e35l/index.md
+              - "Intro": fleet/e35l/intro.md
+              - "Dispatch": fleet/e35l/dispatch.md
+              - "Sim-Model": fleet/e35l/sim-model.md
+              - "Checklist": fleet/e35l/checklist.md
+              - "QRH": fleet/e35l/qrh.md
+              - "Livery": fleet/e35l/livery.md
       - Regional:
-          - "CRJ700 · CRJ7": fleet/crj7/index.md
-          - "CRJ900 · CRJ9": fleet/crj9/index.md
-          - "CRJ-200 · CRJ2": fleet/crj2/index.md
-          - "Dash 8 Q400 · DH8D": fleet/dh8d/index.md
-          - "ATR 72-600 · AT76": fleet/at76/index.md
-          - "ATR 42-600 · AT46": fleet/at46/index.md
-          - "Saab 340B · SF34": fleet/sf34/index.md
+          - "CRJ700 · CRJ7":
+              - fleet/crj7/index.md
+              - "Intro": fleet/crj7/intro.md
+              - "Dispatch": fleet/crj7/dispatch.md
+              - "Sim-Model": fleet/crj7/sim-model.md
+              - "Checklist": fleet/crj7/checklist.md
+              - "QRH": fleet/crj7/qrh.md
+              - "Livery": fleet/crj7/livery.md
+          - "CRJ900 · CRJ9":
+              - fleet/crj9/index.md
+              - "Intro": fleet/crj9/intro.md
+              - "Dispatch": fleet/crj9/dispatch.md
+              - "Sim-Model": fleet/crj9/sim-model.md
+              - "Checklist": fleet/crj9/checklist.md
+              - "QRH": fleet/crj9/qrh.md
+              - "Livery": fleet/crj9/livery.md
+          - "CRJ-200 · CRJ2":
+              - fleet/crj2/index.md
+              - "Intro": fleet/crj2/intro.md
+              - "Dispatch": fleet/crj2/dispatch.md
+              - "Sim-Model": fleet/crj2/sim-model.md
+              - "Checklist": fleet/crj2/checklist.md
+              - "QRH": fleet/crj2/qrh.md
+              - "Livery": fleet/crj2/livery.md
+          - "Dash 8 Q400 · DH8D":
+              - fleet/dh8d/index.md
+              - "Intro": fleet/dh8d/intro.md
+              - "Dispatch": fleet/dh8d/dispatch.md
+              - "Sim-Model": fleet/dh8d/sim-model.md
+              - "Checklist": fleet/dh8d/checklist.md
+              - "QRH": fleet/dh8d/qrh.md
+              - "Livery": fleet/dh8d/livery.md
+          - "ATR 72-600 · AT76":
+              - fleet/at76/index.md
+              - "Intro": fleet/at76/intro.md
+              - "Dispatch": fleet/at76/dispatch.md
+              - "Sim-Model": fleet/at76/sim-model.md
+              - "Checklist": fleet/at76/checklist.md
+              - "QRH": fleet/at76/qrh.md
+              - "Livery": fleet/at76/livery.md
+          - "ATR 42-600 · AT46":
+              - fleet/at46/index.md
+              - "Intro": fleet/at46/intro.md
+              - "Dispatch": fleet/at46/dispatch.md
+              - "Sim-Model": fleet/at46/sim-model.md
+              - "Checklist": fleet/at46/checklist.md
+              - "QRH": fleet/at46/qrh.md
+              - "Livery": fleet/at46/livery.md
+          - "Saab 340B · SF34":
+              - fleet/sf34/index.md
+              - "Intro": fleet/sf34/intro.md
+              - "Dispatch": fleet/sf34/dispatch.md
+              - "Sim-Model": fleet/sf34/sim-model.md
+              - "Checklist": fleet/sf34/checklist.md
+              - "QRH": fleet/sf34/qrh.md
+              - "Livery": fleet/sf34/livery.md
       - Business Jets:
-          - "G650ER · GLF6": fleet/glf6/index.md
-          - "G550 · GLF5": fleet/glf5/index.md
-          - "Falcon 7X · FA7X": fleet/fa7x/index.md
-          - "Challenger 300 · CL30": fleet/cl30/index.md
-          - "PC-12 · PC12": fleet/pc12/index.md
+          - "G650ER · GLF6":
+              - fleet/glf6/index.md
+              - "Intro": fleet/glf6/intro.md
+              - "Dispatch": fleet/glf6/dispatch.md
+              - "Sim-Model": fleet/glf6/sim-model.md
+              - "Checklist": fleet/glf6/checklist.md
+              - "QRH": fleet/glf6/qrh.md
+              - "Livery": fleet/glf6/livery.md
+          - "G550 · GLF5":
+              - fleet/glf5/index.md
+              - "Intro": fleet/glf5/intro.md
+              - "Dispatch": fleet/glf5/dispatch.md
+              - "Sim-Model": fleet/glf5/sim-model.md
+              - "Checklist": fleet/glf5/checklist.md
+              - "QRH": fleet/glf5/qrh.md
+              - "Livery": fleet/glf5/livery.md
+          - "Falcon 7X · FA7X":
+              - fleet/fa7x/index.md
+              - "Intro": fleet/fa7x/intro.md
+              - "Dispatch": fleet/fa7x/dispatch.md
+              - "Sim-Model": fleet/fa7x/sim-model.md
+              - "Checklist": fleet/fa7x/checklist.md
+              - "QRH": fleet/fa7x/qrh.md
+              - "Livery": fleet/fa7x/livery.md
+          - "Challenger 300 · CL30":
+              - fleet/cl30/index.md
+              - "Intro": fleet/cl30/intro.md
+              - "Dispatch": fleet/cl30/dispatch.md
+              - "Sim-Model": fleet/cl30/sim-model.md
+              - "Checklist": fleet/cl30/checklist.md
+              - "QRH": fleet/cl30/qrh.md
+              - "Livery": fleet/cl30/livery.md
+          - "PC-12 · PC12":
+              - fleet/pc12/index.md
+              - "Intro": fleet/pc12/intro.md
+              - "Dispatch": fleet/pc12/dispatch.md
+              - "Sim-Model": fleet/pc12/sim-model.md
+              - "Checklist": fleet/pc12/checklist.md
+              - "QRH": fleet/pc12/qrh.md
+              - "Livery": fleet/pc12/livery.md
       - Heritage:
-          - "Concorde · CONC": fleet/conc/index.md
+          - "Concorde · CONC":
+              - fleet/conc/index.md
+              - "Intro": fleet/conc/intro.md
+              - "Dispatch": fleet/conc/dispatch.md
+              - "Sim-Model": fleet/conc/sim-model.md
+              - "Checklist": fleet/conc/checklist.md
+              - "QRH": fleet/conc/qrh.md
+              - "Livery": fleet/conc/livery.md
       - ACJ VIP variants: fleet/acj-vip-variants.md
   - Network:
       - Overview: network/index.md
@@ -188,8 +416,22 @@ nav:
           - Europe: network/destinations/europe.md
           - Middle East: network/destinations/middle-east.md
           - Asia: network/destinations/asia.md
-          - Africa: network/destinations/africa.md
-          - North America: network/destinations/north-america.md
+          - Africa:
+              - network/destinations/africa.md
+              - "FIMP — Sir Seewoosagur Ramgoolam Intl": network/destinations/airports/FIMP.md
+              - "GVAC — Amílcar Cabral": network/destinations/airports/GVAC.md
+              - "HAAB — Bole Intl": network/destinations/airports/HAAB.md
+              - "HECA — Cairo Intl": network/destinations/airports/HECA.md
+              - "HKJK — Jomo Kenyatta Intl": network/destinations/airports/HKJK.md
+          - North America:
+              - network/destinations/north-america.md
+              - "BGSF — Kangerlussuaq": network/destinations/airports/BGSF.md
+              - "BGTL — Pituffik Space Base": network/destinations/airports/BGTL.md
+              - "CYOD — Cold Lake": network/destinations/airports/CYOD.md
+              - "CYZF — Yellowknife": network/destinations/airports/CYZF.md
+              - "KRNO — Reno-Tahoe Intl": network/destinations/airports/KRNO.md
+              - "KSFO — San Francisco Intl": network/destinations/airports/KSFO.md
+              - "KSMF — Sacramento Intl": network/destinations/airports/KSMF.md
           - South America: network/destinations/south-america.md
           - Oceania: network/destinations/oceania.md
       - Airspace:
