@@ -2,28 +2,40 @@
 title: Network
 ---
 
-<span class="kg-eyebrow">Network</span>
+<span class="kg-eyebrow">OM C · Routes &amp; Destinations</span>
 
-# Network <span class="kg-status kg-status--stub">Stub</span>
+# Network
 
-Regions, hubs, route structure and the flight-numbering scheme.
+K Global's route structure is built around a **Frankfurt (EDDF)** core and spans
+**ten hubs across seven regions**, with a live network of roughly **848 city
+pairs**. The reference below is organised as an airline OM Part C: a destinations
+index (every airport we serve) and — as they are written — per-airport briefs
+and per-region airspace briefs.
 
-<div class="kg-placeholder" markdown>
-**Awaiting content.** This page is scaffolded and ready to be populated from
-the internal Knowledge source (`Network/README.md`, `Network/regions.md`).
+<div class="grid cards" markdown>
+
+-   :material-earth:{ .lg .middle } __Destinations__
+
+    ---
+
+    Every K Global destination, browsable by region — **383 airports** across
+    seven regions, searchable. Detailed per-airport briefs are being built out.
+
+    [:octicons-arrow-right-24: Destinations](destinations/index.md)
+
+-   :material-radar:{ .lg .middle } __Airspace briefs__
+
+    ---
+
+    Area and oceanic-system briefs — North Atlantic, Arctic, EUR-SAM Corridor,
+    Europe, North America, South America.
+
+    [:octicons-arrow-right-24: Airspace briefs](airspace/index.md)
+
 </div>
 
-## Intended contents
+## Being built out
 
-- [ ] Regions overview (7) and the ten-hub roster
-- [ ] Per-hub estate / operational detail
-- [ ] Route structure — city pairs and legs
-- [ ] Flight-numbering scheme and per-region/unit bands
-- [ ] Hub roles (core, gateways, bridge)
-- [ ] Scheduling / wave structure
-
-!!! note "For editors"
-    The marketing website carries the hub roster and headline stats; the
-    numbering **bands**, per-hub estate detail and scheduling belong here in
-    the operations manual. Both sites are public — the split is scope, not
-    secrecy.
+- **Airport briefs** — per-airport runways, stands & ground handling, approaches
+  & minima, terrain/MSA, curfews & slots, alternates & fuel planning, and local
+  hazards.
