@@ -119,6 +119,14 @@ nav:
           - North America: network/destinations/north-america.md
           - South America: network/destinations/south-america.md
           - Oceania: network/destinations/oceania.md
+      - Airspace:
+          - Overview: network/airspace/index.md
+          - North Atlantic: network/airspace/north-atlantic.md
+          - Arctic: network/airspace/arctic.md
+          - EUR-SAM Corridor: network/airspace/eur-sam-corridor.md
+          - Europe: network/airspace/europe.md
+          - North America: network/airspace/north-america.md
+          - South America: network/airspace/south-america.md
   - Fleet: fleet/index.md
   - Business Units: business-units/index.md
   - Flight Ops:

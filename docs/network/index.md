@@ -23,6 +23,15 @@ and per-region airspace briefs.
 
     [:octicons-arrow-right-24: Destinations](destinations/index.md)
 
+-   :material-radar:{ .lg .middle } __Airspace briefs__
+
+    ---
+
+    Area and oceanic-system briefs — North Atlantic, Arctic, EUR-SAM Corridor,
+    Europe, North America, South America.
+
+    [:octicons-arrow-right-24: Airspace briefs](airspace/index.md)
+
 </div>
 
 ## Being built out
@@ -30,6 +39,3 @@ and per-region airspace briefs.
 - **Airport briefs** — per-airport runways, stands & ground handling, approaches
   & minima, terrain/MSA, curfews & slots, alternates & fuel planning, and local
   hazards.
-- **Airspace briefs** — per-region FIR structure, comms, oceanic/near-polar
-  procedures and diversion tables (Arctic, North Atlantic, EUR-SAM Corridor,
-  Europe, North America, South America).
