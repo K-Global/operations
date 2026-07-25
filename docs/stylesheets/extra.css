@@ -281,13 +281,17 @@
      nav rail. Material already reserves the 2.4–4.8rem band for the sidebars. */
   .md-tabs {
     position: sticky;
-    top: 2.4rem;
+    /* Sit directly below the header. Use Material's header-height variable so
+       we track the real header height if the theme ever changes it; today the
+       variable is undefined and this resolves to the 2.4rem fallback (the value
+       Material itself uses for the sticky sidebar offset). */
+    top: var(--md-header-height, 2.4rem);
     z-index: 4;
   }
   /* Anchor / in-page links must clear BOTH the header and the sticky tabs, or
-     the target heading lands hidden behind the tab bar. Material's default
-     scroll-padding only accounts for the header, so add the tab-bar height. */
+     the target heading lands hidden behind the tab bar. The tab bar is the same
+     height as the header, so the padding is twice the header height (4.8rem). */
   html {
-    scroll-padding-top: 4.8rem;
+    scroll-padding-top: calc(var(--md-header-height, 2.4rem) * 2);
   }
 }
