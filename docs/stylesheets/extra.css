@@ -278,7 +278,10 @@
 @media screen and (min-width: 76.25em) {
   .md-tabs {
     position: sticky;
-    top: 2.4rem;      /* height of the header row */
+    /* Sit directly below the header. Track Material's header-height variable
+       when present so we don't drift if the theme resizes the header; fall
+       back to its current 2.4rem height otherwise. */
+    top: var(--md-header-height, 2.4rem);
     z-index: 3;       /* above content, below the header */
   }
 }
