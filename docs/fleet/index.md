@@ -6,7 +6,7 @@ title: Fleet
 
 # Fleet
 
-K Global's fleet is organised by **ICAO aircraft type designator**. Where one
+K Global's fleet is organised by **ICAO aircraft type designators**. Where one
 designator covers several variants (e.g. `A21N` spans the A321neo, A321LR and
 A321XLR; `B748` covers the 747-8i passenger and the 747-8F freighter), the
 variants share one type entry and are distinguished in the type's own page.
