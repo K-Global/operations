@@ -108,10 +108,23 @@ nav:
   - Home: index.md
   - Getting Started: getting-started/index.md
   - Company: company/index.md
-  - Network: network/index.md
+  - Network:
+      - Overview: network/index.md
+      - Destinations:
+          - Overview: network/destinations/index.md
+          - Europe: network/destinations/europe.md
+          - Middle East: network/destinations/middle-east.md
+          - Asia: network/destinations/asia.md
+          - Africa: network/destinations/africa.md
+          - North America: network/destinations/north-america.md
+          - South America: network/destinations/south-america.md
+          - Oceania: network/destinations/oceania.md
   - Fleet: fleet/index.md
   - Business Units: business-units/index.md
-  - Flight Ops: flight-ops/index.md
+  - Flight Ops:
+      - Overview: flight-ops/index.md
+      - ETOPS / EDTO: flight-ops/etops-edto.md
+      - Polar & High-Latitude Ops: flight-ops/polar.md
   - Events: events/index.md
   - Ops Comms: comms/index.md
   - Reference: reference/index.md
