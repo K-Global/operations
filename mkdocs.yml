@@ -14,6 +14,18 @@ strict: true
 exclude_docs: |
   assets/README.md
 
+# Pages reachable from within the manual but kept out of the left nav to keep it
+# scannable. Per-airport briefs come off the Destinations region tables; each
+# fleet type's six pack pages come off that type's page.
+not_in_nav: |
+  network/destinations/airports/*.md
+  fleet/*/intro.md
+  fleet/*/dispatch.md
+  fleet/*/sim-model.md
+  fleet/*/checklist.md
+  fleet/*/qrh.md
+  fleet/*/livery.md
+
 theme:
   name: material
   custom_dir: overrides
@@ -108,8 +120,67 @@ plugins:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started/index.md
-  - Company: company/index.md
+  - General:
+      - Overview: general/index.md
+      - "A00 · Administration & Control": general/a00-administration-and-control.md
+      - "A01 · Organisation & Responsibilities": general/a01-organisation-and-responsibilities.md
+      - "A02 · Operational Control & Supervision": general/a02-operational-control-and-supervision.md
+      - "A03 · Safety Management (SMS) & Quality": general/a03-safety-management-system-sms-and-quality.md
+      - "A04 · Crew Composition": general/a04-crew-composition.md
+      - "A05 · Qualification Requirements": general/a05-qualification-requirements.md
+      - "A06 · Health, Fatigue & FTL": general/a06-crew-health-fatigue-and-flight-time-limitations.md
+      - "A07 · SOPs — Philosophy & Structure": general/a07-standard-operating-procedures-philosophy-and-structure.md
+      - "A08 · Fuel & Payload Policy": general/a08-fuel-and-payload-policy.md
+      - "A09 · Minimum Equipment Policy": general/a09-minimum-equipment-policy.md
+      - "A10 · Dangerous Goods & Special Loads": general/a10-dangerous-goods-and-special-loads.md
+      - "A11 · Security": general/a11-security.md
+      - "A12 · Occurrence Reporting & Investigation": general/a12-occurrence-reporting-and-investigation.md
+      - "A13 · Rules of the Air & Airspace": general/a13-rules-of-the-air-and-airspace-compliance.md
+      - "A14 · Definitions & Abbreviations": general/a14-definitions-abbreviations-and-references.md
+  - Fleet:
+      - Overview: fleet/index.md
+      - Capability Matrix: fleet/capability-matrix.md
+      - Airbus:
+          - "A220-300 · BCS3": fleet/bcs3/index.md
+          - "A319": fleet/a319/index.md
+          - "A320": fleet/a320/index.md
+          - "A321neo · A21N": fleet/a21n/index.md
+          - "A330-900neo · A339": fleet/a339/index.md
+          - "A340-600 · A346": fleet/a346/index.md
+          - "A350-900 · A359": fleet/a359/index.md
+          - "A350-1000 · A35K": fleet/a35k/index.md
+          - "A380-800 · A388": fleet/a388/index.md
+      - Boeing & McDonnell Douglas:
+          - "737-800 · B738": fleet/b738/index.md
+          - "747-8 · B748": fleet/b748/index.md
+          - "777-300ER · B77W": fleet/b77w/index.md
+          - "777F · B77F": fleet/b77f/index.md
+          - "787-9 · B789": fleet/b789/index.md
+          - "MD-11F · MD11": fleet/md11/index.md
+      - Embraer:
+          - "E190": fleet/e190/index.md
+          - "E195": fleet/e195/index.md
+          - "E170 · E70": fleet/e70/index.md
+          - "E175 · E75": fleet/e75/index.md
+          - "ERJ-145 · E145": fleet/e145/index.md
+          - "Legacy 650 · E35L": fleet/e35l/index.md
+      - Regional:
+          - "CRJ700 · CRJ7": fleet/crj7/index.md
+          - "CRJ900 · CRJ9": fleet/crj9/index.md
+          - "CRJ-200 · CRJ2": fleet/crj2/index.md
+          - "Dash 8 Q400 · DH8D": fleet/dh8d/index.md
+          - "ATR 72-600 · AT76": fleet/at76/index.md
+          - "ATR 42-600 · AT46": fleet/at46/index.md
+          - "Saab 340B · SF34": fleet/sf34/index.md
+      - Business Jets:
+          - "G650ER · GLF6": fleet/glf6/index.md
+          - "G550 · GLF5": fleet/glf5/index.md
+          - "Falcon 7X · FA7X": fleet/fa7x/index.md
+          - "Challenger 300 · CL30": fleet/cl30/index.md
+          - "PC-12 · PC12": fleet/pc12/index.md
+      - Heritage:
+          - "Concorde · CONC": fleet/conc/index.md
+      - ACJ VIP variants: fleet/acj-vip-variants.md
   - Network:
       - Overview: network/index.md
       - Destinations:
@@ -121,19 +192,6 @@ nav:
           - North America: network/destinations/north-america.md
           - South America: network/destinations/south-america.md
           - Oceania: network/destinations/oceania.md
-      - Airport briefs:
-          - "BGSF — Kangerlussuaq": network/destinations/airports/BGSF.md
-          - "BGTL — Pituffik Space Base": network/destinations/airports/BGTL.md
-          - "CYOD — Cold Lake": network/destinations/airports/CYOD.md
-          - "CYZF — Yellowknife": network/destinations/airports/CYZF.md
-          - "FIMP — Mauritius": network/destinations/airports/FIMP.md
-          - "GVAC — Amílcar Cabral (Sal)": network/destinations/airports/GVAC.md
-          - "HAAB — Addis Ababa (Bole)": network/destinations/airports/HAAB.md
-          - "HECA — Cairo": network/destinations/airports/HECA.md
-          - "HKJK — Nairobi (Jomo Kenyatta)": network/destinations/airports/HKJK.md
-          - "KRNO — Reno-Tahoe": network/destinations/airports/KRNO.md
-          - "KSFO — San Francisco": network/destinations/airports/KSFO.md
-          - "KSMF — Sacramento": network/destinations/airports/KSMF.md
       - Airspace:
           - Overview: network/airspace/index.md
           - North Atlantic: network/airspace/north-atlantic.md
@@ -142,16 +200,11 @@ nav:
           - Europe: network/airspace/europe.md
           - North America: network/airspace/north-america.md
           - South America: network/airspace/south-america.md
-  - Fleet:
-      - Overview: fleet/index.md
-      - "A339 — A330-900neo": fleet/a339.md
-  - Business Units: business-units/index.md
-  - Flight Ops:
+  - Training: training/index.md
+  - Operations:
       - Overview: flight-ops/index.md
       - ETOPS / EDTO: flight-ops/etops-edto.md
       - Polar & High-Latitude Ops: flight-ops/polar.md
-  - Events: events/index.md
-  - Ops Comms: comms/index.md
   - Reference: reference/index.md
 
 extra:

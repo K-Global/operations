@@ -268,3 +268,20 @@
   line-height: 1.5;
 }
 .kg-disclaimer-banner strong { color: var(--kg-accent-lift); }
+
+/* ==========================================================================
+   Sticky top navigation tabs
+   Pin the OM A–E tab bar below the header so it stays visible on scroll
+   (equivalent to Material's Insiders-only navigation.tabs.sticky). Desktop
+   only — on mobile the nav is a drawer, not tabs.
+   ========================================================================== */
+@media screen and (min-width: 76.25em) {
+  .md-tabs {
+    position: sticky;
+    /* Sit directly below the header. Track Material's header-height variable
+       when present so we don't drift if the theme resizes the header; fall
+       back to its current 2.4rem height otherwise. */
+    top: var(--md-header-height, 2.4rem);
+    z-index: 3;       /* above content, below the header */
+  }
+}
