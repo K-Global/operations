@@ -14,6 +14,11 @@ strict: true
 exclude_docs: |
   assets/README.md
 
+# Per-airport briefs are reachable from the Destinations region tables, not the
+# left nav (there are too many to list, and the list will only grow).
+not_in_nav: |
+  network/destinations/airports/*.md
+
 theme:
   name: material
   custom_dir: overrides
@@ -108,8 +113,10 @@ plugins:
 
 nav:
   - Home: index.md
-  - Getting Started: getting-started/index.md
-  - Company: company/index.md
+  - General: general/index.md
+  - Fleet:
+      - Overview: fleet/index.md
+      - "A339 — A330-900neo": fleet/a339.md
   - Network:
       - Overview: network/index.md
       - Destinations:
@@ -121,19 +128,6 @@ nav:
           - North America: network/destinations/north-america.md
           - South America: network/destinations/south-america.md
           - Oceania: network/destinations/oceania.md
-      - Airport briefs:
-          - "BGSF — Kangerlussuaq": network/destinations/airports/BGSF.md
-          - "BGTL — Pituffik Space Base": network/destinations/airports/BGTL.md
-          - "CYOD — Cold Lake": network/destinations/airports/CYOD.md
-          - "CYZF — Yellowknife": network/destinations/airports/CYZF.md
-          - "FIMP — Mauritius": network/destinations/airports/FIMP.md
-          - "GVAC — Amílcar Cabral (Sal)": network/destinations/airports/GVAC.md
-          - "HAAB — Addis Ababa (Bole)": network/destinations/airports/HAAB.md
-          - "HECA — Cairo": network/destinations/airports/HECA.md
-          - "HKJK — Nairobi (Jomo Kenyatta)": network/destinations/airports/HKJK.md
-          - "KRNO — Reno-Tahoe": network/destinations/airports/KRNO.md
-          - "KSFO — San Francisco": network/destinations/airports/KSFO.md
-          - "KSMF — Sacramento": network/destinations/airports/KSMF.md
       - Airspace:
           - Overview: network/airspace/index.md
           - North Atlantic: network/airspace/north-atlantic.md
@@ -142,16 +136,11 @@ nav:
           - Europe: network/airspace/europe.md
           - North America: network/airspace/north-america.md
           - South America: network/airspace/south-america.md
-  - Fleet:
-      - Overview: fleet/index.md
-      - "A339 — A330-900neo": fleet/a339.md
-  - Business Units: business-units/index.md
-  - Flight Ops:
+  - Training: training/index.md
+  - Operations:
       - Overview: flight-ops/index.md
       - ETOPS / EDTO: flight-ops/etops-edto.md
       - Polar & High-Latitude Ops: flight-ops/polar.md
-  - Events: events/index.md
-  - Ops Comms: comms/index.md
   - Reference: reference/index.md
 
 extra:
