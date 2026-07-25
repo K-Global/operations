@@ -430,7 +430,11 @@ nav:
               - "CYOD — Cold Lake": network/destinations/airports/CYOD.md
               - "CYZF — Yellowknife": network/destinations/airports/CYZF.md
               - "KRNO — Reno-Tahoe Intl": network/destinations/airports/KRNO.md
-              - "KSFO — San Francisco Intl": network/destinations/airports/KSFO.md
+              - "KSFO — San Francisco Intl":
+                  - network/destinations/airports/ksfo/index.md
+                  - "Dispatch": network/destinations/airports/ksfo/dispatch.md
+                  - "Departure": network/destinations/airports/ksfo/departure.md
+                  - "Arrival": network/destinations/airports/ksfo/arrival.md
               - "KSMF — Sacramento Intl": network/destinations/airports/KSMF.md
           - South America: network/destinations/south-america.md
           - Oceania: network/destinations/oceania.md
