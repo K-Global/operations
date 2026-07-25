@@ -35,5 +35,5 @@ K Global destinations in **North America** (27 airports). Airports with a **bold
 | United States | `KMIA` | MIA | Miami Intl |
 | United States | **[`KRNO`](airports/KRNO.md)** | — | Reno-Tahoe Intl |
 | United States | `KSAN` | SAN | San Diego Intl |
-| United States | **[`KSFO`](airports/KSFO.md)** | — | San Francisco Intl |
+| United States | **[`KSFO`](airports/ksfo/index.md)** | — | San Francisco Intl |
 | United States | **[`KSMF`](airports/KSMF.md)** | — | Sacramento Intl |
