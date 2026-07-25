@@ -88,7 +88,9 @@ plugins:
   # it is never committed. The local fallback is a non-secret placeholder.
   - encryptcontent:
       global_password: !ENV [OPS_PASSWORD, "CHANGE-ME-LOCAL-ONLY"]
-      title_prefix: "K Global · "
+      # No per-page title prefix — the site name already says K Global, so a
+      # prefix would repeat it on every nav item.
+      title_prefix: ""
       summary: "K Global Operations Manual"
       encryption_info_message: >-
         Members only. This is the operations manual for K Global, a fictional
@@ -119,6 +121,19 @@ nav:
           - North America: network/destinations/north-america.md
           - South America: network/destinations/south-america.md
           - Oceania: network/destinations/oceania.md
+      - Airport briefs:
+          - "BGSF — Kangerlussuaq": network/destinations/airports/BGSF.md
+          - "BGTL — Pituffik Space Base": network/destinations/airports/BGTL.md
+          - "CYOD — Cold Lake": network/destinations/airports/CYOD.md
+          - "CYZF — Yellowknife": network/destinations/airports/CYZF.md
+          - "FIMP — Mauritius": network/destinations/airports/FIMP.md
+          - "GVAC — Amílcar Cabral (Sal)": network/destinations/airports/GVAC.md
+          - "HAAB — Addis Ababa (Bole)": network/destinations/airports/HAAB.md
+          - "HECA — Cairo": network/destinations/airports/HECA.md
+          - "HKJK — Nairobi (Jomo Kenyatta)": network/destinations/airports/HKJK.md
+          - "KRNO — Reno-Tahoe": network/destinations/airports/KRNO.md
+          - "KSFO — San Francisco": network/destinations/airports/KSFO.md
+          - "KSMF — Sacramento": network/destinations/airports/KSMF.md
       - Airspace:
           - Overview: network/airspace/index.md
           - North Atlantic: network/airspace/north-atlantic.md
@@ -127,7 +142,9 @@ nav:
           - Europe: network/airspace/europe.md
           - North America: network/airspace/north-america.md
           - South America: network/airspace/south-america.md
-  - Fleet: fleet/index.md
+  - Fleet:
+      - Overview: fleet/index.md
+      - "A339 — A330-900neo": fleet/a339.md
   - Business Units: business-units/index.md
   - Flight Ops:
       - Overview: flight-ops/index.md

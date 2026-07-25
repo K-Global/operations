@@ -6,7 +6,7 @@ title: Asia destinations
 
 # Asia
 
-K Global destinations in **Asia** (26 airports). Detailed airport briefs are being built out; this is the destination index.
+K Global destinations in **Asia** (26 airports). Airports with a **bold linked code** have a full briefing; the rest are index entries.
 
 | Country | ICAO | IATA | Airport |
 |---|---|---|---|

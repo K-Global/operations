@@ -22,7 +22,7 @@ vary by cabin fit and are confirmed on the dispatch release for each flight.
 | `A319` | A319-100 | Narrowbody | Pax / cargo | 6 | 120 | 7,500 |
 | `A320` | A320-200 | Narrowbody | Pax / cargo | 50 | 150 | 8,000 |
 | `A21N` | A321neo family (neo / LR / XLR) | Narrowbody | Pax / cargo | 62 | 185 | 4,000 |
-| `A339` | A330-900neo | Widebody | Pax / cargo | 17 | 288 | 20,000 |
+| [`A339`](a339.md) | A330-900neo | Widebody | Pax / cargo | 17 | 288 | 20,000 |
 | `A346` | A340-600 | Widebody | Pax / cargo | 11 | 368 | 40,000 |
 | `A359` | A350-900 | Widebody | Pax / cargo | 53 | 250–326 | 38,000 |
 | `A35K` | A350-1000 | Widebody | Pax / cargo | 10 | — | — |

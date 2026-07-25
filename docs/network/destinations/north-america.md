@@ -6,19 +6,19 @@ title: North America destinations
 
 # North America
 
-K Global destinations in **North America** (27 airports). Detailed airport briefs are being built out; this is the destination index.
+K Global destinations in **North America** (27 airports). Airports with a **bold linked code** have a full briefing; the rest are index entries.
 
 | Country | ICAO | IATA | Airport |
 |---|---|---|---|
 | Antigua and Barbuda | `TAPA` | ANU | V C Bird Intl |
 | Bermuda | `TXKF` | BDA | L F Wade Intl |
-| Canada | `CYOD` | — | Cold Lake |
+| Canada | **[`CYOD`](airports/CYOD.md)** | — | Cold Lake |
 | Canada | `CYUL` | YUL | Pierre Elliott Trudeau Intl |
 | Canada | `CYYZ` | YYZ | Lester B Pearson Intl |
-| Canada | `CYZF` | — | Yellowknife |
+| Canada | **[`CYZF`](airports/CYZF.md)** | — | Yellowknife |
 | Cuba | `MUHA` | HAV | Jose Marti Intl |
-| Greenland | `BGSF` | — | Kangerlussuaq |
-| Greenland | `BGTL` | — | Pituffik Space Base |
+| Greenland | **[`BGSF`](airports/BGSF.md)** | — | Kangerlussuaq |
+| Greenland | **[`BGTL`](airports/BGTL.md)** | — | Pituffik Space Base |
 | Mexico | `MMMX` | MEX | Benito Juarez Intl |
 | Mexico | `MMUN` | CUN | Cancun Intl |
 | Sint Maarten | `TNCM` | SXM | Princess Juliana Intl |
@@ -33,7 +33,7 @@ K Global destinations in **North America** (27 airports). Detailed airport brief
 | United States | `KJFK` | JFK | John F Kennedy Intl |
 | United States | `KLAX` | LAX | Los Angeles Intl |
 | United States | `KMIA` | MIA | Miami Intl |
-| United States | `KRNO` | — | Reno-Tahoe Intl |
+| United States | **[`KRNO`](airports/KRNO.md)** | — | Reno-Tahoe Intl |
 | United States | `KSAN` | SAN | San Diego Intl |
-| United States | `KSFO` | — | San Francisco Intl |
-| United States | `KSMF` | — | Sacramento Intl |
+| United States | **[`KSFO`](airports/KSFO.md)** | — | San Francisco Intl |
+| United States | **[`KSMF`](airports/KSMF.md)** | — | Sacramento Intl |

@@ -6,7 +6,7 @@ title: Africa destinations
 
 # Africa
 
-K Global destinations in **Africa** (190 airports). Detailed airport briefs are being built out; this is the destination index.
+K Global destinations in **Africa** (190 airports). Airports with a **bold linked code** have a full briefing; the rest are index entries.
 
 | Country | ICAO | IATA | Airport |
 |---|---|---|---|
@@ -28,7 +28,7 @@ K Global destinations in **Africa** (190 airports). Detailed airport briefs are 
 | Cameroon | `FKKR` | GOU | Garoua |
 | Cameroon | `FKKU` | BFX | Bamougoum |
 | Cameroon | `FKYS` | NSI | Nsimalen |
-| Cape Verde | `GVAC` | — | Amilcar Cabral |
+| Cape Verde | **[`GVAC`](airports/GVAC.md)** | — | Amilcar Cabral |
 | Cape Verde | `GVBA` | BVC | Aristides Pereira Intl |
 | Cape Verde | `GVNP` | RAI | Nelson Mandela Intl |
 | Cape Verde | `GVSV` | VXE | Cesaria Evora Intl |
@@ -45,7 +45,7 @@ K Global destinations in **Africa** (190 airports). Detailed airport briefs are 
 | Djibouti | `HDAM` | JIB | Ambouli |
 | Egypt | `HEAT` | ATZ | Asyut Intl |
 | Egypt | `HEAX` | HBE | Alexandria Intl |
-| Egypt | `HECA` | — | Cairo Intl |
+| Egypt | **[`HECA`](airports/HECA.md)** | — | Cairo Intl |
 | Egypt | `HEGN` | HRG | Hurghada Intl |
 | Egypt | `HELX` | LXR | Luxor Intl |
 | Egypt | `HEMA` | RMF | Marsa Alam Intl |
@@ -56,7 +56,7 @@ K Global destinations in **Africa** (190 airports). Detailed airport briefs are 
 | Equatorial Guinea | `FGSL` | SSG | Malabo |
 | Eritrea | `HHAS` | ASM | Asmara Intl |
 | Eswatini | `FDSK` | SHO | Sikhuphe Intl |
-| Ethiopia | `HAAB` | — | Bole Intl |
+| Ethiopia | **[`HAAB`](airports/HAAB.md)** | — | Bole Intl |
 | Ethiopia | `HAAM` | AMH | Arba Minch |
 | Ethiopia | `HABD` | BJR | Bahir Dar Intl |
 | Ethiopia | `HADR` | DIR | Dire Dawa Intl |
@@ -69,7 +69,7 @@ K Global destinations in **Africa** (190 airports). Detailed airport briefs are 
 | Guinea | `GUCY` | CKY | Ahmed Sekou Toure Intl |
 | Guinea-Bissau | `GGOV` | OXB | Osvaldo Vieira Intl |
 | Kenya | `HKEL` | EDL | Eldoret Intl |
-| Kenya | `HKJK` | — | Jomo Kenyatta Intl |
+| Kenya | **[`HKJK`](airports/HKJK.md)** | — | Jomo Kenyatta Intl |
 | Kenya | `HKKI` | KIS | Kisumu |
 | Kenya | `HKLU` | LAU | Manda |
 | Kenya | `HKML` | MYD | Malindi |
@@ -98,7 +98,7 @@ K Global destinations in **Africa** (190 airports). Detailed airport briefs are 
 | Mauritania | `GQNI` | EMN | Nema |
 | Mauritania | `GQNO` | NKC | Oumtounsy |
 | Mauritania | `GQPP` | NDB | Nouadhibou |
-| Mauritius | `FIMP` | — | Sir Seewoosagur Ramgoolam Intl |
+| Mauritius | **[`FIMP`](airports/FIMP.md)** | — | Sir Seewoosagur Ramgoolam Intl |
 | Mauritius | `FIMR` | RRG | Plaine Corail |
 | Mayotte | `FMCZ` | DZA | Marcel Henry |
 | Morocco | `GMAD` | AGA | Al Massira Intl |
