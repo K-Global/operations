@@ -3,8 +3,9 @@
    A floating, brand-styled button that appears once the reader has scrolled
    down and smooth-scrolls back to the top. Written to survive Material's
    instant navigation: the button is appended to <body> (which is not swapped
-   on instant load) and the scroll listener is bound to window once, so the
-   idempotent init below is safe to run again on every page change.
+   on instant load) and the scroll listener is bound to window once — tracked
+   by a data-attribute on the button itself, not a global — so the idempotent
+   init below is safe to run again on every page change.
    ========================================================================== */
 (function () {
   "use strict";
@@ -36,9 +37,11 @@
       btn.classList.toggle("kg-to-top--visible", y > SHOW_AFTER);
     }
 
-    if (!window.__kgToTopBound) {
+    // Bind the window scroll listener once. The flag lives on the (persistent)
+    // button element, keeping the state local instead of on window.
+    if (!btn.dataset.kgBound) {
       window.addEventListener("scroll", onScroll, { passive: true });
-      window.__kgToTopBound = true;
+      btn.dataset.kgBound = "1";
     }
     onScroll();
   }
