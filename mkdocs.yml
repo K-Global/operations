@@ -39,7 +39,8 @@ theme:
   features:
     - navigation.tabs
     - navigation.indexes
-    - navigation.top
+    # A custom brand-styled back-to-top button (bottom-right) replaces Material's
+    # subtle top-centre navigation.top pill — see javascripts/back-to-top.js.
     - navigation.tracking
     - navigation.instant
     - navigation.instant.progress
@@ -55,6 +56,9 @@ theme:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/back-to-top.js
 
 markdown_extensions:
   - abbr
