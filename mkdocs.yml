@@ -414,47 +414,1596 @@ nav:
               - "Livery": fleet/conc/livery.md
       - ACJ VIP variants: fleet/acj-vip-variants.md
   - Network:
-      - Overview: network/index.md
-      - Destinations:
-          - Overview: network/destinations/index.md
-          - Europe: network/destinations/europe.md
-          - Middle East: network/destinations/middle-east.md
-          - Asia: network/destinations/asia.md
-          - Africa:
-              - network/destinations/africa.md
-              - "FIMP — Sir Seewoosagur Ramgoolam Intl": network/destinations/airports/FIMP.md
-              - "GVAC — Amílcar Cabral": network/destinations/airports/GVAC.md
-              - "HAAB — Bole Intl": network/destinations/airports/HAAB.md
-              - "HECA — Cairo Intl": network/destinations/airports/HECA.md
-              - "HKJK — Jomo Kenyatta Intl": network/destinations/airports/HKJK.md
-          - North America:
-              - network/destinations/north-america.md
-              - "BGSF — Kangerlussuaq": network/destinations/airports/BGSF.md
-              - "BGTL — Pituffik Space Base": network/destinations/airports/BGTL.md
-              - "CYOD — Cold Lake": network/destinations/airports/CYOD.md
-              - "CYZF — Yellowknife": network/destinations/airports/CYZF.md
-              - "KRNO — Reno-Tahoe Intl": network/destinations/airports/KRNO.md
-              - "KSFO — San Francisco Intl":
-                  - network/destinations/airports/ksfo/index.md
-                  - "Dispatch": network/destinations/airports/ksfo/dispatch.md
-                  - "Departure": network/destinations/airports/ksfo/departure.md
-                  - "Arrival": network/destinations/airports/ksfo/arrival.md
-              - "KSMF — Sacramento Intl": network/destinations/airports/KSMF.md
-          - South America: network/destinations/south-america.md
-          - Oceania: network/destinations/oceania.md
-      - Airspace:
-          - Overview: network/airspace/index.md
-          - North Atlantic: network/airspace/north-atlantic.md
-          - Arctic: network/airspace/arctic.md
-          - EUR-SAM Corridor: network/airspace/eur-sam-corridor.md
-          - Europe: network/airspace/europe.md
-          - North America: network/airspace/north-america.md
-          - South America: network/airspace/south-america.md
-  - Training: training/index.md
+    - Overview: network/index.md
+    - Destinations:
+      - Overview: network/destinations/index.md
+      - Africa:
+        - network/destinations/africa/index.md
+        - "Algeria":
+          - "DAAG — Houari Boumediene":
+            - network/destinations/africa/algeria/daag/index.md
+            - Dispatch: network/destinations/africa/algeria/daag/dispatch.md
+            - Departure: network/destinations/africa/algeria/daag/departure.md
+            - Arrival: network/destinations/africa/algeria/daag/arrival.md
+        - "Angola":
+          - "FNLU — 4 De Fevereiro":
+            - network/destinations/africa/angola/fnlu/index.md
+            - Dispatch: network/destinations/africa/angola/fnlu/dispatch.md
+            - Departure: network/destinations/africa/angola/fnlu/departure.md
+            - Arrival: network/destinations/africa/angola/fnlu/arrival.md
+        - "Benin":
+          - "DBBB — Bernardin Gantin":
+            - network/destinations/africa/benin/dbbb/index.md
+            - Dispatch: network/destinations/africa/benin/dbbb/dispatch.md
+            - Departure: network/destinations/africa/benin/dbbb/departure.md
+            - Arrival: network/destinations/africa/benin/dbbb/arrival.md
+        - "Botswana":
+          - "FBMN — Maun International":
+            - network/destinations/africa/botswana/fbmn/index.md
+            - Dispatch: network/destinations/africa/botswana/fbmn/dispatch.md
+            - Departure: network/destinations/africa/botswana/fbmn/departure.md
+            - Arrival: network/destinations/africa/botswana/fbmn/arrival.md
+        - "Burkina Faso":
+          - "DFFD — Ouagadougou (Thomas Sankara Intl)":
+            - network/destinations/africa/burkina-faso/dffd/index.md
+            - Dispatch: network/destinations/africa/burkina-faso/dffd/dispatch.md
+            - Departure: network/destinations/africa/burkina-faso/dffd/departure.md
+            - Arrival: network/destinations/africa/burkina-faso/dffd/arrival.md
+        - "Cameroon":
+          - "FKKD — Douala":
+            - network/destinations/africa/cameroon/fkkd/index.md
+            - Dispatch: network/destinations/africa/cameroon/fkkd/dispatch.md
+            - Departure: network/destinations/africa/cameroon/fkkd/departure.md
+            - Arrival: network/destinations/africa/cameroon/fkkd/arrival.md
+          - "FKYS — Nsimalen":
+            - network/destinations/africa/cameroon/fkys/index.md
+            - Dispatch: network/destinations/africa/cameroon/fkys/dispatch.md
+            - Departure: network/destinations/africa/cameroon/fkys/departure.md
+            - Arrival: network/destinations/africa/cameroon/fkys/arrival.md
+        - "Cape Verde":
+          - "GVAC — Amílcar Cabral International (Sal)":
+            - network/destinations/africa/cape-verde/gvac/index.md
+            - Dispatch: network/destinations/africa/cape-verde/gvac/dispatch.md
+            - Departure: network/destinations/africa/cape-verde/gvac/departure.md
+            - Arrival: network/destinations/africa/cape-verde/gvac/arrival.md
+          - "GVNP — Nelson Mandela International (Praia)":
+            - network/destinations/africa/cape-verde/gvnp/index.md
+            - Dispatch: network/destinations/africa/cape-verde/gvnp/dispatch.md
+            - Departure: network/destinations/africa/cape-verde/gvnp/departure.md
+            - Arrival: network/destinations/africa/cape-verde/gvnp/arrival.md
+        - "Côte d'Ivoire":
+          - "DIAP — Félix-Houphouët-Boigny International":
+            - network/destinations/africa/c-te-d-ivoire/diap/index.md
+            - Dispatch: network/destinations/africa/c-te-d-ivoire/diap/dispatch.md
+            - Departure: network/destinations/africa/c-te-d-ivoire/diap/departure.md
+            - Arrival: network/destinations/africa/c-te-d-ivoire/diap/arrival.md
+        - "Democratic Republic of the Congo":
+          - "FZAA — N'djili Intl":
+            - network/destinations/africa/democratic-republic-of-the-congo/fzaa/index.md
+            - Dispatch: network/destinations/africa/democratic-republic-of-the-congo/fzaa/dispatch.md
+            - Departure: network/destinations/africa/democratic-republic-of-the-congo/fzaa/departure.md
+            - Arrival: network/destinations/africa/democratic-republic-of-the-congo/fzaa/arrival.md
+        - "Egypt":
+          - "HECA — Cairo International":
+            - network/destinations/africa/egypt/heca/index.md
+            - Dispatch: network/destinations/africa/egypt/heca/dispatch.md
+            - Departure: network/destinations/africa/egypt/heca/departure.md
+            - Arrival: network/destinations/africa/egypt/heca/arrival.md
+          - "HEGN — Hurghada International":
+            - network/destinations/africa/egypt/hegn/index.md
+            - Dispatch: network/destinations/africa/egypt/hegn/dispatch.md
+            - Departure: network/destinations/africa/egypt/hegn/departure.md
+            - Arrival: network/destinations/africa/egypt/hegn/arrival.md
+          - "HEMA — Marsa Alam International":
+            - network/destinations/africa/egypt/hema/index.md
+            - Dispatch: network/destinations/africa/egypt/hema/dispatch.md
+            - Departure: network/destinations/africa/egypt/hema/departure.md
+            - Arrival: network/destinations/africa/egypt/hema/arrival.md
+          - "HESH — Sharm El Sheikh International":
+            - network/destinations/africa/egypt/hesh/index.md
+            - Dispatch: network/destinations/africa/egypt/hesh/dispatch.md
+            - Departure: network/destinations/africa/egypt/hesh/departure.md
+            - Arrival: network/destinations/africa/egypt/hesh/arrival.md
+        - "Ethiopia":
+          - "HAAB — Addis Ababa Bole International":
+            - network/destinations/africa/ethiopia/haab/index.md
+            - Dispatch: network/destinations/africa/ethiopia/haab/dispatch.md
+            - Departure: network/destinations/africa/ethiopia/haab/departure.md
+            - Arrival: network/destinations/africa/ethiopia/haab/arrival.md
+        - "Gabon":
+          - "FOOL — Léon-Mba":
+            - network/destinations/africa/gabon/fool/index.md
+            - Dispatch: network/destinations/africa/gabon/fool/dispatch.md
+            - Departure: network/destinations/africa/gabon/fool/departure.md
+            - Arrival: network/destinations/africa/gabon/fool/arrival.md
+        - "Ghana":
+          - "DGAA — Kotoka Intl":
+            - network/destinations/africa/ghana/dgaa/index.md
+            - Dispatch: network/destinations/africa/ghana/dgaa/dispatch.md
+            - Departure: network/destinations/africa/ghana/dgaa/departure.md
+            - Arrival: network/destinations/africa/ghana/dgaa/arrival.md
+          - "DGSI — Kumasi":
+            - network/destinations/africa/ghana/dgsi/index.md
+            - Dispatch: network/destinations/africa/ghana/dgsi/dispatch.md
+            - Departure: network/destinations/africa/ghana/dgsi/departure.md
+            - Arrival: network/destinations/africa/ghana/dgsi/arrival.md
+        - "Kenya":
+          - "HKJK — Jomo Kenyatta International":
+            - network/destinations/africa/kenya/hkjk/index.md
+            - Dispatch: network/destinations/africa/kenya/hkjk/dispatch.md
+            - Departure: network/destinations/africa/kenya/hkjk/departure.md
+            - Arrival: network/destinations/africa/kenya/hkjk/arrival.md
+          - "HKMO — Moi International":
+            - network/destinations/africa/kenya/hkmo/index.md
+            - Dispatch: network/destinations/africa/kenya/hkmo/dispatch.md
+            - Departure: network/destinations/africa/kenya/hkmo/departure.md
+            - Arrival: network/destinations/africa/kenya/hkmo/arrival.md
+        - "Liberia":
+          - "GLRB — Roberts Intl":
+            - network/destinations/africa/liberia/glrb/index.md
+            - Dispatch: network/destinations/africa/liberia/glrb/dispatch.md
+            - Departure: network/destinations/africa/liberia/glrb/departure.md
+            - Arrival: network/destinations/africa/liberia/glrb/arrival.md
+        - "Libya":
+          - "HLLT — Tripoli International":
+            - network/destinations/africa/libya/hllt/index.md
+            - Dispatch: network/destinations/africa/libya/hllt/dispatch.md
+            - Departure: network/destinations/africa/libya/hllt/departure.md
+            - Arrival: network/destinations/africa/libya/hllt/arrival.md
+        - "Madagascar":
+          - "FMMI — Ivato":
+            - network/destinations/africa/madagascar/fmmi/index.md
+            - Dispatch: network/destinations/africa/madagascar/fmmi/dispatch.md
+            - Departure: network/destinations/africa/madagascar/fmmi/departure.md
+            - Arrival: network/destinations/africa/madagascar/fmmi/arrival.md
+        - "Mali":
+          - "GABS — Modibo Keita International (Bamako–Sénou)":
+            - network/destinations/africa/mali/gabs/index.md
+            - Dispatch: network/destinations/africa/mali/gabs/dispatch.md
+            - Departure: network/destinations/africa/mali/gabs/departure.md
+            - Arrival: network/destinations/africa/mali/gabs/arrival.md
+        - "Mauritius":
+          - "FIMP — Sir Seewoosagur Ramgoolam International":
+            - network/destinations/africa/mauritius/fimp/index.md
+            - Dispatch: network/destinations/africa/mauritius/fimp/dispatch.md
+            - Departure: network/destinations/africa/mauritius/fimp/departure.md
+            - Arrival: network/destinations/africa/mauritius/fimp/arrival.md
+        - "Morocco":
+          - "GMAD — Al Massira Intl":
+            - network/destinations/africa/morocco/gmad/index.md
+            - Dispatch: network/destinations/africa/morocco/gmad/dispatch.md
+            - Departure: network/destinations/africa/morocco/gmad/departure.md
+            - Arrival: network/destinations/africa/morocco/gmad/arrival.md
+          - "GMFF — Saïss Intl":
+            - network/destinations/africa/morocco/gmff/index.md
+            - Dispatch: network/destinations/africa/morocco/gmff/dispatch.md
+            - Departure: network/destinations/africa/morocco/gmff/departure.md
+            - Arrival: network/destinations/africa/morocco/gmff/arrival.md
+          - "GMMN — Mohammed V Intl":
+            - network/destinations/africa/morocco/gmmn/index.md
+            - Dispatch: network/destinations/africa/morocco/gmmn/dispatch.md
+            - Departure: network/destinations/africa/morocco/gmmn/departure.md
+            - Arrival: network/destinations/africa/morocco/gmmn/arrival.md
+          - "GMMW — El Aroui Intl (Nador)":
+            - network/destinations/africa/morocco/gmmw/index.md
+            - Dispatch: network/destinations/africa/morocco/gmmw/dispatch.md
+            - Departure: network/destinations/africa/morocco/gmmw/departure.md
+            - Arrival: network/destinations/africa/morocco/gmmw/arrival.md
+          - "GMMX — Menara Intl":
+            - network/destinations/africa/morocco/gmmx/index.md
+            - Dispatch: network/destinations/africa/morocco/gmmx/dispatch.md
+            - Departure: network/destinations/africa/morocco/gmmx/departure.md
+            - Arrival: network/destinations/africa/morocco/gmmx/arrival.md
+          - "GMTT — Ibn Batouta Intl":
+            - network/destinations/africa/morocco/gmtt/index.md
+            - Dispatch: network/destinations/africa/morocco/gmtt/dispatch.md
+            - Departure: network/destinations/africa/morocco/gmtt/departure.md
+            - Arrival: network/destinations/africa/morocco/gmtt/arrival.md
+        - "Namibia":
+          - "FYWH — Hosea Kutako International":
+            - network/destinations/africa/namibia/fywh/index.md
+            - Dispatch: network/destinations/africa/namibia/fywh/dispatch.md
+            - Departure: network/destinations/africa/namibia/fywh/departure.md
+            - Arrival: network/destinations/africa/namibia/fywh/arrival.md
+        - "Niger":
+          - "DRRN — Diori Hamani International":
+            - network/destinations/africa/niger/drrn/index.md
+            - Dispatch: network/destinations/africa/niger/drrn/dispatch.md
+            - Departure: network/destinations/africa/niger/drrn/departure.md
+            - Arrival: network/destinations/africa/niger/drrn/arrival.md
+        - "Nigeria":
+          - "DNAA — Nnamdi Azikiwe Intl":
+            - network/destinations/africa/nigeria/dnaa/index.md
+            - Dispatch: network/destinations/africa/nigeria/dnaa/dispatch.md
+            - Departure: network/destinations/africa/nigeria/dnaa/departure.md
+            - Arrival: network/destinations/africa/nigeria/dnaa/arrival.md
+          - "DNAI — Victor Attah":
+            - network/destinations/africa/nigeria/dnai/index.md
+            - Dispatch: network/destinations/africa/nigeria/dnai/dispatch.md
+            - Departure: network/destinations/africa/nigeria/dnai/departure.md
+            - Arrival: network/destinations/africa/nigeria/dnai/arrival.md
+          - "DNBE — Benin":
+            - network/destinations/africa/nigeria/dnbe/index.md
+            - Dispatch: network/destinations/africa/nigeria/dnbe/dispatch.md
+            - Departure: network/destinations/africa/nigeria/dnbe/departure.md
+            - Arrival: network/destinations/africa/nigeria/dnbe/arrival.md
+          - "DNCA — Margaret Ekpo":
+            - network/destinations/africa/nigeria/dnca/index.md
+            - Dispatch: network/destinations/africa/nigeria/dnca/dispatch.md
+            - Departure: network/destinations/africa/nigeria/dnca/departure.md
+            - Arrival: network/destinations/africa/nigeria/dnca/arrival.md
+          - "DNEN — Akanu Ibiam":
+            - network/destinations/africa/nigeria/dnen/index.md
+            - Dispatch: network/destinations/africa/nigeria/dnen/dispatch.md
+            - Departure: network/destinations/africa/nigeria/dnen/departure.md
+            - Arrival: network/destinations/africa/nigeria/dnen/arrival.md
+          - "DNIL — Ilorin":
+            - network/destinations/africa/nigeria/dnil/index.md
+            - Dispatch: network/destinations/africa/nigeria/dnil/dispatch.md
+            - Departure: network/destinations/africa/nigeria/dnil/departure.md
+            - Arrival: network/destinations/africa/nigeria/dnil/arrival.md
+          - "DNIM — Sam Mbakwe":
+            - network/destinations/africa/nigeria/dnim/index.md
+            - Dispatch: network/destinations/africa/nigeria/dnim/dispatch.md
+            - Departure: network/destinations/africa/nigeria/dnim/departure.md
+            - Arrival: network/destinations/africa/nigeria/dnim/arrival.md
+          - "DNKA — Kaduna":
+            - network/destinations/africa/nigeria/dnka/index.md
+            - Dispatch: network/destinations/africa/nigeria/dnka/dispatch.md
+            - Departure: network/destinations/africa/nigeria/dnka/departure.md
+            - Arrival: network/destinations/africa/nigeria/dnka/arrival.md
+          - "DNKN — Mallam Aminu Kano":
+            - network/destinations/africa/nigeria/dnkn/index.md
+            - Dispatch: network/destinations/africa/nigeria/dnkn/dispatch.md
+            - Departure: network/destinations/africa/nigeria/dnkn/departure.md
+            - Arrival: network/destinations/africa/nigeria/dnkn/arrival.md
+          - "DNMM — Murtala Muhammed":
+            - network/destinations/africa/nigeria/dnmm/index.md
+            - Dispatch: network/destinations/africa/nigeria/dnmm/dispatch.md
+            - Departure: network/destinations/africa/nigeria/dnmm/departure.md
+            - Arrival: network/destinations/africa/nigeria/dnmm/arrival.md
+          - "DNPO — Obafemi Jeremiah Awolowo":
+            - network/destinations/africa/nigeria/dnpo/index.md
+            - Dispatch: network/destinations/africa/nigeria/dnpo/dispatch.md
+            - Departure: network/destinations/africa/nigeria/dnpo/departure.md
+            - Arrival: network/destinations/africa/nigeria/dnpo/arrival.md
+        - "Republic of the Congo":
+          - "FCBB — Maya-Maya":
+            - network/destinations/africa/republic-of-the-congo/fcbb/index.md
+            - Dispatch: network/destinations/africa/republic-of-the-congo/fcbb/dispatch.md
+            - Departure: network/destinations/africa/republic-of-the-congo/fcbb/departure.md
+            - Arrival: network/destinations/africa/republic-of-the-congo/fcbb/arrival.md
+        - "Rwanda":
+          - "HRYR — Kigali International":
+            - network/destinations/africa/rwanda/hryr/index.md
+            - Dispatch: network/destinations/africa/rwanda/hryr/dispatch.md
+            - Departure: network/destinations/africa/rwanda/hryr/departure.md
+            - Arrival: network/destinations/africa/rwanda/hryr/arrival.md
+        - "Réunion":
+          - "FMEE — La Réunion-Roland Garros":
+            - network/destinations/africa/r-union/fmee/index.md
+            - Dispatch: network/destinations/africa/r-union/fmee/dispatch.md
+            - Departure: network/destinations/africa/r-union/fmee/departure.md
+            - Arrival: network/destinations/africa/r-union/fmee/arrival.md
+        - "Senegal":
+          - "GOBD — Blaise Diagne Intl":
+            - network/destinations/africa/senegal/gobd/index.md
+            - Dispatch: network/destinations/africa/senegal/gobd/dispatch.md
+            - Departure: network/destinations/africa/senegal/gobd/departure.md
+            - Arrival: network/destinations/africa/senegal/gobd/arrival.md
+        - "Seychelles":
+          - "FSIA — Seychelles International":
+            - network/destinations/africa/seychelles/fsia/index.md
+            - Dispatch: network/destinations/africa/seychelles/fsia/dispatch.md
+            - Departure: network/destinations/africa/seychelles/fsia/departure.md
+            - Arrival: network/destinations/africa/seychelles/fsia/arrival.md
+        - "Sierra Leone":
+          - "GFLL — Freetown Intl":
+            - network/destinations/africa/sierra-leone/gfll/index.md
+            - Dispatch: network/destinations/africa/sierra-leone/gfll/dispatch.md
+            - Departure: network/destinations/africa/sierra-leone/gfll/departure.md
+            - Arrival: network/destinations/africa/sierra-leone/gfll/arrival.md
+        - "South Africa":
+          - "FACT — Cape Town Intl":
+            - network/destinations/africa/south-africa/fact/index.md
+            - Dispatch: network/destinations/africa/south-africa/fact/dispatch.md
+            - Departure: network/destinations/africa/south-africa/fact/departure.md
+            - Arrival: network/destinations/africa/south-africa/fact/arrival.md
+          - "FADN — Durban (former Durban Intl / AFB Durban)":
+            - network/destinations/africa/south-africa/fadn/index.md
+            - Dispatch: network/destinations/africa/south-africa/fadn/dispatch.md
+            - Departure: network/destinations/africa/south-africa/fadn/departure.md
+            - Arrival: network/destinations/africa/south-africa/fadn/arrival.md
+          - "FALA — Lanseria Intl":
+            - network/destinations/africa/south-africa/fala/index.md
+            - Dispatch: network/destinations/africa/south-africa/fala/dispatch.md
+            - Departure: network/destinations/africa/south-africa/fala/departure.md
+            - Arrival: network/destinations/africa/south-africa/fala/arrival.md
+          - "FAOR — O.R. Tambo Intl":
+            - network/destinations/africa/south-africa/faor/index.md
+            - Dispatch: network/destinations/africa/south-africa/faor/dispatch.md
+            - Departure: network/destinations/africa/south-africa/faor/departure.md
+            - Arrival: network/destinations/africa/south-africa/faor/arrival.md
+        - "Tanzania":
+          - "HTKJ — Kilimanjaro International":
+            - network/destinations/africa/tanzania/htkj/index.md
+            - Dispatch: network/destinations/africa/tanzania/htkj/dispatch.md
+            - Departure: network/destinations/africa/tanzania/htkj/departure.md
+            - Arrival: network/destinations/africa/tanzania/htkj/arrival.md
+          - "HTZA — Abeid Amani Karume International":
+            - network/destinations/africa/tanzania/htza/index.md
+            - Dispatch: network/destinations/africa/tanzania/htza/dispatch.md
+            - Departure: network/destinations/africa/tanzania/htza/departure.md
+            - Arrival: network/destinations/africa/tanzania/htza/arrival.md
+        - "Togo":
+          - "DXXX — Gnassingbe Eyadema Intl":
+            - network/destinations/africa/togo/dxxx/index.md
+            - Dispatch: network/destinations/africa/togo/dxxx/dispatch.md
+            - Departure: network/destinations/africa/togo/dxxx/departure.md
+            - Arrival: network/destinations/africa/togo/dxxx/arrival.md
+        - "Tunisia":
+          - "DTMB — Monastir":
+            - network/destinations/africa/tunisia/dtmb/index.md
+            - Dispatch: network/destinations/africa/tunisia/dtmb/dispatch.md
+            - Departure: network/destinations/africa/tunisia/dtmb/departure.md
+            - Arrival: network/destinations/africa/tunisia/dtmb/arrival.md
+          - "DTNH — Hammamet":
+            - network/destinations/africa/tunisia/dtnh/index.md
+            - Dispatch: network/destinations/africa/tunisia/dtnh/dispatch.md
+            - Departure: network/destinations/africa/tunisia/dtnh/departure.md
+            - Arrival: network/destinations/africa/tunisia/dtnh/arrival.md
+          - "DTTA — Carthage":
+            - network/destinations/africa/tunisia/dtta/index.md
+            - Dispatch: network/destinations/africa/tunisia/dtta/dispatch.md
+            - Departure: network/destinations/africa/tunisia/dtta/departure.md
+            - Arrival: network/destinations/africa/tunisia/dtta/arrival.md
+          - "DTTJ — Zarzis":
+            - network/destinations/africa/tunisia/dttj/index.md
+            - Dispatch: network/destinations/africa/tunisia/dttj/dispatch.md
+            - Departure: network/destinations/africa/tunisia/dttj/departure.md
+            - Arrival: network/destinations/africa/tunisia/dttj/arrival.md
+        - "Zimbabwe":
+          - "FVFA — Victoria Falls International":
+            - network/destinations/africa/zimbabwe/fvfa/index.md
+            - Dispatch: network/destinations/africa/zimbabwe/fvfa/dispatch.md
+            - Departure: network/destinations/africa/zimbabwe/fvfa/departure.md
+            - Arrival: network/destinations/africa/zimbabwe/fvfa/arrival.md
+      - Asia:
+        - network/destinations/asia/index.md
+        - "Bangladesh":
+          - "VGHS — Hazrat Shahjalal Intl":
+            - network/destinations/asia/bangladesh/vghs/index.md
+            - Dispatch: network/destinations/asia/bangladesh/vghs/dispatch.md
+            - Departure: network/destinations/asia/bangladesh/vghs/departure.md
+            - Arrival: network/destinations/asia/bangladesh/vghs/arrival.md
+        - "China":
+          - "ZBAA — Beijing Capital":
+            - network/destinations/asia/china/zbaa/index.md
+            - Dispatch: network/destinations/asia/china/zbaa/dispatch.md
+            - Departure: network/destinations/asia/china/zbaa/departure.md
+            - Arrival: network/destinations/asia/china/zbaa/arrival.md
+          - "ZGGG — Baiyun":
+            - network/destinations/asia/china/zggg/index.md
+            - Dispatch: network/destinations/asia/china/zggg/dispatch.md
+            - Departure: network/destinations/asia/china/zggg/departure.md
+            - Arrival: network/destinations/asia/china/zggg/arrival.md
+          - "ZGHA — Changsha/Huanghua":
+            - network/destinations/asia/china/zgha/index.md
+            - Dispatch: network/destinations/asia/china/zgha/dispatch.md
+            - Departure: network/destinations/asia/china/zgha/departure.md
+            - Arrival: network/destinations/asia/china/zgha/arrival.md
+          - "ZGSZ — Shenzhen Bao'an":
+            - network/destinations/asia/china/zgsz/index.md
+            - Dispatch: network/destinations/asia/china/zgsz/dispatch.md
+            - Departure: network/destinations/asia/china/zgsz/departure.md
+            - Arrival: network/destinations/asia/china/zgsz/arrival.md
+          - "ZHHH — Wuhan/Tianhe":
+            - network/destinations/asia/china/zhhh/index.md
+            - Dispatch: network/destinations/asia/china/zhhh/dispatch.md
+            - Departure: network/destinations/asia/china/zhhh/departure.md
+            - Arrival: network/destinations/asia/china/zhhh/arrival.md
+          - "ZSHC — Hangzhou/Xiaoshan":
+            - network/destinations/asia/china/zshc/index.md
+            - Dispatch: network/destinations/asia/china/zshc/dispatch.md
+            - Departure: network/destinations/asia/china/zshc/departure.md
+            - Arrival: network/destinations/asia/china/zshc/arrival.md
+          - "ZSPD — Pudong":
+            - network/destinations/asia/china/zspd/index.md
+            - Dispatch: network/destinations/asia/china/zspd/dispatch.md
+            - Departure: network/destinations/asia/china/zspd/departure.md
+            - Arrival: network/destinations/asia/china/zspd/arrival.md
+          - "ZUTF — Chengdu/Tianfu":
+            - network/destinations/asia/china/zutf/index.md
+            - Dispatch: network/destinations/asia/china/zutf/dispatch.md
+            - Departure: network/destinations/asia/china/zutf/departure.md
+            - Arrival: network/destinations/asia/china/zutf/arrival.md
+          - "ZUUU — Chengdu/Shuangliu":
+            - network/destinations/asia/china/zuuu/index.md
+            - Dispatch: network/destinations/asia/china/zuuu/dispatch.md
+            - Departure: network/destinations/asia/china/zuuu/departure.md
+            - Arrival: network/destinations/asia/china/zuuu/arrival.md
+        - "Hong Kong":
+          - "VHHH — Hong Kong International":
+            - network/destinations/asia/hong-kong/vhhh/index.md
+            - Dispatch: network/destinations/asia/hong-kong/vhhh/dispatch.md
+            - Departure: network/destinations/asia/hong-kong/vhhh/departure.md
+            - Arrival: network/destinations/asia/hong-kong/vhhh/arrival.md
+          - "VHHX — Hong Kong Old Kai Tak":
+            - network/destinations/asia/hong-kong/vhhx/index.md
+            - Dispatch: network/destinations/asia/hong-kong/vhhx/dispatch.md
+            - Departure: network/destinations/asia/hong-kong/vhhx/departure.md
+            - Arrival: network/destinations/asia/hong-kong/vhhx/arrival.md
+        - "India":
+          - "VABB — Chhatrapati Shivaji Maharaj International":
+            - network/destinations/asia/india/vabb/index.md
+            - Dispatch: network/destinations/asia/india/vabb/dispatch.md
+            - Departure: network/destinations/asia/india/vabb/departure.md
+            - Arrival: network/destinations/asia/india/vabb/arrival.md
+          - "VIDP — Indira Gandhi Intl":
+            - network/destinations/asia/india/vidp/index.md
+            - Dispatch: network/destinations/asia/india/vidp/dispatch.md
+            - Departure: network/destinations/asia/india/vidp/departure.md
+            - Arrival: network/destinations/asia/india/vidp/arrival.md
+          - "VOBL — Kempegowda Intl":
+            - network/destinations/asia/india/vobl/index.md
+            - Dispatch: network/destinations/asia/india/vobl/dispatch.md
+            - Departure: network/destinations/asia/india/vobl/departure.md
+            - Arrival: network/destinations/asia/india/vobl/arrival.md
+          - "VOMM — Chennai Intl":
+            - network/destinations/asia/india/vomm/index.md
+            - Dispatch: network/destinations/asia/india/vomm/dispatch.md
+            - Departure: network/destinations/asia/india/vomm/departure.md
+            - Arrival: network/destinations/asia/india/vomm/arrival.md
+        - "Indonesia":
+          - "WIII — Soekarno-Hatta":
+            - network/destinations/asia/indonesia/wiii/index.md
+            - Dispatch: network/destinations/asia/indonesia/wiii/dispatch.md
+            - Departure: network/destinations/asia/indonesia/wiii/departure.md
+            - Arrival: network/destinations/asia/indonesia/wiii/arrival.md
+        - "Japan":
+          - "RJAA — Tokyo Narita":
+            - network/destinations/asia/japan/rjaa/index.md
+            - Dispatch: network/destinations/asia/japan/rjaa/dispatch.md
+            - Departure: network/destinations/asia/japan/rjaa/departure.md
+            - Arrival: network/destinations/asia/japan/rjaa/arrival.md
+          - "RJTT — Tokyo Haneda":
+            - network/destinations/asia/japan/rjtt/index.md
+            - Dispatch: network/destinations/asia/japan/rjtt/dispatch.md
+            - Departure: network/destinations/asia/japan/rjtt/departure.md
+            - Arrival: network/destinations/asia/japan/rjtt/arrival.md
+        - "Macau":
+          - "VMMC — Macao Intl":
+            - network/destinations/asia/macau/vmmc/index.md
+            - Dispatch: network/destinations/asia/macau/vmmc/dispatch.md
+            - Departure: network/destinations/asia/macau/vmmc/departure.md
+            - Arrival: network/destinations/asia/macau/vmmc/arrival.md
+        - "Malaysia":
+          - "WMKK — Kuala Lumpur International (KLIA)":
+            - network/destinations/asia/malaysia/wmkk/index.md
+            - Dispatch: network/destinations/asia/malaysia/wmkk/dispatch.md
+            - Departure: network/destinations/asia/malaysia/wmkk/departure.md
+            - Arrival: network/destinations/asia/malaysia/wmkk/arrival.md
+        - "Pakistan":
+          - "OPKC — Jinnah Intl":
+            - network/destinations/asia/pakistan/opkc/index.md
+            - Dispatch: network/destinations/asia/pakistan/opkc/dispatch.md
+            - Departure: network/destinations/asia/pakistan/opkc/departure.md
+            - Arrival: network/destinations/asia/pakistan/opkc/arrival.md
+        - "Singapore":
+          - "WSSS — Singapore Changi":
+            - network/destinations/asia/singapore/wsss/index.md
+            - Dispatch: network/destinations/asia/singapore/wsss/dispatch.md
+            - Departure: network/destinations/asia/singapore/wsss/departure.md
+            - Arrival: network/destinations/asia/singapore/wsss/arrival.md
+        - "South Korea":
+          - "RKSI — Incheon Intl":
+            - network/destinations/asia/south-korea/rksi/index.md
+            - Dispatch: network/destinations/asia/south-korea/rksi/dispatch.md
+            - Departure: network/destinations/asia/south-korea/rksi/departure.md
+            - Arrival: network/destinations/asia/south-korea/rksi/arrival.md
+        - "Sri Lanka":
+          - "VCBI — Bandaranaike Intl Colombo":
+            - network/destinations/asia/sri-lanka/vcbi/index.md
+            - Dispatch: network/destinations/asia/sri-lanka/vcbi/dispatch.md
+            - Departure: network/destinations/asia/sri-lanka/vcbi/departure.md
+            - Arrival: network/destinations/asia/sri-lanka/vcbi/arrival.md
+        - "Taiwan":
+          - "RCTP — Taiwan Taoyuan Intl":
+            - network/destinations/asia/taiwan/rctp/index.md
+            - Dispatch: network/destinations/asia/taiwan/rctp/dispatch.md
+            - Departure: network/destinations/asia/taiwan/rctp/departure.md
+            - Arrival: network/destinations/asia/taiwan/rctp/arrival.md
+        - "Thailand":
+          - "VTBS — Suvarnabhumi Intl":
+            - network/destinations/asia/thailand/vtbs/index.md
+            - Dispatch: network/destinations/asia/thailand/vtbs/dispatch.md
+            - Departure: network/destinations/asia/thailand/vtbs/departure.md
+            - Arrival: network/destinations/asia/thailand/vtbs/arrival.md
+      - Europe:
+        - network/destinations/europe/index.md
+        - "Austria":
+          - "LOWW — Wien-Schwechat":
+            - network/destinations/europe/austria/loww/index.md
+            - Dispatch: network/destinations/europe/austria/loww/dispatch.md
+            - Departure: network/destinations/europe/austria/loww/departure.md
+            - Arrival: network/destinations/europe/austria/loww/arrival.md
+        - "Belgium":
+          - "EBBR — Brussels/Brussels-National":
+            - network/destinations/europe/belgium/ebbr/index.md
+            - Dispatch: network/destinations/europe/belgium/ebbr/dispatch.md
+            - Departure: network/destinations/europe/belgium/ebbr/departure.md
+            - Arrival: network/destinations/europe/belgium/ebbr/arrival.md
+          - "EBLG — Liège":
+            - network/destinations/europe/belgium/eblg/index.md
+            - Dispatch: network/destinations/europe/belgium/eblg/dispatch.md
+            - Departure: network/destinations/europe/belgium/eblg/departure.md
+            - Arrival: network/destinations/europe/belgium/eblg/arrival.md
+          - "EBOS — Ostend-Bruges":
+            - network/destinations/europe/belgium/ebos/index.md
+            - Dispatch: network/destinations/europe/belgium/ebos/dispatch.md
+            - Departure: network/destinations/europe/belgium/ebos/departure.md
+            - Arrival: network/destinations/europe/belgium/ebos/arrival.md
+        - "Cyprus":
+          - "LCLK — Larnaca International":
+            - network/destinations/europe/cyprus/lclk/index.md
+            - Dispatch: network/destinations/europe/cyprus/lclk/dispatch.md
+            - Departure: network/destinations/europe/cyprus/lclk/departure.md
+            - Arrival: network/destinations/europe/cyprus/lclk/arrival.md
+        - "Czech Republic":
+          - "LKPR — Praha/Ruzyně (Václav Havel Airport Prague)":
+            - network/destinations/europe/czech-republic/lkpr/index.md
+            - Dispatch: network/destinations/europe/czech-republic/lkpr/dispatch.md
+            - Departure: network/destinations/europe/czech-republic/lkpr/departure.md
+            - Arrival: network/destinations/europe/czech-republic/lkpr/arrival.md
+        - "Denmark":
+          - "EKBI — Billund":
+            - network/destinations/europe/denmark/ekbi/index.md
+            - Dispatch: network/destinations/europe/denmark/ekbi/dispatch.md
+            - Departure: network/destinations/europe/denmark/ekbi/departure.md
+            - Arrival: network/destinations/europe/denmark/ekbi/arrival.md
+          - "EKCH — Copenhagen/Kastrup":
+            - network/destinations/europe/denmark/ekch/index.md
+            - Dispatch: network/destinations/europe/denmark/ekch/dispatch.md
+            - Departure: network/destinations/europe/denmark/ekch/departure.md
+            - Arrival: network/destinations/europe/denmark/ekch/arrival.md
+        - "Finland":
+          - "EFHK — Helsinki-Vantaa":
+            - network/destinations/europe/finland/efhk/index.md
+            - Dispatch: network/destinations/europe/finland/efhk/dispatch.md
+            - Departure: network/destinations/europe/finland/efhk/departure.md
+            - Arrival: network/destinations/europe/finland/efhk/arrival.md
+        - "France":
+          - "LFBD — Bordeaux-Mérignac":
+            - network/destinations/europe/france/lfbd/index.md
+            - Dispatch: network/destinations/europe/france/lfbd/dispatch.md
+            - Departure: network/destinations/europe/france/lfbd/departure.md
+            - Arrival: network/destinations/europe/france/lfbd/arrival.md
+          - "LFBO — Toulouse-Blagnac":
+            - network/destinations/europe/france/lfbo/index.md
+            - Dispatch: network/destinations/europe/france/lfbo/dispatch.md
+            - Departure: network/destinations/europe/france/lfbo/departure.md
+            - Arrival: network/destinations/europe/france/lfbo/arrival.md
+          - "LFBZ — Biarritz Pays Basque":
+            - network/destinations/europe/france/lfbz/index.md
+            - Dispatch: network/destinations/europe/france/lfbz/dispatch.md
+            - Departure: network/destinations/europe/france/lfbz/departure.md
+            - Arrival: network/destinations/europe/france/lfbz/arrival.md
+          - "LFJL — Metz-Nancy-Lorraine":
+            - network/destinations/europe/france/lfjl/index.md
+            - Dispatch: network/destinations/europe/france/lfjl/dispatch.md
+            - Departure: network/destinations/europe/france/lfjl/departure.md
+            - Arrival: network/destinations/europe/france/lfjl/arrival.md
+          - "LFLL — Lyon-Saint Exupéry":
+            - network/destinations/europe/france/lfll/index.md
+            - Dispatch: network/destinations/europe/france/lfll/dispatch.md
+            - Departure: network/destinations/europe/france/lfll/departure.md
+            - Arrival: network/destinations/europe/france/lfll/arrival.md
+          - "LFML — Marseille-Provence":
+            - network/destinations/europe/france/lfml/index.md
+            - Dispatch: network/destinations/europe/france/lfml/dispatch.md
+            - Departure: network/destinations/europe/france/lfml/departure.md
+            - Arrival: network/destinations/europe/france/lfml/arrival.md
+          - "LFMN — Nice-Côte d'Azur":
+            - network/destinations/europe/france/lfmn/index.md
+            - Dispatch: network/destinations/europe/france/lfmn/dispatch.md
+            - Departure: network/destinations/europe/france/lfmn/departure.md
+            - Arrival: network/destinations/europe/france/lfmn/arrival.md
+          - "LFMT — Montpellier-Méditerranée":
+            - network/destinations/europe/france/lfmt/index.md
+            - Dispatch: network/destinations/europe/france/lfmt/dispatch.md
+            - Departure: network/destinations/europe/france/lfmt/departure.md
+            - Arrival: network/destinations/europe/france/lfmt/arrival.md
+          - "LFOB — Beauvais-Tillé":
+            - network/destinations/europe/france/lfob/index.md
+            - Dispatch: network/destinations/europe/france/lfob/dispatch.md
+            - Departure: network/destinations/europe/france/lfob/departure.md
+            - Arrival: network/destinations/europe/france/lfob/arrival.md
+          - "LFPG — Paris Charles de Gaulle":
+            - network/destinations/europe/france/lfpg/index.md
+            - Dispatch: network/destinations/europe/france/lfpg/dispatch.md
+            - Departure: network/destinations/europe/france/lfpg/departure.md
+            - Arrival: network/destinations/europe/france/lfpg/arrival.md
+          - "LFPO — Paris-Orly":
+            - network/destinations/europe/france/lfpo/index.md
+            - Dispatch: network/destinations/europe/france/lfpo/dispatch.md
+            - Departure: network/destinations/europe/france/lfpo/departure.md
+            - Arrival: network/destinations/europe/france/lfpo/arrival.md
+          - "LFQQ — Lille-Lesquin":
+            - network/destinations/europe/france/lfqq/index.md
+            - Dispatch: network/destinations/europe/france/lfqq/dispatch.md
+            - Departure: network/destinations/europe/france/lfqq/departure.md
+            - Arrival: network/destinations/europe/france/lfqq/arrival.md
+          - "LFRS — Nantes Atlantique":
+            - network/destinations/europe/france/lfrs/index.md
+            - Dispatch: network/destinations/europe/france/lfrs/dispatch.md
+            - Departure: network/destinations/europe/france/lfrs/departure.md
+            - Arrival: network/destinations/europe/france/lfrs/arrival.md
+          - "LFSB — Basel-Mulhouse":
+            - network/destinations/europe/france/lfsb/index.md
+            - Dispatch: network/destinations/europe/france/lfsb/dispatch.md
+            - Departure: network/destinations/europe/france/lfsb/departure.md
+            - Arrival: network/destinations/europe/france/lfsb/arrival.md
+          - "LFST — Strasbourg Entzheim":
+            - network/destinations/europe/france/lfst/index.md
+            - Dispatch: network/destinations/europe/france/lfst/dispatch.md
+            - Departure: network/destinations/europe/france/lfst/departure.md
+            - Arrival: network/destinations/europe/france/lfst/arrival.md
+        - "Germany":
+          - "EDDB — Berlin Brandenburg":
+            - network/destinations/europe/germany/eddb/index.md
+            - Dispatch: network/destinations/europe/germany/eddb/dispatch.md
+            - Departure: network/destinations/europe/germany/eddb/departure.md
+            - Arrival: network/destinations/europe/germany/eddb/arrival.md
+          - "EDDF — Frankfurt/Main":
+            - network/destinations/europe/germany/eddf/index.md
+            - Dispatch: network/destinations/europe/germany/eddf/dispatch.md
+            - Departure: network/destinations/europe/germany/eddf/departure.md
+            - Arrival: network/destinations/europe/germany/eddf/arrival.md
+          - "EDDH — Hamburg":
+            - network/destinations/europe/germany/eddh/index.md
+            - Dispatch: network/destinations/europe/germany/eddh/dispatch.md
+            - Departure: network/destinations/europe/germany/eddh/departure.md
+            - Arrival: network/destinations/europe/germany/eddh/arrival.md
+          - "EDDK — Cologne/Bonn":
+            - network/destinations/europe/germany/eddk/index.md
+            - Dispatch: network/destinations/europe/germany/eddk/dispatch.md
+            - Departure: network/destinations/europe/germany/eddk/departure.md
+            - Arrival: network/destinations/europe/germany/eddk/arrival.md
+          - "EDDL — Düsseldorf International":
+            - network/destinations/europe/germany/eddl/index.md
+            - Dispatch: network/destinations/europe/germany/eddl/dispatch.md
+            - Departure: network/destinations/europe/germany/eddl/departure.md
+            - Arrival: network/destinations/europe/germany/eddl/arrival.md
+          - "EDDM — Munich (Franz Josef Strauß)":
+            - network/destinations/europe/germany/eddm/index.md
+            - Dispatch: network/destinations/europe/germany/eddm/dispatch.md
+            - Departure: network/destinations/europe/germany/eddm/departure.md
+            - Arrival: network/destinations/europe/germany/eddm/arrival.md
+          - "EDDN — Nuremberg":
+            - network/destinations/europe/germany/eddn/index.md
+            - Dispatch: network/destinations/europe/germany/eddn/dispatch.md
+            - Departure: network/destinations/europe/germany/eddn/departure.md
+            - Arrival: network/destinations/europe/germany/eddn/arrival.md
+          - "EDDS — Stuttgart":
+            - network/destinations/europe/germany/edds/index.md
+            - Dispatch: network/destinations/europe/germany/edds/dispatch.md
+            - Departure: network/destinations/europe/germany/edds/departure.md
+            - Arrival: network/destinations/europe/germany/edds/arrival.md
+          - "EDDV — Hannover":
+            - network/destinations/europe/germany/eddv/index.md
+            - Dispatch: network/destinations/europe/germany/eddv/dispatch.md
+            - Departure: network/destinations/europe/germany/eddv/departure.md
+            - Arrival: network/destinations/europe/germany/eddv/arrival.md
+        - "Greece":
+          - "LGAV — Eleftherios Venizelos Intl":
+            - network/destinations/europe/greece/lgav/index.md
+            - Dispatch: network/destinations/europe/greece/lgav/dispatch.md
+            - Departure: network/destinations/europe/greece/lgav/departure.md
+            - Arrival: network/destinations/europe/greece/lgav/arrival.md
+        - "Hungary":
+          - "LHBP — Budapest Liszt Ferenc Intl":
+            - network/destinations/europe/hungary/lhbp/index.md
+            - Dispatch: network/destinations/europe/hungary/lhbp/dispatch.md
+            - Departure: network/destinations/europe/hungary/lhbp/departure.md
+            - Arrival: network/destinations/europe/hungary/lhbp/arrival.md
+        - "Ireland":
+          - "EIDW — Dublin International":
+            - network/destinations/europe/ireland/eidw/index.md
+            - Dispatch: network/destinations/europe/ireland/eidw/dispatch.md
+            - Departure: network/destinations/europe/ireland/eidw/departure.md
+            - Arrival: network/destinations/europe/ireland/eidw/arrival.md
+        - "Italy":
+          - "LICC — Fontanarossa":
+            - network/destinations/europe/italy/licc/index.md
+            - Dispatch: network/destinations/europe/italy/licc/dispatch.md
+            - Departure: network/destinations/europe/italy/licc/departure.md
+            - Arrival: network/destinations/europe/italy/licc/arrival.md
+          - "LIMC — Malpensa":
+            - network/destinations/europe/italy/limc/index.md
+            - Dispatch: network/destinations/europe/italy/limc/dispatch.md
+            - Departure: network/destinations/europe/italy/limc/departure.md
+            - Arrival: network/destinations/europe/italy/limc/arrival.md
+          - "LIME — Orio al Serio (Milan Bergamo)":
+            - network/destinations/europe/italy/lime/index.md
+            - Dispatch: network/destinations/europe/italy/lime/dispatch.md
+            - Departure: network/destinations/europe/italy/lime/departure.md
+            - Arrival: network/destinations/europe/italy/lime/arrival.md
+          - "LIMF — Torino/Caselle":
+            - network/destinations/europe/italy/limf/index.md
+            - Dispatch: network/destinations/europe/italy/limf/dispatch.md
+            - Departure: network/destinations/europe/italy/limf/departure.md
+            - Arrival: network/destinations/europe/italy/limf/arrival.md
+          - "LIMZ — Cuneo-Levaldigi":
+            - network/destinations/europe/italy/limz/index.md
+            - Dispatch: network/destinations/europe/italy/limz/dispatch.md
+            - Departure: network/destinations/europe/italy/limz/departure.md
+            - Arrival: network/destinations/europe/italy/limz/arrival.md
+          - "LIPE — Bologna/Borgo Panigale (Guglielmo Marconi)":
+            - network/destinations/europe/italy/lipe/index.md
+            - Dispatch: network/destinations/europe/italy/lipe/dispatch.md
+            - Departure: network/destinations/europe/italy/lipe/departure.md
+            - Arrival: network/destinations/europe/italy/lipe/arrival.md
+          - "LIPX — Verona/Villafranca":
+            - network/destinations/europe/italy/lipx/index.md
+            - Dispatch: network/destinations/europe/italy/lipx/dispatch.md
+            - Departure: network/destinations/europe/italy/lipx/departure.md
+            - Arrival: network/destinations/europe/italy/lipx/arrival.md
+          - "LIPZ — Venice/Tessera (Marco Polo)":
+            - network/destinations/europe/italy/lipz/index.md
+            - Dispatch: network/destinations/europe/italy/lipz/dispatch.md
+            - Departure: network/destinations/europe/italy/lipz/departure.md
+            - Arrival: network/destinations/europe/italy/lipz/arrival.md
+          - "LIRF — Fiumicino":
+            - network/destinations/europe/italy/lirf/index.md
+            - Dispatch: network/destinations/europe/italy/lirf/dispatch.md
+            - Departure: network/destinations/europe/italy/lirf/departure.md
+            - Arrival: network/destinations/europe/italy/lirf/arrival.md
+          - "LIRN — Capodichino":
+            - network/destinations/europe/italy/lirn/index.md
+            - Dispatch: network/destinations/europe/italy/lirn/dispatch.md
+            - Departure: network/destinations/europe/italy/lirn/departure.md
+            - Arrival: network/destinations/europe/italy/lirn/arrival.md
+          - "LIRP — San Giusto":
+            - network/destinations/europe/italy/lirp/index.md
+            - Dispatch: network/destinations/europe/italy/lirp/dispatch.md
+            - Departure: network/destinations/europe/italy/lirp/departure.md
+            - Arrival: network/destinations/europe/italy/lirp/arrival.md
+        - "Luxembourg":
+          - "ELLX — Luxembourg-Findel":
+            - network/destinations/europe/luxembourg/ellx/index.md
+            - Dispatch: network/destinations/europe/luxembourg/ellx/dispatch.md
+            - Departure: network/destinations/europe/luxembourg/ellx/departure.md
+            - Arrival: network/destinations/europe/luxembourg/ellx/arrival.md
+        - "Netherlands":
+          - "EHAM — Amsterdam/Schiphol":
+            - network/destinations/europe/netherlands/eham/index.md
+            - Dispatch: network/destinations/europe/netherlands/eham/dispatch.md
+            - Departure: network/destinations/europe/netherlands/eham/departure.md
+            - Arrival: network/destinations/europe/netherlands/eham/arrival.md
+          - "EHBK — Maastricht Aachen":
+            - network/destinations/europe/netherlands/ehbk/index.md
+            - Dispatch: network/destinations/europe/netherlands/ehbk/dispatch.md
+            - Departure: network/destinations/europe/netherlands/ehbk/departure.md
+            - Arrival: network/destinations/europe/netherlands/ehbk/arrival.md
+          - "EHEH — Eindhoven":
+            - network/destinations/europe/netherlands/eheh/index.md
+            - Dispatch: network/destinations/europe/netherlands/eheh/dispatch.md
+            - Departure: network/destinations/europe/netherlands/eheh/departure.md
+            - Arrival: network/destinations/europe/netherlands/eheh/arrival.md
+        - "Norway":
+          - "ENGM — Oslo Gardermoen":
+            - network/destinations/europe/norway/engm/index.md
+            - Dispatch: network/destinations/europe/norway/engm/dispatch.md
+            - Departure: network/destinations/europe/norway/engm/departure.md
+            - Arrival: network/destinations/europe/norway/engm/arrival.md
+        - "Poland":
+          - "EPWA — Warsaw Chopin":
+            - network/destinations/europe/poland/epwa/index.md
+            - Dispatch: network/destinations/europe/poland/epwa/dispatch.md
+            - Departure: network/destinations/europe/poland/epwa/departure.md
+            - Arrival: network/destinations/europe/poland/epwa/arrival.md
+        - "Portugal":
+          - "LPPR — Francisco Sá Carneiro":
+            - network/destinations/europe/portugal/lppr/index.md
+            - Dispatch: network/destinations/europe/portugal/lppr/dispatch.md
+            - Departure: network/destinations/europe/portugal/lppr/departure.md
+            - Arrival: network/destinations/europe/portugal/lppr/arrival.md
+          - "LPPT — Humberto Delgado":
+            - network/destinations/europe/portugal/lppt/index.md
+            - Dispatch: network/destinations/europe/portugal/lppt/dispatch.md
+            - Departure: network/destinations/europe/portugal/lppt/departure.md
+            - Arrival: network/destinations/europe/portugal/lppt/arrival.md
+        - "Romania":
+          - "LRBS — Băneasa-Aurel Vlaicu":
+            - network/destinations/europe/romania/lrbs/index.md
+            - Dispatch: network/destinations/europe/romania/lrbs/dispatch.md
+            - Departure: network/destinations/europe/romania/lrbs/departure.md
+            - Arrival: network/destinations/europe/romania/lrbs/arrival.md
+          - "LRCL — Avram Iancu":
+            - network/destinations/europe/romania/lrcl/index.md
+            - Dispatch: network/destinations/europe/romania/lrcl/dispatch.md
+            - Departure: network/destinations/europe/romania/lrcl/departure.md
+            - Arrival: network/destinations/europe/romania/lrcl/arrival.md
+          - "LROP — Henri Coandă":
+            - network/destinations/europe/romania/lrop/index.md
+            - Dispatch: network/destinations/europe/romania/lrop/dispatch.md
+            - Departure: network/destinations/europe/romania/lrop/departure.md
+            - Arrival: network/destinations/europe/romania/lrop/arrival.md
+        - "Russia":
+          - "UUDD — Domodedovo":
+            - network/destinations/europe/russia/uudd/index.md
+            - Dispatch: network/destinations/europe/russia/uudd/dispatch.md
+            - Departure: network/destinations/europe/russia/uudd/departure.md
+            - Arrival: network/destinations/europe/russia/uudd/arrival.md
+          - "UUEE — Sheremetyevo":
+            - network/destinations/europe/russia/uuee/index.md
+            - Dispatch: network/destinations/europe/russia/uuee/dispatch.md
+            - Departure: network/destinations/europe/russia/uuee/departure.md
+            - Arrival: network/destinations/europe/russia/uuee/arrival.md
+        - "Spain":
+          - "GCLP — Gran Canaria (Gando)":
+            - network/destinations/europe/spain/gclp/index.md
+            - Dispatch: network/destinations/europe/spain/gclp/dispatch.md
+            - Departure: network/destinations/europe/spain/gclp/departure.md
+            - Arrival: network/destinations/europe/spain/gclp/arrival.md
+          - "LEAL — Alicante-Elche Miguel Hernández":
+            - network/destinations/europe/spain/leal/index.md
+            - Dispatch: network/destinations/europe/spain/leal/dispatch.md
+            - Departure: network/destinations/europe/spain/leal/departure.md
+            - Arrival: network/destinations/europe/spain/leal/arrival.md
+          - "LEBB — Bilbao":
+            - network/destinations/europe/spain/lebb/index.md
+            - Dispatch: network/destinations/europe/spain/lebb/dispatch.md
+            - Departure: network/destinations/europe/spain/lebb/departure.md
+            - Arrival: network/destinations/europe/spain/lebb/arrival.md
+          - "LEBL — Josep Tarradellas Barcelona-El Prat":
+            - network/destinations/europe/spain/lebl/index.md
+            - Dispatch: network/destinations/europe/spain/lebl/dispatch.md
+            - Departure: network/destinations/europe/spain/lebl/departure.md
+            - Arrival: network/destinations/europe/spain/lebl/arrival.md
+          - "LEMD — Adolfo Suárez Madrid-Barajas":
+            - network/destinations/europe/spain/lemd/index.md
+            - Dispatch: network/destinations/europe/spain/lemd/dispatch.md
+            - Departure: network/destinations/europe/spain/lemd/departure.md
+            - Arrival: network/destinations/europe/spain/lemd/arrival.md
+          - "LEMG — Málaga-Costa del Sol":
+            - network/destinations/europe/spain/lemg/index.md
+            - Dispatch: network/destinations/europe/spain/lemg/dispatch.md
+            - Departure: network/destinations/europe/spain/lemg/departure.md
+            - Arrival: network/destinations/europe/spain/lemg/arrival.md
+          - "LEMI — Región de Murcia International (Corvera)":
+            - network/destinations/europe/spain/lemi/index.md
+            - Dispatch: network/destinations/europe/spain/lemi/dispatch.md
+            - Departure: network/destinations/europe/spain/lemi/departure.md
+            - Arrival: network/destinations/europe/spain/lemi/arrival.md
+          - "LEVC — Valencia":
+            - network/destinations/europe/spain/levc/index.md
+            - Dispatch: network/destinations/europe/spain/levc/dispatch.md
+            - Departure: network/destinations/europe/spain/levc/departure.md
+            - Arrival: network/destinations/europe/spain/levc/arrival.md
+          - "LEXJ — Seve Ballesteros-Santander":
+            - network/destinations/europe/spain/lexj/index.md
+            - Dispatch: network/destinations/europe/spain/lexj/dispatch.md
+            - Departure: network/destinations/europe/spain/lexj/departure.md
+            - Arrival: network/destinations/europe/spain/lexj/arrival.md
+          - "LEZG — Zaragoza":
+            - network/destinations/europe/spain/lezg/index.md
+            - Dispatch: network/destinations/europe/spain/lezg/dispatch.md
+            - Departure: network/destinations/europe/spain/lezg/departure.md
+            - Arrival: network/destinations/europe/spain/lezg/arrival.md
+          - "LEZL — Sevilla-San Pablo":
+            - network/destinations/europe/spain/lezl/index.md
+            - Dispatch: network/destinations/europe/spain/lezl/dispatch.md
+            - Departure: network/destinations/europe/spain/lezl/departure.md
+            - Arrival: network/destinations/europe/spain/lezl/arrival.md
+        - "Sweden":
+          - "ESSA — Stockholm Arlanda":
+            - network/destinations/europe/sweden/essa/index.md
+            - Dispatch: network/destinations/europe/sweden/essa/dispatch.md
+            - Departure: network/destinations/europe/sweden/essa/departure.md
+            - Arrival: network/destinations/europe/sweden/essa/arrival.md
+        - "Switzerland":
+          - "LSGG — Geneva":
+            - network/destinations/europe/switzerland/lsgg/index.md
+            - Dispatch: network/destinations/europe/switzerland/lsgg/dispatch.md
+            - Departure: network/destinations/europe/switzerland/lsgg/departure.md
+            - Arrival: network/destinations/europe/switzerland/lsgg/arrival.md
+          - "LSZH — Zurich":
+            - network/destinations/europe/switzerland/lszh/index.md
+            - Dispatch: network/destinations/europe/switzerland/lszh/dispatch.md
+            - Departure: network/destinations/europe/switzerland/lszh/departure.md
+            - Arrival: network/destinations/europe/switzerland/lszh/arrival.md
+        - "United Kingdom":
+          - "EGAA — Aldergrove":
+            - network/destinations/europe/united-kingdom/egaa/index.md
+            - Dispatch: network/destinations/europe/united-kingdom/egaa/dispatch.md
+            - Departure: network/destinations/europe/united-kingdom/egaa/departure.md
+            - Arrival: network/destinations/europe/united-kingdom/egaa/arrival.md
+          - "EGBB — Birmingham":
+            - network/destinations/europe/united-kingdom/egbb/index.md
+            - Dispatch: network/destinations/europe/united-kingdom/egbb/dispatch.md
+            - Departure: network/destinations/europe/united-kingdom/egbb/departure.md
+            - Arrival: network/destinations/europe/united-kingdom/egbb/arrival.md
+          - "EGCC — Manchester":
+            - network/destinations/europe/united-kingdom/egcc/index.md
+            - Dispatch: network/destinations/europe/united-kingdom/egcc/dispatch.md
+            - Departure: network/destinations/europe/united-kingdom/egcc/departure.md
+            - Arrival: network/destinations/europe/united-kingdom/egcc/arrival.md
+          - "EGGD — Bristol":
+            - network/destinations/europe/united-kingdom/eggd/index.md
+            - Dispatch: network/destinations/europe/united-kingdom/eggd/dispatch.md
+            - Departure: network/destinations/europe/united-kingdom/eggd/departure.md
+            - Arrival: network/destinations/europe/united-kingdom/eggd/arrival.md
+          - "EGGP — Liverpool":
+            - network/destinations/europe/united-kingdom/eggp/index.md
+            - Dispatch: network/destinations/europe/united-kingdom/eggp/dispatch.md
+            - Departure: network/destinations/europe/united-kingdom/eggp/departure.md
+            - Arrival: network/destinations/europe/united-kingdom/eggp/arrival.md
+          - "EGGW — Luton":
+            - network/destinations/europe/united-kingdom/eggw/index.md
+            - Dispatch: network/destinations/europe/united-kingdom/eggw/dispatch.md
+            - Departure: network/destinations/europe/united-kingdom/eggw/departure.md
+            - Arrival: network/destinations/europe/united-kingdom/eggw/arrival.md
+          - "EGKK — Gatwick":
+            - network/destinations/europe/united-kingdom/egkk/index.md
+            - Dispatch: network/destinations/europe/united-kingdom/egkk/dispatch.md
+            - Departure: network/destinations/europe/united-kingdom/egkk/departure.md
+            - Arrival: network/destinations/europe/united-kingdom/egkk/arrival.md
+          - "EGLL — Heathrow":
+            - network/destinations/europe/united-kingdom/egll/index.md
+            - Dispatch: network/destinations/europe/united-kingdom/egll/dispatch.md
+            - Departure: network/destinations/europe/united-kingdom/egll/departure.md
+            - Arrival: network/destinations/europe/united-kingdom/egll/arrival.md
+          - "EGNT — Newcastle":
+            - network/destinations/europe/united-kingdom/egnt/index.md
+            - Dispatch: network/destinations/europe/united-kingdom/egnt/dispatch.md
+            - Departure: network/destinations/europe/united-kingdom/egnt/departure.md
+            - Arrival: network/destinations/europe/united-kingdom/egnt/arrival.md
+          - "EGNX — East Midlands":
+            - network/destinations/europe/united-kingdom/egnx/index.md
+            - Dispatch: network/destinations/europe/united-kingdom/egnx/dispatch.md
+            - Departure: network/destinations/europe/united-kingdom/egnx/departure.md
+            - Arrival: network/destinations/europe/united-kingdom/egnx/arrival.md
+          - "EGPF — Glasgow":
+            - network/destinations/europe/united-kingdom/egpf/index.md
+            - Dispatch: network/destinations/europe/united-kingdom/egpf/dispatch.md
+            - Departure: network/destinations/europe/united-kingdom/egpf/departure.md
+            - Arrival: network/destinations/europe/united-kingdom/egpf/arrival.md
+          - "EGPH — Edinburgh":
+            - network/destinations/europe/united-kingdom/egph/index.md
+            - Dispatch: network/destinations/europe/united-kingdom/egph/dispatch.md
+            - Departure: network/destinations/europe/united-kingdom/egph/departure.md
+            - Arrival: network/destinations/europe/united-kingdom/egph/arrival.md
+      - Middle East:
+        - network/destinations/middle-east/index.md
+        - "Armenia":
+          - "UDYZ — Zvartnots":
+            - network/destinations/middle-east/armenia/udyz/index.md
+            - Dispatch: network/destinations/middle-east/armenia/udyz/dispatch.md
+            - Departure: network/destinations/middle-east/armenia/udyz/departure.md
+            - Arrival: network/destinations/middle-east/armenia/udyz/arrival.md
+        - "Bahrain":
+          - "OBBI — Bahrain Intl":
+            - network/destinations/middle-east/bahrain/obbi/index.md
+            - Dispatch: network/destinations/middle-east/bahrain/obbi/dispatch.md
+            - Departure: network/destinations/middle-east/bahrain/obbi/departure.md
+            - Arrival: network/destinations/middle-east/bahrain/obbi/arrival.md
+        - "Iraq":
+          - "ORBI — Baghdad Intl":
+            - network/destinations/middle-east/iraq/orbi/index.md
+            - Dispatch: network/destinations/middle-east/iraq/orbi/dispatch.md
+            - Departure: network/destinations/middle-east/iraq/orbi/departure.md
+            - Arrival: network/destinations/middle-east/iraq/orbi/arrival.md
+          - "ORER — Erbil Intl":
+            - network/destinations/middle-east/iraq/orer/index.md
+            - Dispatch: network/destinations/middle-east/iraq/orer/dispatch.md
+            - Departure: network/destinations/middle-east/iraq/orer/departure.md
+            - Arrival: network/destinations/middle-east/iraq/orer/arrival.md
+          - "ORMM — Basrah Intl":
+            - network/destinations/middle-east/iraq/ormm/index.md
+            - Dispatch: network/destinations/middle-east/iraq/ormm/dispatch.md
+            - Departure: network/destinations/middle-east/iraq/ormm/departure.md
+            - Arrival: network/destinations/middle-east/iraq/ormm/arrival.md
+          - "ORSJ — Jalal Talabani Intl":
+            - network/destinations/middle-east/iraq/orsj/index.md
+            - Dispatch: network/destinations/middle-east/iraq/orsj/dispatch.md
+            - Departure: network/destinations/middle-east/iraq/orsj/departure.md
+            - Arrival: network/destinations/middle-east/iraq/orsj/arrival.md
+        - "Israel":
+          - "LLBG — Ben Gurion":
+            - network/destinations/middle-east/israel/llbg/index.md
+            - Dispatch: network/destinations/middle-east/israel/llbg/dispatch.md
+            - Departure: network/destinations/middle-east/israel/llbg/departure.md
+            - Arrival: network/destinations/middle-east/israel/llbg/arrival.md
+        - "Jordan":
+          - "OJAI — Queen Alia Intl":
+            - network/destinations/middle-east/jordan/ojai/index.md
+            - Dispatch: network/destinations/middle-east/jordan/ojai/dispatch.md
+            - Departure: network/destinations/middle-east/jordan/ojai/departure.md
+            - Arrival: network/destinations/middle-east/jordan/ojai/arrival.md
+          - "OJAQ — King Hussein Intl":
+            - network/destinations/middle-east/jordan/ojaq/index.md
+            - Dispatch: network/destinations/middle-east/jordan/ojaq/dispatch.md
+            - Departure: network/destinations/middle-east/jordan/ojaq/departure.md
+            - Arrival: network/destinations/middle-east/jordan/ojaq/arrival.md
+        - "Kuwait":
+          - "OKKK — Kuwait Intl":
+            - network/destinations/middle-east/kuwait/okkk/index.md
+            - Dispatch: network/destinations/middle-east/kuwait/okkk/dispatch.md
+            - Departure: network/destinations/middle-east/kuwait/okkk/departure.md
+            - Arrival: network/destinations/middle-east/kuwait/okkk/arrival.md
+        - "Lebanon":
+          - "OLBA — Rafic Hariri Intl":
+            - network/destinations/middle-east/lebanon/olba/index.md
+            - Dispatch: network/destinations/middle-east/lebanon/olba/dispatch.md
+            - Departure: network/destinations/middle-east/lebanon/olba/departure.md
+            - Arrival: network/destinations/middle-east/lebanon/olba/arrival.md
+        - "Oman":
+          - "OOMS — Muscat Intl":
+            - network/destinations/middle-east/oman/ooms/index.md
+            - Dispatch: network/destinations/middle-east/oman/ooms/dispatch.md
+            - Departure: network/destinations/middle-east/oman/ooms/departure.md
+            - Arrival: network/destinations/middle-east/oman/ooms/arrival.md
+          - "OOSA — Salalah":
+            - network/destinations/middle-east/oman/oosa/index.md
+            - Dispatch: network/destinations/middle-east/oman/oosa/dispatch.md
+            - Departure: network/destinations/middle-east/oman/oosa/departure.md
+            - Arrival: network/destinations/middle-east/oman/oosa/arrival.md
+        - "Qatar":
+          - "OTHH — Hamad Intl":
+            - network/destinations/middle-east/qatar/othh/index.md
+            - Dispatch: network/destinations/middle-east/qatar/othh/dispatch.md
+            - Departure: network/destinations/middle-east/qatar/othh/departure.md
+            - Arrival: network/destinations/middle-east/qatar/othh/arrival.md
+        - "Saudi Arabia":
+          - "OEAB — Abha":
+            - network/destinations/middle-east/saudi-arabia/oeab/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oeab/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oeab/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oeab/arrival.md
+          - "OEDF — King Fahd Intl":
+            - network/destinations/middle-east/saudi-arabia/oedf/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oedf/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oedf/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oedf/arrival.md
+          - "OEGN — Jazan / King Abdullah Bin Abdulaziz":
+            - network/destinations/middle-east/saudi-arabia/oegn/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oegn/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oegn/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oegn/arrival.md
+          - "OEGS — Qassim / Prince Naif Bin Abdulaziz":
+            - network/destinations/middle-east/saudi-arabia/oegs/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oegs/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oegs/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oegs/arrival.md
+          - "OEHL — Hail":
+            - network/destinations/middle-east/saudi-arabia/oehl/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oehl/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oehl/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oehl/arrival.md
+          - "OEJN — King Abdulaziz Intl":
+            - network/destinations/middle-east/saudi-arabia/oejn/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oejn/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oejn/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oejn/arrival.md
+          - "OEMA — Prince Mohammad Bin Abdulaziz":
+            - network/destinations/middle-east/saudi-arabia/oema/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oema/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oema/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oema/arrival.md
+          - "OENG — Nejran":
+            - network/destinations/middle-east/saudi-arabia/oeng/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oeng/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oeng/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oeng/arrival.md
+          - "OEPA — Al Qaisumah International":
+            - network/destinations/middle-east/saudi-arabia/oepa/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oepa/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oepa/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oepa/arrival.md
+          - "OERK — King Khaled Intl":
+            - network/destinations/middle-east/saudi-arabia/oerk/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oerk/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oerk/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oerk/arrival.md
+          - "OESK — Al Jouf":
+            - network/destinations/middle-east/saudi-arabia/oesk/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oesk/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oesk/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oesk/arrival.md
+          - "OETB — Prince Sultan Bin Abdulaziz":
+            - network/destinations/middle-east/saudi-arabia/oetb/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oetb/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oetb/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oetb/arrival.md
+          - "OETF — Taif Intl":
+            - network/destinations/middle-east/saudi-arabia/oetf/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oetf/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oetf/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oetf/arrival.md
+          - "OEYN — Prince Abdulmohsin Bin Abdulaz":
+            - network/destinations/middle-east/saudi-arabia/oeyn/index.md
+            - Dispatch: network/destinations/middle-east/saudi-arabia/oeyn/dispatch.md
+            - Departure: network/destinations/middle-east/saudi-arabia/oeyn/departure.md
+            - Arrival: network/destinations/middle-east/saudi-arabia/oeyn/arrival.md
+        - "Turkey":
+          - "LTFJ — İstanbul Sabiha Gökçen Intl":
+            - network/destinations/middle-east/turkey/ltfj/index.md
+            - Dispatch: network/destinations/middle-east/turkey/ltfj/dispatch.md
+            - Departure: network/destinations/middle-east/turkey/ltfj/departure.md
+            - Arrival: network/destinations/middle-east/turkey/ltfj/arrival.md
+          - "LTFM — İstanbul Airport":
+            - network/destinations/middle-east/turkey/ltfm/index.md
+            - Dispatch: network/destinations/middle-east/turkey/ltfm/dispatch.md
+            - Departure: network/destinations/middle-east/turkey/ltfm/departure.md
+            - Arrival: network/destinations/middle-east/turkey/ltfm/arrival.md
+        - "United Arab Emirates":
+          - "OMAA — Zayed Intl":
+            - network/destinations/middle-east/united-arab-emirates/omaa/index.md
+            - Dispatch: network/destinations/middle-east/united-arab-emirates/omaa/dispatch.md
+            - Departure: network/destinations/middle-east/united-arab-emirates/omaa/departure.md
+            - Arrival: network/destinations/middle-east/united-arab-emirates/omaa/arrival.md
+          - "OMAL — Al Ain Intl":
+            - network/destinations/middle-east/united-arab-emirates/omal/index.md
+            - Dispatch: network/destinations/middle-east/united-arab-emirates/omal/dispatch.md
+            - Departure: network/destinations/middle-east/united-arab-emirates/omal/departure.md
+            - Arrival: network/destinations/middle-east/united-arab-emirates/omal/arrival.md
+          - "OMDB — Dubai Intl":
+            - network/destinations/middle-east/united-arab-emirates/omdb/index.md
+            - Dispatch: network/destinations/middle-east/united-arab-emirates/omdb/dispatch.md
+            - Departure: network/destinations/middle-east/united-arab-emirates/omdb/departure.md
+            - Arrival: network/destinations/middle-east/united-arab-emirates/omdb/arrival.md
+          - "OMDW — Al Maktoum Intl":
+            - network/destinations/middle-east/united-arab-emirates/omdw/index.md
+            - Dispatch: network/destinations/middle-east/united-arab-emirates/omdw/dispatch.md
+            - Departure: network/destinations/middle-east/united-arab-emirates/omdw/departure.md
+            - Arrival: network/destinations/middle-east/united-arab-emirates/omdw/arrival.md
+          - "OMRK — Ras Al Khaimah Intl":
+            - network/destinations/middle-east/united-arab-emirates/omrk/index.md
+            - Dispatch: network/destinations/middle-east/united-arab-emirates/omrk/dispatch.md
+            - Departure: network/destinations/middle-east/united-arab-emirates/omrk/departure.md
+            - Arrival: network/destinations/middle-east/united-arab-emirates/omrk/arrival.md
+          - "OMSJ — Sharjah Intl":
+            - network/destinations/middle-east/united-arab-emirates/omsj/index.md
+            - Dispatch: network/destinations/middle-east/united-arab-emirates/omsj/dispatch.md
+            - Departure: network/destinations/middle-east/united-arab-emirates/omsj/departure.md
+            - Arrival: network/destinations/middle-east/united-arab-emirates/omsj/arrival.md
+        - "Yemen":
+          - "OYAA — Aden Intl":
+            - network/destinations/middle-east/yemen/oyaa/index.md
+            - Dispatch: network/destinations/middle-east/yemen/oyaa/dispatch.md
+            - Departure: network/destinations/middle-east/yemen/oyaa/departure.md
+            - Arrival: network/destinations/middle-east/yemen/oyaa/arrival.md
+          - "OYSN — Sanaa Intl":
+            - network/destinations/middle-east/yemen/oysn/index.md
+            - Dispatch: network/destinations/middle-east/yemen/oysn/dispatch.md
+            - Departure: network/destinations/middle-east/yemen/oysn/departure.md
+            - Arrival: network/destinations/middle-east/yemen/oysn/arrival.md
+          - "OYSY — Sayun Intl":
+            - network/destinations/middle-east/yemen/oysy/index.md
+            - Dispatch: network/destinations/middle-east/yemen/oysy/dispatch.md
+            - Departure: network/destinations/middle-east/yemen/oysy/departure.md
+            - Arrival: network/destinations/middle-east/yemen/oysy/arrival.md
+      - North America:
+        - network/destinations/north-america/index.md
+        - "Antigua and Barbuda":
+          - "TAPA — V C Bird Intl":
+            - network/destinations/north-america/antigua-and-barbuda/tapa/index.md
+            - Dispatch: network/destinations/north-america/antigua-and-barbuda/tapa/dispatch.md
+            - Departure: network/destinations/north-america/antigua-and-barbuda/tapa/departure.md
+            - Arrival: network/destinations/north-america/antigua-and-barbuda/tapa/arrival.md
+        - "Bermuda":
+          - "TXKF — L F Wade Intl":
+            - network/destinations/north-america/bermuda/txkf/index.md
+            - Dispatch: network/destinations/north-america/bermuda/txkf/dispatch.md
+            - Departure: network/destinations/north-america/bermuda/txkf/departure.md
+            - Arrival: network/destinations/north-america/bermuda/txkf/arrival.md
+        - "Canada":
+          - "CYOD — Cold Lake":
+            - network/destinations/north-america/canada/cyod/index.md
+            - Dispatch: network/destinations/north-america/canada/cyod/dispatch.md
+            - Departure: network/destinations/north-america/canada/cyod/departure.md
+            - Arrival: network/destinations/north-america/canada/cyod/arrival.md
+          - "CYUL — Pierre Elliott Trudeau Intl":
+            - network/destinations/north-america/canada/cyul/index.md
+            - Dispatch: network/destinations/north-america/canada/cyul/dispatch.md
+            - Departure: network/destinations/north-america/canada/cyul/departure.md
+            - Arrival: network/destinations/north-america/canada/cyul/arrival.md
+          - "CYYZ — Lester B. Pearson Intl":
+            - network/destinations/north-america/canada/cyyz/index.md
+            - Dispatch: network/destinations/north-america/canada/cyyz/dispatch.md
+            - Departure: network/destinations/north-america/canada/cyyz/departure.md
+            - Arrival: network/destinations/north-america/canada/cyyz/arrival.md
+          - "CYZF — Yellowknife (Yellowknife Airport)":
+            - network/destinations/north-america/canada/cyzf/index.md
+            - Dispatch: network/destinations/north-america/canada/cyzf/dispatch.md
+            - Departure: network/destinations/north-america/canada/cyzf/departure.md
+            - Arrival: network/destinations/north-america/canada/cyzf/arrival.md
+        - "Cuba":
+          - "MUHA — Jose Marti Intl":
+            - network/destinations/north-america/cuba/muha/index.md
+            - Dispatch: network/destinations/north-america/cuba/muha/dispatch.md
+            - Departure: network/destinations/north-america/cuba/muha/departure.md
+            - Arrival: network/destinations/north-america/cuba/muha/arrival.md
+        - "Greenland":
+          - "BGSF — Kangerlussuaq":
+            - network/destinations/north-america/greenland/bgsf/index.md
+            - Dispatch: network/destinations/north-america/greenland/bgsf/dispatch.md
+            - Departure: network/destinations/north-america/greenland/bgsf/departure.md
+            - Arrival: network/destinations/north-america/greenland/bgsf/arrival.md
+          - "BGTL — Pituffik Space Base (formerly Thule Air Base)":
+            - network/destinations/north-america/greenland/bgtl/index.md
+            - Dispatch: network/destinations/north-america/greenland/bgtl/dispatch.md
+            - Departure: network/destinations/north-america/greenland/bgtl/departure.md
+            - Arrival: network/destinations/north-america/greenland/bgtl/arrival.md
+        - "Mexico":
+          - "MMMX — Benito Juárez Intl":
+            - network/destinations/north-america/mexico/mmmx/index.md
+            - Dispatch: network/destinations/north-america/mexico/mmmx/dispatch.md
+            - Departure: network/destinations/north-america/mexico/mmmx/departure.md
+            - Arrival: network/destinations/north-america/mexico/mmmx/arrival.md
+          - "MMUN — Cancún Intl":
+            - network/destinations/north-america/mexico/mmun/index.md
+            - Dispatch: network/destinations/north-america/mexico/mmun/dispatch.md
+            - Departure: network/destinations/north-america/mexico/mmun/departure.md
+            - Arrival: network/destinations/north-america/mexico/mmun/arrival.md
+        - "Sint Maarten":
+          - "TNCM — Princess Juliana Intl":
+            - network/destinations/north-america/sint-maarten/tncm/index.md
+            - Dispatch: network/destinations/north-america/sint-maarten/tncm/dispatch.md
+            - Departure: network/destinations/north-america/sint-maarten/tncm/departure.md
+            - Arrival: network/destinations/north-america/sint-maarten/tncm/arrival.md
+        - "Turks and Caicos Islands":
+          - "MBPV — Providenciales Intl":
+            - network/destinations/north-america/turks-and-caicos-islands/mbpv/index.md
+            - Dispatch: network/destinations/north-america/turks-and-caicos-islands/mbpv/dispatch.md
+            - Departure: network/destinations/north-america/turks-and-caicos-islands/mbpv/departure.md
+            - Arrival: network/destinations/north-america/turks-and-caicos-islands/mbpv/arrival.md
+        - "U.S. Virgin Islands":
+          - "TIST — Cyril E King":
+            - network/destinations/north-america/u-s-virgin-islands/tist/index.md
+            - Dispatch: network/destinations/north-america/u-s-virgin-islands/tist/dispatch.md
+            - Departure: network/destinations/north-america/u-s-virgin-islands/tist/departure.md
+            - Arrival: network/destinations/north-america/u-s-virgin-islands/tist/arrival.md
+          - "TISX — Henry E Rohlsen":
+            - network/destinations/north-america/u-s-virgin-islands/tisx/index.md
+            - Dispatch: network/destinations/north-america/u-s-virgin-islands/tisx/dispatch.md
+            - Departure: network/destinations/north-america/u-s-virgin-islands/tisx/departure.md
+            - Arrival: network/destinations/north-america/u-s-virgin-islands/tisx/arrival.md
+        - "United States":
+          - "KATL — Hartsfield-Jackson Atlanta International":
+            - network/destinations/north-america/united-states/katl/index.md
+            - Dispatch: network/destinations/north-america/united-states/katl/dispatch.md
+            - Departure: network/destinations/north-america/united-states/katl/departure.md
+            - Arrival: network/destinations/north-america/united-states/katl/arrival.md
+          - "KBOS — Boston Logan International":
+            - network/destinations/north-america/united-states/kbos/index.md
+            - Dispatch: network/destinations/north-america/united-states/kbos/dispatch.md
+            - Departure: network/destinations/north-america/united-states/kbos/departure.md
+            - Arrival: network/destinations/north-america/united-states/kbos/arrival.md
+          - "KEWR — Newark Liberty International":
+            - network/destinations/north-america/united-states/kewr/index.md
+            - Dispatch: network/destinations/north-america/united-states/kewr/dispatch.md
+            - Departure: network/destinations/north-america/united-states/kewr/departure.md
+            - Arrival: network/destinations/north-america/united-states/kewr/arrival.md
+          - "KIAD — Washington Dulles International":
+            - network/destinations/north-america/united-states/kiad/index.md
+            - Dispatch: network/destinations/north-america/united-states/kiad/dispatch.md
+            - Departure: network/destinations/north-america/united-states/kiad/departure.md
+            - Arrival: network/destinations/north-america/united-states/kiad/arrival.md
+          - "KIAH — George Bush Intercontinental/Houston":
+            - network/destinations/north-america/united-states/kiah/index.md
+            - Dispatch: network/destinations/north-america/united-states/kiah/dispatch.md
+            - Departure: network/destinations/north-america/united-states/kiah/departure.md
+            - Arrival: network/destinations/north-america/united-states/kiah/arrival.md
+          - "KJFK — John F Kennedy International":
+            - network/destinations/north-america/united-states/kjfk/index.md
+            - Dispatch: network/destinations/north-america/united-states/kjfk/dispatch.md
+            - Departure: network/destinations/north-america/united-states/kjfk/departure.md
+            - Arrival: network/destinations/north-america/united-states/kjfk/arrival.md
+          - "KLAX — Los Angeles International":
+            - network/destinations/north-america/united-states/klax/index.md
+            - Dispatch: network/destinations/north-america/united-states/klax/dispatch.md
+            - Departure: network/destinations/north-america/united-states/klax/departure.md
+            - Arrival: network/destinations/north-america/united-states/klax/arrival.md
+          - "KMIA — Miami Intl":
+            - network/destinations/north-america/united-states/kmia/index.md
+            - Dispatch: network/destinations/north-america/united-states/kmia/dispatch.md
+            - Departure: network/destinations/north-america/united-states/kmia/departure.md
+            - Arrival: network/destinations/north-america/united-states/kmia/arrival.md
+          - "KRNO — Reno-Tahoe International":
+            - network/destinations/north-america/united-states/krno/index.md
+            - Dispatch: network/destinations/north-america/united-states/krno/dispatch.md
+            - Departure: network/destinations/north-america/united-states/krno/departure.md
+            - Arrival: network/destinations/north-america/united-states/krno/arrival.md
+          - "KSAN — San Diego Intl":
+            - network/destinations/north-america/united-states/ksan/index.md
+            - Dispatch: network/destinations/north-america/united-states/ksan/dispatch.md
+            - Departure: network/destinations/north-america/united-states/ksan/departure.md
+            - Arrival: network/destinations/north-america/united-states/ksan/arrival.md
+          - "KSFO — San Francisco International":
+            - network/destinations/north-america/united-states/ksfo/index.md
+            - Dispatch: network/destinations/north-america/united-states/ksfo/dispatch.md
+            - Departure: network/destinations/north-america/united-states/ksfo/departure.md
+            - Arrival: network/destinations/north-america/united-states/ksfo/arrival.md
+          - "KSMF — Sacramento International":
+            - network/destinations/north-america/united-states/ksmf/index.md
+            - Dispatch: network/destinations/north-america/united-states/ksmf/dispatch.md
+            - Departure: network/destinations/north-america/united-states/ksmf/departure.md
+            - Arrival: network/destinations/north-america/united-states/ksmf/arrival.md
+      - South America:
+        - network/destinations/south-america/index.md
+        - "Argentina":
+          - "SAEZ — Ezeiza Intl/Ministro Pistarini":
+            - network/destinations/south-america/argentina/saez/index.md
+            - Dispatch: network/destinations/south-america/argentina/saez/dispatch.md
+            - Departure: network/destinations/south-america/argentina/saez/departure.md
+            - Arrival: network/destinations/south-america/argentina/saez/arrival.md
+        - "Brazil":
+          - "SBFZ — Pinto Martins Intl":
+            - network/destinations/south-america/brazil/sbfz/index.md
+            - Dispatch: network/destinations/south-america/brazil/sbfz/dispatch.md
+            - Departure: network/destinations/south-america/brazil/sbfz/departure.md
+            - Arrival: network/destinations/south-america/brazil/sbfz/arrival.md
+          - "SBGL — Galeão–Antônio Carlos Jobim":
+            - network/destinations/south-america/brazil/sbgl/index.md
+            - Dispatch: network/destinations/south-america/brazil/sbgl/dispatch.md
+            - Departure: network/destinations/south-america/brazil/sbgl/departure.md
+            - Arrival: network/destinations/south-america/brazil/sbgl/arrival.md
+          - "SBGR — Guarulhos–Governador André Franco Montoro":
+            - network/destinations/south-america/brazil/sbgr/index.md
+            - Dispatch: network/destinations/south-america/brazil/sbgr/dispatch.md
+            - Departure: network/destinations/south-america/brazil/sbgr/departure.md
+            - Arrival: network/destinations/south-america/brazil/sbgr/arrival.md
+          - "SBKP — Viracopos International":
+            - network/destinations/south-america/brazil/sbkp/index.md
+            - Dispatch: network/destinations/south-america/brazil/sbkp/dispatch.md
+            - Departure: network/destinations/south-america/brazil/sbkp/departure.md
+            - Arrival: network/destinations/south-america/brazil/sbkp/arrival.md
+          - "SBRF — Guararapes-Gilberto Freyre Int":
+            - network/destinations/south-america/brazil/sbrf/index.md
+            - Dispatch: network/destinations/south-america/brazil/sbrf/dispatch.md
+            - Departure: network/destinations/south-america/brazil/sbrf/departure.md
+            - Arrival: network/destinations/south-america/brazil/sbrf/arrival.md
+          - "SBSV — Dep L E Magalhaes Intl":
+            - network/destinations/south-america/brazil/sbsv/index.md
+            - Dispatch: network/destinations/south-america/brazil/sbsv/dispatch.md
+            - Departure: network/destinations/south-america/brazil/sbsv/departure.md
+            - Arrival: network/destinations/south-america/brazil/sbsv/arrival.md
+          - "SSBN — Belém Novo":
+            - network/destinations/south-america/brazil/ssbn/index.md
+            - Dispatch: network/destinations/south-america/brazil/ssbn/dispatch.md
+            - Departure: network/destinations/south-america/brazil/ssbn/departure.md
+            - Arrival: network/destinations/south-america/brazil/ssbn/arrival.md
+        - "Colombia":
+          - "SKBO — El Dorado Intl":
+            - network/destinations/south-america/colombia/skbo/index.md
+            - Dispatch: network/destinations/south-america/colombia/skbo/dispatch.md
+            - Departure: network/destinations/south-america/colombia/skbo/departure.md
+            - Arrival: network/destinations/south-america/colombia/skbo/arrival.md
+        - "Ecuador":
+          - "SEQM — Mariscal Sucre Intl":
+            - network/destinations/south-america/ecuador/seqm/index.md
+            - Dispatch: network/destinations/south-america/ecuador/seqm/dispatch.md
+            - Departure: network/destinations/south-america/ecuador/seqm/departure.md
+            - Arrival: network/destinations/south-america/ecuador/seqm/arrival.md
+      - Oceania:
+        - network/destinations/oceania/index.md
+        - "Australia":
+          - "YPPH — Perth Intl":
+            - network/destinations/oceania/australia/ypph/index.md
+            - Dispatch: network/destinations/oceania/australia/ypph/dispatch.md
+            - Departure: network/destinations/oceania/australia/ypph/departure.md
+            - Arrival: network/destinations/oceania/australia/ypph/arrival.md
+          - "YSSY — Kingsford Smith":
+            - network/destinations/oceania/australia/yssy/index.md
+            - Dispatch: network/destinations/oceania/australia/yssy/dispatch.md
+            - Departure: network/destinations/oceania/australia/yssy/departure.md
+            - Arrival: network/destinations/oceania/australia/yssy/arrival.md
+        - "New Caledonia":
+          - "NWWW — Nouméa La Tontouta":
+            - network/destinations/oceania/new-caledonia/nwww/index.md
+            - Dispatch: network/destinations/oceania/new-caledonia/nwww/dispatch.md
+            - Departure: network/destinations/oceania/new-caledonia/nwww/departure.md
+            - Arrival: network/destinations/oceania/new-caledonia/nwww/arrival.md
+        - "New Zealand":
+          - "NZAA — Auckland Intl":
+            - network/destinations/oceania/new-zealand/nzaa/index.md
+            - Dispatch: network/destinations/oceania/new-zealand/nzaa/dispatch.md
+            - Departure: network/destinations/oceania/new-zealand/nzaa/departure.md
+            - Arrival: network/destinations/oceania/new-zealand/nzaa/arrival.md
+          - "NZWN — Wellington Intl":
+            - network/destinations/oceania/new-zealand/nzwn/index.md
+            - Dispatch: network/destinations/oceania/new-zealand/nzwn/dispatch.md
+            - Departure: network/destinations/oceania/new-zealand/nzwn/departure.md
+            - Arrival: network/destinations/oceania/new-zealand/nzwn/arrival.md
+    - Airspace:
+      - Overview: network/airspace/index.md
+      - Area briefs:
+        - "Africa": network/airspace/africa.md
+        - "Arctic / High-Latitude Domestic": network/airspace/arctic.md
+        - "Asia": network/airspace/asia.md
+        - "EUR/SAM Corridor (South Atlantic)": network/airspace/eur-sam-corridor.md
+        - "Europe (Continental)": network/airspace/europe.md
+        - "Middle East / Gulf": network/airspace/middle-east.md
+        - "North America — Canadian Domestic + Western US": network/airspace/north-america.md
+        - "North Atlantic (NAT)": network/airspace/north-atlantic.md
+        - "Oceania — South-West Pacific & Tasman": network/airspace/oceania.md
+        - "South America — Brazil (NE coast-in → São Paulo)": network/airspace/south-america.md
+      - FIR briefs:
+        - Africa:
+          - "Accra (DGAC)": network/airspace/fir/africa/accra-dgac.md
+          - "Addis Ababa (HAAA)": network/airspace/fir/africa/addis-ababa-haaa.md
+          - "Algiers (DAAA)": network/airspace/fir/africa/algiers-daaa.md
+          - "Antananarivo (FMMM)": network/airspace/fir/africa/antananarivo-fmmm.md
+          - "Brazzaville (FCCC)": network/airspace/fir/africa/brazzaville-fccc.md
+          - "Cairo (HECC)": network/airspace/fir/africa/cairo-hecc.md
+          - "Casablanca (GMMM)": network/airspace/fir/africa/casablanca-gmmm.md
+          - "Dakar (GOOO)": network/airspace/fir/africa/dakar-gooo.md
+          - "Dar es Salaam (HTDC)": network/airspace/fir/africa/dar-es-salaam-htdc.md
+          - "Gaborone (FBGR)": network/airspace/fir/africa/gaborone-fbgr.md
+          - "Harare (FVHF)": network/airspace/fir/africa/harare-fvhf.md
+          - "Johannesburg (FAJA)": network/airspace/fir/africa/johannesburg-faja.md
+          - "Kano (DNKK)": network/airspace/fir/africa/kano-dnkk.md
+          - "Kigali (HRYR)": network/airspace/fir/africa/kigali-hryr.md
+          - "Kinshasa (FZZA)": network/airspace/fir/africa/kinshasa-fzza.md
+          - "Luanda (FNAN)": network/airspace/fir/africa/luanda-fnan.md
+          - "Mauritius (FIMM)": network/airspace/fir/africa/mauritius-fimm.md
+          - "Nairobi (HKNA)": network/airspace/fir/africa/nairobi-hkna.md
+          - "Niamey (DRRR)": network/airspace/fir/africa/niamey-drrr.md
+          - "Roberts (GLRB)": network/airspace/fir/africa/roberts-glrb.md
+          - "Sal Oceanic (GVSC)": network/airspace/fir/africa/sal-oceanic-gvsc.md
+          - "Seychelles (FSSS)": network/airspace/fir/africa/seychelles-fsss.md
+          - "Tripoli (HLLL)": network/airspace/fir/africa/tripoli-hlll.md
+          - "Tunis (DTTC)": network/airspace/fir/africa/tunis-dttc.md
+          - "Windhoek (FYWF)": network/airspace/fir/africa/windhoek-fywf.md
+        - Asia:
+          - "Bangkok (VTBB)": network/airspace/fir/asia/bangkok-vtbb.md
+          - "Beijing (ZBPE)": network/airspace/fir/asia/beijing-zbpe.md
+          - "Chennai (VOMF)": network/airspace/fir/asia/chennai-vomf.md
+          - "Colombo (VCCF)": network/airspace/fir/asia/colombo-vccf.md
+          - "Delhi (VIDF)": network/airspace/fir/asia/delhi-vidf.md
+          - "Dhaka (VGFR)": network/airspace/fir/asia/dhaka-vgfr.md
+          - "Guangzhou (ZGZU)": network/airspace/fir/asia/guangzhou-zgzu.md
+          - "Hong Kong (VHHK)": network/airspace/fir/asia/hong-kong-vhhk.md
+          - "Incheon (RKRR)": network/airspace/fir/asia/incheon-rkrr.md
+          - "Jakarta (WIIF)": network/airspace/fir/asia/jakarta-wiif.md
+          - "Karachi (OPKR)": network/airspace/fir/asia/karachi-opkr.md
+          - "Kuala Lumpur (WMFC)": network/airspace/fir/asia/kuala-lumpur-wmfc.md
+          - "Kunming (ZPKM)": network/airspace/fir/asia/kunming-zpkm.md
+          - "Mumbai (VABF)": network/airspace/fir/asia/mumbai-vabf.md
+          - "Shanghai (ZSHA)": network/airspace/fir/asia/shanghai-zsha.md
+          - "Singapore (WSJC)": network/airspace/fir/asia/singapore-wsjc.md
+          - "Taipei (RCAA)": network/airspace/fir/asia/taipei-rcaa.md
+          - "Tokyo / Fukuoka (RJJJ)": network/airspace/fir/asia/tokyo-rjjj.md
+          - "Wuhan (ZHWH)": network/airspace/fir/asia/wuhan-zhwh.md
+        - Europe:
+          - "Amsterdam (EHAA)": network/airspace/fir/europe/amsterdam-ehaa.md
+          - "Athinai (LGGG)": network/airspace/fir/europe/athinai-lggg.md
+          - "Barcelona (LECB)": network/airspace/fir/europe/barcelona-lecb.md
+          - "Bordeaux (LFBB)": network/airspace/fir/europe/bordeaux-lfbb.md
+          - "Bremen (EDWW)": network/airspace/fir/europe/bremen-edww.md
+          - "Brest (LFRR)": network/airspace/fir/europe/brest-lfrr.md
+          - "Brindisi (LIBB)": network/airspace/fir/europe/brindisi-libb.md
+          - "Brussels (EBBU)": network/airspace/fir/europe/brussels-ebbu.md
+          - "Bucharest (LRBB)": network/airspace/fir/europe/bucharest-lrbb.md
+          - "Budapest (LHCC)": network/airspace/fir/europe/budapest-lhcc.md
+          - "Canarias (GCCC)": network/airspace/fir/europe/canarias-gccc.md
+          - "Copenhagen (EKDK)": network/airspace/fir/europe/copenhagen-ekdk.md
+          - "Helsinki (EFIN)": network/airspace/fir/europe/helsinki-efin.md
+          - "Langen (EDGG)": network/airspace/fir/europe/langen-edgg.md
+          - "Lisboa (LPPC)": network/airspace/fir/europe/lisboa-lppc.md
+          - "London (EGTT)": network/airspace/fir/europe/london-egtt.md
+          - "München (EDMM)": network/airspace/fir/europe/m-nchen-edmm.md
+          - "Madrid (LECM)": network/airspace/fir/europe/madrid-lecm.md
+          - "Marseille (LFMM)": network/airspace/fir/europe/marseille-lfmm.md
+          - "Milano (LIMM)": network/airspace/fir/europe/milano-limm.md
+          - "Moscow (UUWV)": network/airspace/fir/europe/moscow-uuwv.md
+          - "Nicosia (LCCC)": network/airspace/fir/europe/nicosia-lccc.md
+          - "Norway (ENOR)": network/airspace/fir/europe/norway-enor.md
+          - "Paris (LFFF)": network/airspace/fir/europe/paris-lfff.md
+          - "Praha (LKAA)": network/airspace/fir/europe/praha-lkaa.md
+          - "Reims (LFEE)": network/airspace/fir/europe/reims-lfee.md
+          - "Roma (LIRR)": network/airspace/fir/europe/roma-lirr.md
+          - "Scottish (EGPX)": network/airspace/fir/europe/scottish-egpx.md
+          - "Shannon (EISN)": network/airspace/fir/europe/shannon-eisn.md
+          - "Sweden (ESAA)": network/airspace/fir/europe/sweden-esaa.md
+          - "Switzerland (LSAS)": network/airspace/fir/europe/switzerland-lsas.md
+          - "Warszawa (EPWW)": network/airspace/fir/europe/warszawa-epww.md
+          - "Wien (LOVV)": network/airspace/fir/europe/wien-lovv.md
+        - Middle East:
+          - "Amman (OJAC)": network/airspace/fir/middle-east/amman-ojac.md
+          - "Baghdad (ORBB)": network/airspace/fir/middle-east/baghdad-orbb.md
+          - "Bahrain (OBBB)": network/airspace/fir/middle-east/bahrain-obbb.md
+          - "Beirut (OLBB)": network/airspace/fir/middle-east/beirut-olbb.md
+          - "Doha (OTDF)": network/airspace/fir/middle-east/doha-otdf.md
+          - "Emirates (OMAE)": network/airspace/fir/middle-east/emirates-omae.md
+          - "Istanbul (LTBB)": network/airspace/fir/middle-east/istanbul-ltbb.md
+          - "Jeddah (OEJD)": network/airspace/fir/middle-east/jeddah-oejd.md
+          - "Kuwait (OKAC)": network/airspace/fir/middle-east/kuwait-okac.md
+          - "Muscat (OOMM)": network/airspace/fir/middle-east/muscat-oomm.md
+          - "Sana'a (OYSC)": network/airspace/fir/middle-east/sana-a-oysc.md
+          - "Tel Aviv (LLLL)": network/airspace/fir/middle-east/tel-aviv-llll.md
+          - "Yerevan (UDDD)": network/airspace/fir/middle-east/yerevan-uddd.md
+        - North America:
+          - "Atlanta ARTCC (KZTL)": network/airspace/fir/north-america/atlanta-kztl.md
+          - "Boston ARTCC (KZBW)": network/airspace/fir/north-america/boston-kzbw.md
+          - "Curaçao (TNCF)": network/airspace/fir/north-america/cura-ao-tncf.md
+          - "Edmonton FIR (CZEG)": network/airspace/fir/north-america/edmonton-czeg.md
+          - "Havana (MUFH)": network/airspace/fir/north-america/havana-mufh.md
+          - "Houston ARTCC (KZHU)": network/airspace/fir/north-america/houston-kzhu.md
+          - "Los Angeles ARTCC (KZLA)": network/airspace/fir/north-america/los-angeles-kzla.md
+          - "Mérida (MMID)": network/airspace/fir/north-america/m-rida-mmid.md
+          - "Mexico (MMFR)": network/airspace/fir/north-america/mexico-mmfr.md
+          - "Miami ARTCC (KZMA)": network/airspace/fir/north-america/miami-kzma.md
+          - "Montreal FIR (CZUL)": network/airspace/fir/north-america/montreal-czul.md
+          - "Nassau (MYNA)": network/airspace/fir/north-america/nassau-myna.md
+          - "New York ARTCC (KZNY)": network/airspace/fir/north-america/new-york-kzny.md
+          - "New York Oceanic (KZWY)": network/airspace/fir/north-america/new-york-oceanic-kzwy.md
+          - "Nuuk FIR (BGGL)": network/airspace/fir/north-america/nuuk-bggl.md
+          - "Oakland ARTCC (KZOA)": network/airspace/fir/north-america/oakland-kzoa.md
+          - "Piarco (TTZP)": network/airspace/fir/north-america/piarco-ttzp.md
+          - "San Juan (TJZS)": network/airspace/fir/north-america/san-juan-tjzs.md
+          - "Toronto FIR (CZYZ)": network/airspace/fir/north-america/toronto-czyz.md
+          - "Washington ARTCC (KZDC)": network/airspace/fir/north-america/washington-kzdc.md
+        - South America:
+          - "Bogotá (SKED)": network/airspace/fir/south-america/bogot-sked.md
+          - "Brasília (SBBS)": network/airspace/fir/south-america/bras-lia-sbbs.md
+          - "Curitiba (SBCW)": network/airspace/fir/south-america/curitiba-sbcw.md
+          - "Ezeiza (SAEF)": network/airspace/fir/south-america/ezeiza-saef.md
+          - "Guayaquil (SEFG)": network/airspace/fir/south-america/guayaquil-sefg.md
+          - "Recife (SBRE)": network/airspace/fir/south-america/recife-sbre.md
+        - Oceania:
+          - "Auckland (NZZC)": network/airspace/fir/oceania/auckland-nzzc.md
+          - "Brisbane (YBBB)": network/airspace/fir/oceania/brisbane-ybbb.md
+          - "Melbourne (YMMM)": network/airspace/fir/oceania/melbourne-ymmm.md
+          - "Nouméa (NWWW)": network/airspace/fir/oceania/noum-a-nwww.md
+    - Routes:
+      - Overview: network/routes/index.md
+      - Frankfurt (EDDF):
+        - "EDDF - KJFK": network/routes/frankfurt/eddf-kjfk.md
+        - "EDDF - KLAX": network/routes/frankfurt/eddf-klax.md
+        - "EDDF - KSFO": network/routes/frankfurt/eddf-ksfo.md
+        - "EDDF - OMAA": network/routes/frankfurt/eddf-omaa.md
+        - "EDDF - RJTT": network/routes/frankfurt/eddf-rjtt.md
+        - "EDDF - SBGR": network/routes/frankfurt/eddf-sbgr.md
+        - "EDDF - VHHH": network/routes/frankfurt/eddf-vhhh.md
+        - "EDDF - WSSS": network/routes/frankfurt/eddf-wsss.md
+        - "EDDF - YSSY": network/routes/frankfurt/eddf-yssy.md
+  - Training:
+    - Overview: training/index.md
+    - "D00 — Administration and Control": training/d00-administration-and-control.md
+    - "D01 — Training Philosophy and Policy": training/d01-training-philosophy-and-policy.md
+    - "D02 — Type and Conversion Training": training/d02-type-and-conversion-training.md
+    - "D03 — Differences and Familiarisation Training": training/d03-differences-and-familiarisation-training.md
+    - "D04 — Recurrent Training and Proficiency Checking": training/d04-recurrent-training-and-proficiency-checking.md
+    - "D05 — Command and Upgrade Training": training/d05-command-and-upgrade-training.md
+    - "D06 — Line Training and Line Checks": training/d06-line-training-and-line-checks.md
+    - "D07 — Special-Operations Training": training/d07-special-operations-training.md
+    - "D08 — Crew Resource Management, Human Factors and TEM": training/d08-crew-resource-management-human-factors-and-tem.md
+    - "D09 — Instructor and Examiner Qualification and Standardisation": training/d09-instructor-and-examiner-qualification-and-standardisation.md
+    - "D10 — Emergency and Abnormal Handling Training": training/d10-emergency-and-abnormal-handling-training.md
+    - "D11 — Dangerous Goods Training": training/d11-dangerous-goods-training.md
+    - "D12 — Security Training": training/d12-security-training.md
+    - "D13 — Training Records, Currency and Progression": training/d13-training-records-currency-and-progression.md
+    - "D14 — Ground School and Knowledge Base": training/d14-ground-school-and-knowledge-base.md
   - Operations:
-      - Overview: flight-ops/index.md
-      - ETOPS / EDTO: flight-ops/etops-edto.md
-      - Polar & High-Latitude Ops: flight-ops/polar.md
+    - Overview: flight-ops/index.md
+    - "Adverse Weather & Windshear": flight-ops/adverse-weather-and-windshear.md
+    - "Cold Weather Operations": flight-ops/cold-weather-operations.md
+    - "Datalink & Oceanic Procedures": flight-ops/datalink-and-oceanic-procedures.md
+    - "ETOPS / EDTO Procedures": flight-ops/etops-edto.md
+    - "Flight Management & Operational Flows": flight-ops/flight-management-and-operational-flows.md
+    - "Fuel Policy": flight-ops/fuel-policy.md
+    - "High-Elevation Aerodrome Operations": flight-ops/high-elevation-aerodrome-operations.md
+    - "Low Visibility Operations": flight-ops/low-visibility-operations.md
+    - "PBN & RNP Operations": flight-ops/pbn-and-rnp-operations.md
+    - "Polar & High-Latitude Operations": flight-ops/polar.md
+    - "RVSM Operations": flight-ops/rvsm-operations.md
+    - "Short & Limited Runway Operations": flight-ops/short-and-limited-runway-operations.md
+    - "Steep Approach Operations": flight-ops/steep-approach-operations.md
+    - "Volcanic Ash Avoidance": flight-ops/volcanic-ash-avoidance.md
+    - "Wake Turbulence Separation": flight-ops/wake-turbulence-separation.md
   - Reference: reference/index.md
 
 extra:

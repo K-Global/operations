@@ -10,3 +10,7 @@ venv/
 
 # encryptcontent plugin build cache
 encryptcontent.cache
+
+# Local non-encrypted preview build (used for headless screenshot checks)
+mkdocs.test.yml
+site-test/

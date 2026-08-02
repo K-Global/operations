@@ -1,69 +1,40 @@
 ---
-title: Airspace briefs
+title: Airspace
 ---
 
 <span class="kg-eyebrow">OM C · Airspace</span>
 
-# Airspace briefs
+# Airspace
 
-Broad airspace **areas, regions and oceanic systems** that span several FIRs and
-share one operating picture — one brief per area. These briefs *apply* the
-location-agnostic methods from [Flight Ops](../../flight-ops/index.md) (RVSM,
-PBN/RNP, CPDLC/ADS-C, SLOP, oceanic contingency, transition levels) to a region;
-they don't define them.
+Large-area airspace reference — the oceanic systems, area briefs and single-FIR
+briefs that a sector crosses. Area briefs cover the big picture (tracks,
+separation, datalink, contingency); FIR briefs cover a single flight-information
+region the network touches.
 
-<div class="grid cards" markdown>
+## Area &amp; oceanic-system briefs
 
--   :material-waves:{ .lg .middle } __North Atlantic (NAT)__
+- [Africa](africa.md)
+- [Arctic / High-Latitude Domestic](arctic.md)
+- [Asia](asia.md)
+- [EUR/SAM Corridor (South Atlantic)](eur-sam-corridor.md)
+- [Europe (Continental)](europe.md)
+- [Middle East / Gulf](middle-east.md)
+- [North America](north-america.md)
+- [North Atlantic (NAT)](north-atlantic.md)
+- [Oceania — SW Pacific & Tasman](oceania.md)
+- [South America](south-america.md)
 
-    ---
+## FIR briefs
 
-    NAT HLA / OTS oceanic — procedural airspace, the Organised Track System,
-    datalink mandate, HF families and oceanic contingency.
+**120** single-FIR briefs, by region — open a region in the left nav to browse.
 
-    [:octicons-arrow-right-24: North Atlantic](north-atlantic.md)
-
--   :material-snowflake:{ .lg .middle } __Arctic__
-
-    ---
-
-    High-latitude / polar domestic — FIR structure, comms, terrain and icecap
-    driftdown, and the high-latitude diversion table.
-
-    [:octicons-arrow-right-24: Arctic](arctic.md)
-
--   :material-transit-connection-variant:{ .lg .middle } __EUR-SAM Corridor__
-
-    ---
-
-    The South Atlantic organised route system between Europe/Africa and South
-    America.
-
-    [:octicons-arrow-right-24: EUR-SAM Corridor](eur-sam-corridor.md)
-
--   :material-map:{ .lg .middle } __Europe__
-
-    ---
-
-    Continental DE / FR / ES / PT en-route.
-
-    [:octicons-arrow-right-24: Europe](europe.md)
-
--   :material-map:{ .lg .middle } __North America__
-
-    ---
-
-    Canadian Domestic and Western US — Edmonton/Vancouver FIRs, NDA true-track,
-    ADS-B and cold-temperature corrections.
-
-    [:octicons-arrow-right-24: North America](north-america.md)
-
--   :material-map:{ .lg .middle } __South America__
-
-    ---
-
-    Brazil coast-in to the São Paulo TMA.
-
-    [:octicons-arrow-right-24: South America](south-america.md)
-
-</div>
+| Region | FIRs |
+|---|--:|
+| Africa | 25 |
+| Asia | 19 |
+| Europe | 33 |
+| Middle East | 13 |
+| North America | 20 |
+| Oceania | 4 |
+| South America | 6 |
+| **Total** | **120** |

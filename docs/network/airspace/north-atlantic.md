@@ -1,11 +1,11 @@
----
-title: North Atlantic (airspace)
----
+# North Atlantic (NAT) — Airspace Briefing
 
-<span class="kg-eyebrow">OM C · Airspace</span>
-
-# North Atlantic — airspace brief
 **Scope:** North Atlantic oceanic — NAT HLA / OTS · **FIRs / OCAs covered:** Reykjavik (BIRD) · Gander Oceanic (CZQX) · Shanwick Oceanic (EGGX) · Bodø Oceanic (ENOB) · Santa Maria Oceanic (LPPO) · New York Oceanic East (north of 27°N)
+**Version** v0.1 · **Updated** 2026-07-19 · **Status** Draft — AIP/ICAO-verified (NAT Doc 007 V.2026-1; Ch.5–6/10 cross-checked vs FAA ENR 7.3)
+
+> **Read-me:** Strategic transit reference for X-Plane 11, not a chart or clearance. Routings and levels are planning context — file and fly the SimBrief/current-AIRAC-validated route and the cleared OTS track/random string with assigned Mach. Live restrictions (NOTAMs, OTS message of the day, space-weather/HF, conflict bulletins) are pulled at planning (§11). Open 🟧 items in §12. Flag legend 🟥 hard · 🟧 caution/unverified · 🟩 normal.
+
+---
 
 ## 1. Snapshot
 
@@ -13,11 +13,27 @@ title: North Atlantic (airspace)
 |---|---|
 | FIRs / control authorities | Reykjavik (BIRD, Isavia) · Gander Oceanic (CZQX, NAV CANADA) · Shanwick Oceanic (EGGX, Prestwick OAC) · Bodø Oceanic (ENOB, Norway) · Santa Maria Oceanic (LPPO, Portugal) · New York Oceanic East (north of 27°N) |
 | Controlling ATSU(s) & type | **Oceanic — procedural** (no radar over open ocean); CPDLC/ADS-C surveillance where equipped; voice via NAT radio stations |
-| RVSM | Applicable **FL290–FL410** throughout NAT HLA — RVSM approval required |
+| RVSM | 🟥 Applicable **FL290–FL410** throughout NAT HLA — RVSM approval required |
 | Separation standard | **NAT HLA**; PBCS reduced lateral **23 NM** between RNP4 OTS tracks FL340–FL400; Mach Number Technique longitudinal; smallest PBN/PBCS minima implemented 15 NM lateral / 14 NM longitudinal |
-| Datalink mandate | **CPDLC + ADS-C (FANS 1/A) required FL290–FL410** across NAT HLA (NAT DLM) — exceptions §4 |
+| Datalink mandate | 🟥 **CPDLC + ADS-C (FANS 1/A) required FL290–FL410** across NAT HLA (NAT DLM) — exceptions §4 |
 | Primary comms | **CPDLC primary** (FANS); HF NAT families A–F + SELCAL via NAT radio stations; SATVOICE; VHF only near landmass/datalink-exempt corridors |
 | Key hazard(s) | Procedural/non-radar environment · clearance/level discipline · HF degradation (space-wx) at high latitude · long no-divert oceanic legs |
+
+---
+
+## 2. Validation summary
+
+| Domain | Flag | Note |
+|---|---|---|
+| Overflight / conflict-zone risk | 🟩 | Open-ocean oceanic airspace; no overflight-permit states. Re-check live bulletins at §11 regardless. |
+| Communication coverage (VHF/HF/SATVOICE) | 🟥 | No VHF over open ocean. Two LRCS required, **≥1 HF**; CPDLC primary. North of 80°N **Iridium** required (Inmarsat does not qualify). HF subject to space-wx blackout. |
+| Datalink / surveillance requirement | 🟥 | CPDLC + ADS-C mandated FL290–FL410 (NAT DLM). RNP4 needed for PBCS/23 NM OTS tracks. |
+| Terrain / MORA / driftdown | 🟩 | Open ocean — no terrain enroute in the oceanic core. Driftdown reaches landmass (Iceland/Greenland/Canada) — terrain handled in the Arctic briefing. |
+| Diversion-airfield coverage | 🟧 | Sparse; ETP-driven. Western coast-out/coast-in fields (BIKF, Canadian Atlantic) cross-linked §8 — full diversion picture in the Arctic briefing. |
+| Seasonal / environmental | 🟧 | High-latitude HF/GNSS space-weather degradation; jetstream/turbulence; oceanic icing on climb/descent at the coasts. |
+| Equipment / approval (RVSM, RNP, HLA, datalink) | 🟥 | **NAT HLA approval + RVSM approval** required FL285–FL420. RNAV10(RNP10) or RNP4; RNP4 + RCP240/RSP180 for PBCS tracks. CPDLC+ADS-C FANS 1/A. |
+
+---
 
 ## 3. Airspace structure
 
@@ -31,24 +47,30 @@ title: North Atlantic (airspace)
 - **Classes & level bands:** Oceanic CTA is controlled airspace; NAT HLA FL285–FL420; RVSM FL290–FL410. Below FL285 / above FL420 and via the **NAT corridors** (formerly "Blue Spruce") for aircraft not meeting full HLA equipage.
 - **Entry/exit & transition points:** Oceanic entry points (OEPs) at the OCA boundary; flights cross on a cleared track or random route. Datalink-equipped flights log on to the OCA (EGGX/CZQX) **10–25 min prior to OCA entry**. SOTA/BOTA/GOTA transition areas sit between domestic and oceanic and are excluded from HLA.
 
+---
+
 ## 4. Equipment, approvals & separation
 
-- **RVSM:** **FL290–FL410** — RVSM approval mandatory (NAT Doc 007 §1.1).
-- **NAT HLA / MNPS:** Formal **NAT HLA approval** required for FL285–FL420 (replaced MNPS). Confirm the operator approval is on file for the type.
-- **PBN / RNP:** **RNAV 10 (RNP 10) OR RNP 4** required in NAT HLA (§1.1.3). **RNP 4 is required for PBCS tracks.** Reduced **lateral separation 23 NM** is applied between PBCS-designated OTS tracks through whole and half degrees of latitude, **FL340–FL400 inclusive** (§1.9.2). Smallest PBN/PBCS minima implemented in the NAT: **15 NM lateral / 14 NM longitudinal** (§1.9.1).
-- **PBCS specifications:** **RCP 240** (communication) and **RSP 180** (surveillance) — formal State authorization required to file RCP240/RSP180 to use the reduced-separation PBCS OTS tracks (§1.9.2).
-- **Datalink:** **CPDLC + ADS-C, FANS 1/A** over Inmarsat or Iridium, **mandated FL290–FL410** across the NAT region (NAT DLM, §1.7.1). **Exceptions (§1.7.2):** airspace north of 80°N; New York Oceanic East FIR; surveilled airspace with VHF voice (Iceland–Greenland corridor, Azores corridor, Bodø corridor, Tango routes T9/T290). Exempt categories: STS/FFR, HOSP, HUM, MEDEVAC, SAR, STATE.
+- **RVSM:** 🟥 **FL290–FL410** — RVSM approval mandatory (NAT Doc 007 §1.1).
+- **NAT HLA / MNPS:** 🟥 Formal **NAT HLA approval** required for FL285–FL420 (replaced MNPS). Confirm the operator approval is on file for the type.
+- **PBN / RNP:** 🟥 **RNAV 10 (RNP 10) OR RNP 4** required in NAT HLA (§1.1.3). **RNP 4 is required for PBCS tracks.** Reduced **lateral separation 23 NM** is applied between PBCS-designated OTS tracks through whole and half degrees of latitude, **FL340–FL400 inclusive** (§1.9.2). Smallest PBN/PBCS minima implemented in the NAT: **15 NM lateral / 14 NM longitudinal** (§1.9.1).
+- **PBCS specifications:** 🟥 **RCP 240** (communication) and **RSP 180** (surveillance) — formal State authorization required to file RCP240/RSP180 to use the reduced-separation PBCS OTS tracks (§1.9.2).
+- **Datalink:** 🟥 **CPDLC + ADS-C, FANS 1/A** over Inmarsat or Iridium, **mandated FL290–FL410** across the NAT region (NAT DLM, §1.7.1). **Exceptions (§1.7.2):** airspace north of 80°N; New York Oceanic East FIR; surveilled airspace with VHF voice (Iceland–Greenland corridor, Azores corridor, Bodø corridor, Tango routes T9/T290). Exempt categories: STS/FFR, HOSP, HUM, MEDEVAC, SAR, STATE.
 - **Transponder / ADS-B:** Mode S transponder standard; ADS-B used in surveilled corridors (full ADS-B mandate detail for BIRD/Canadian domestic in the Arctic briefing).
 - **Longitudinal control — Mach Number Technique:** the assigned Mach in the oceanic clearance anchors longitudinal separation (§4.1.15) — maintain assigned Mach; request changes via CPDLC/voice.
+
+---
 
 ## 5. Communications
 
 - **CPDLC primary:** For FANS-equipped aircraft, **CPDLC is the primary ATS communication** and ADS-C provides surveillance (DLM). Maintain the CPDLC connection and ADS-C contracts through the OCA.
 - **VHF coverage:** None over open ocean — VHF only near the landmass coasts and in the datalink-exempt surveilled corridors.
-- **HF families & SELCAL:** Two long-range comm systems required outside VHF coverage, **at least one HF** (§5.1.1). **Six NAT radio stations** (§5.1.5): **Bodø · Gander · Iceland (Reykjavik) · New York · Santa Maria · Shanwick.** Radio operators relay to/from the OAC — they hold **no executive ATC authority** (§5.1.4). HF is organised into **NAT families A–F** (plus H/I/J for domestic transition); exact per-family kHz allocations rotate and are AIP-published — see **ICAO NAT Doc 003 (HF Guidance) Ed 4.1** and the day's flight docs . Perform a **SELCAL check** after first HF contact, then silent-monitor.
+- **HF families & SELCAL:** 🟥 Two long-range comm systems required outside VHF coverage, **at least one HF** (§5.1.1). **Six NAT radio stations** (§5.1.5): **Bodø · Gander · Iceland (Reykjavik) · New York · Santa Maria · Shanwick.** Radio operators relay to/from the OAC — they hold **no executive ATC authority** (§5.1.4). HF is organised into **NAT families A–F** (plus H/I/J for domestic transition); exact per-family kHz allocations rotate and are AIP-published — see **ICAO NAT Doc 003 (HF Guidance) Ed 4.1** and the day's flight docs 🟧. Perform a **SELCAL check** after first HF contact, then silent-monitor.
 - **SATVOICE:** May satisfy the second LRCS (route-dependent). **North of 80°N, Iridium is required** (Inmarsat does not qualify there).
 - **Inter-pilot / emergency VHF:** air-to-air **123.45 MHz**; emergency **121.5 MHz**.
 - **Position reporting (procedural):** voice or CPDLC reports at compulsory points where ADS-C does not cover (§6/§10).
+
+---
 
 ## 6. Routing & levels
 
@@ -61,6 +83,8 @@ title: North Atlantic (airspace)
 - **Free Route Airspace:** not an oceanic-OTS feature; FRA applies in adjacent domestic airspace (see the Europe briefing / Reykjavik domestic).
 - **Typical level/flow:** westbound rides the daytime OTS window, eastbound the nighttime window; step-climb as weight reduces via CPDLC. Note FL420 is the HLA ceiling and FL410 the RVSM/DLM ceiling — above FL410 you are outside the datalink-mandate band (still within HLA to FL420).
 
+---
+
 ## 7. Terrain, MORA & driftdown
 
 - **Open-ocean core:** no enroute terrain across the oceanic OCAs — MORA is not a factor mid-ocean.
@@ -68,21 +92,25 @@ title: North Atlantic (airspace)
 - **Cold-temperature altitude corrections:** applied at the coastal arrival/departure airfields, not in the oceanic cruise — see the relevant airport briefing.
 - **Fuel-freeze / cold-soak:** long high-altitude oceanic legs cold-soak the fuel — see §8 and the Arctic briefing §8 (Jet A-1 freeze point −47 °C).
 
+---
+
 ## 8. Diversion & enroute alternates
 
 Sparse, ETP-driven. The fields below serve the NAT/high-latitude crossing; the full Greenland/Canadian-north diversion set is detailed in the Arctic briefing §8.
 
 | Airfield | ICAO | Sector | Role | Notes |
 |---|---|---|---|---|
-| Keflavík | **BIKF** | Reykjavik (BIRD) coast-in/out | Primary eastern-NAT / Iceland gateway | Full international; primary western-NAT diversion. Brief to build (Europe/Iceland) |
-| Kangerlussuaq | **BGSF** | Reykjavik CTA (Greenland upper) | Greenland enroute alternate | Most reliable Greenland alt; procedural since radar ended ~Nov 2025. Brief to build |
-| Narsarsuaq | **BGBW** | Greenland S | ⚠ **Closing to fixed-wing 17 APR 2026** (heli-only) | Treat as unavailable fixed-wing alt. Brief to build |
-| Nuuk | **BGGH** | Nuuk FIR / Reykjavik CTA | Greenland enroute alternate | Jet-capable (2200 m, ILS). Brief to build |
-| Goose Bay | **CYYR** | Gander domestic (coast-in) | Western coast-in alternate | Long runway; Canadian Atlantic gateway. Brief to build |
-| Iqaluit | **CYFB** | Canadian NDA | Canadian Arctic alternate | Baffin Island; see the Arctic briefing. Brief to build |
+| Keflavík | **BIKF** | Reykjavik (BIRD) coast-in/out | Primary eastern-NAT / Iceland gateway | Full international; primary western-NAT diversion. Brief to build (Europe/Iceland) 🟧 |
+| Kangerlussuaq | **BGSF** | Reykjavik CTA (Greenland upper) | Greenland enroute alternate | Most reliable Greenland alt; procedural since radar ended ~Nov 2025. Brief to build 🟧 |
+| Narsarsuaq | **BGBW** | Greenland S | ⚠ **Closing to fixed-wing 17 APR 2026** (heli-only) | Treat as unavailable fixed-wing alt. Brief to build 🟧 |
+| Nuuk | **BGGH** | Nuuk FIR / Reykjavik CTA | Greenland enroute alternate | Jet-capable (2200 m, ILS). Brief to build 🟧 |
+| Goose Bay | **CYYR** | Gander domestic (coast-in) | Western coast-in alternate | Long runway; Canadian Atlantic gateway. Brief to build 🟧 |
+| Iqaluit | **CYFB** | Canadian NDA | Canadian Arctic alternate | Baffin Island; see the Arctic briefing. Brief to build 🟧 |
 
 - **ETP / equal-time-point considerations:** on the oceanic legs, the no-divert window between coast-out and coast-in drives ETP fuel/time planning. Identify the critical-point alternate (typically BIKF eastbound coast-in, Canadian Atlantic / Greenland westbound) on each OFP. Compute decompression/engine-out driftdown ETPs on the SimBrief OFP.
-- **Fuel-freeze / cold-soak (high-lat):** monitor **tank fuel temperature** vs the Jet A-1 freeze point **−47 °C** on long high-FL polar/oceanic legs; SAT can run −65 to −70 °C. Mitigation: descend to warmer air and/or increase Mach. Detail in the Arctic briefing §8.
+- **Fuel-freeze / cold-soak (high-lat):** 🟧 monitor **tank fuel temperature** vs the Jet A-1 freeze point **−47 °C** on long high-FL polar/oceanic legs; SAT can run −65 to −70 °C. Mitigation: descend to warmer air and/or increase Mach. Detail in the Arctic briefing §8.
+
+---
 
 ## 9. Special-use airspace & overflight
 
@@ -91,6 +119,8 @@ Sparse, ETP-driven. The fields below serve the NAT/high-latitude crossing; the f
 - **Overflight-permit / diplomatic considerations:** none for the oceanic transit; coastal-state entry handled at the domestic FIR / arrival airport.
 
 > **Conflict-zone currency:** Re-check ICAO Conflict Zone Information Repository / state NOTAMs and operator routing policy at planning — this list is durable context, not live clearance.
+
+---
 
 ## 10. Contingency procedures
 
@@ -107,8 +137,10 @@ Globally-standardised oceanic in-flight contingency (in force since 5 Nov 2020),
   | **WESTbound** (180°–359°) | CLIMB 300 ft | DESCEND 300 ft |
 
   Return to assigned FL before reaching a point 5 NM from centreline.
-- **Comms-failure:** continue per the last received/expected clearance and relay via 121.5/123.45 MHz; detailed HF-loss procedure in NAT Doc 007 Ch.5.6 (cross-check current edition wording at planning).
-- **SLOP (Strategic Lateral Offset Procedure):** permitted positions are **centreline, 1 NM right, or 2 NM right** of track — **RIGHT only; LEFT SLOP IS PROHIBITED.** "Micro-SLOP" permits offsets in **0.1 NM increments up to 2 NM right**. **Automatic — no ATC clearance required and ATC need not be advised.** Use SLOP in NAT HLA to reduce collision/wake risk.
+- **Comms-failure:** continue per the last received/expected clearance and relay via 121.5/123.45 MHz; detailed HF-loss procedure in NAT Doc 007 Ch.5.6 🟧 (cross-check current edition wording at planning).
+- **SLOP (Strategic Lateral Offset Procedure):** 🟩 permitted positions are **centreline, 1 NM right, or 2 NM right** of track — **RIGHT only; LEFT SLOP IS PROHIBITED.** "Micro-SLOP" permits offsets in **0.1 NM increments up to 2 NM right**. **Automatic — no ATC clearance required and ATC need not be advised.** Use SLOP in NAT HLA to reduce collision/wake risk.
+
+---
 
 ## 11. Seasonal, environmental & live data
 
@@ -118,9 +150,27 @@ Globally-standardised oceanic in-flight contingency (in force since 5 Nov 2020),
 
 > **Pull at planning (T-2h):** the **OTS / NAT track message of the day** (TMI), enroute NOTAMs, SIGMET/AIRMET, space-weather (HF/GNSS) advisories, conflict-zone bulletins, and the validated SimBrief route with assigned oceanic clearance/Mach. Not stored here.
 
-## Sources & References
-*Public URLs only. Cite origin + effective + retrieved dates. Subscription/in-sim charts may inform content but are not listed here. Source register: .*
+---
 
-- **ICAO NAT Doc 007 — North Atlantic Operations and Airspace Manual, V.2026-1 (Amd 0), applicable 19 MAR 2026** (ICAO EUR/NAT Office) — HLA limits/approval, OCA composition, OTS, PBCS/RNP4/RCP240/RSP180, datalink mandate, TMI, MNT, SLOP, contingency — ICAO EUR/NAT NAT Doc 007 PDF (retrieved 2026-06-26). *web_fetch truncates ~Ch.5; Ch.5–6/10 cross-checked via FAA ENR 7.3.*
+## 12. Open items (🟧 — confirm)
+
+- Exact per-family HF kHz allocations (NAT Doc 003) — pull the day's flight docs.
+- NAT Doc 007 Ch.5.6 HF-comms-loss exact current-edition wording (cross-check at planning).
+- Oceanic-clearance Ch.6 delivery prose (CPDLC vs voice request) — content confirmed; verbatim section in un-fetched Ch.6.
+- SLOP §6.4 / position-report §5.3 exact current-edition section numbers (content confirmed; renumbered editions).
+- No OM C airport briefs yet for BIKF, BGSF, BGBW, BGGH, CYYR, CYFB — build if they become planned alternates.
+
+---
+
+## Sources & References
+*Public URLs only. Cite origin + effective + retrieved dates. Subscription/in-sim charts may inform content but are not listed here.*
+
+- **ICAO NAT Doc 007 — North Atlantic Operations and Airspace Manual, V.2026-1 (Amd 0), applicable 19 MAR 2026** (ICAO EUR/NAT Office) — HLA limits/approval, OCA composition, OTS, PBCS/RNP4/RCP240/RSP180, datalink mandate, TMI, MNT, SLOP, contingency — ICAO EUR/NAT NAT Doc 007 PDF (retrieved 2026-06-26). *Ch.5–6/10 cross-checked against FAA ENR 7.3.*
 - **FAA AIP ENR 7.3 — Oceanic / NAT contingency & weather-deviation procedures** (harmonised with NAT Doc 007 Ch.10) — https://www.faa.gov/air_traffic/publications/atpubs/aip_html/part2_enr_section_7.3.html (retrieved 2026-06-26).
 - **ICAO NAT Doc 003 — HF Guidance, Ed 4.1** (NAT HF families A–F kHz allocations) — ICAO EUR/NAT NAT Doc 003 PDF (retrieved 2026-06-26).
+
+## Change Log
+| Version | Date | Change |
+|---|---|---|
+| v0.1 | 2026-07-19 | Ported from K Global First Officer library into current OM C airspace template (anonymised; sources/changelog split out; cross-links re-pathed). Built from NAT Doc 007 V.2026-1 + FAA ENR 7.3. NAT HLA, OTS, PBCS/RNP4, datalink mandate, comms, contingency, SLOP. Sister sector: Arctic. |
+| v0.1 | 2026-07-25 | Governance scrub: removed callsign / build-process references per OM content rules. |

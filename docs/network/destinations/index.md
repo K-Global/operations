@@ -2,54 +2,23 @@
 title: Destinations
 ---
 
-<span class="kg-eyebrow">OM C · Routes &amp; Destinations</span>
+<span class="kg-eyebrow">OM C · Destinations</span>
 
 # Destinations
 
-K Global serves **383 airports across seven regions**. Browse by region below; each list is searchable. Detailed per-airport briefs (runways, ground handling, approaches, alternates, hazards) are being built out.
+One brief per destination — the aerodrome-specific reference crews pull before a
+flight: runways, stands, approaches and minima, terrain and hot-and-high notes,
+curfews and slots, alternates and local hazards. Briefs are organised
+**Region → Country → Airport**, and each airport is a four-page pack:
+**Briefing · Dispatch · Departure · Arrival**.
 
-<div class="grid cards" markdown>
-
--   __[Europe](europe.md)__
-
-    ---
-
-    86 airports
-
--   __[Middle East](middle-east.md)__
-
-    ---
-
-    39 airports
-
--   __[Asia](asia.md)__
-
-    ---
-
-    26 airports
-
--   __[Africa](africa.md)__
-
-    ---
-
-    190 airports
-
--   __[North America](north-america.md)__
-
-    ---
-
-    27 airports
-
--   __[South America](south-america.md)__
-
-    ---
-
-    10 airports
-
--   __[Oceania](oceania.md)__
-
-    ---
-
-    5 airports
-
-</div>
+| Region | Destinations |
+|---|--:|
+| [Africa](africa/index.md) | 63 |
+| [Asia](asia/index.md) | 27 |
+| [Europe](europe/index.md) | 86 |
+| [Middle East](middle-east/index.md) | 39 |
+| [North America](north-america/index.md) | 27 |
+| [South America](south-america/index.md) | 10 |
+| [Oceania](oceania/index.md) | 5 |
+| **Total** | **257** |
